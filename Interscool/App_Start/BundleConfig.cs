@@ -25,6 +25,17 @@ namespace Interscool
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            bundles.Add(new StyleBundle("~/css/css").Include(
+                        "~/css/bootstrap.min.css",
+                        "~/css/owl.carousel.min.css",
+                        "~/css/magnific-popup.css",
+                        "~/css/font-awesome.min.css",
+                        "~/css/themify-icons.css",
+                        "~/css/gijgo.css",
+                        "~/css/nice-select.css",
+                        "~/css/flaticon.css",
+                        "~/css/slicknav.css",
+                        "~/css/style.css"));
             bundles.Add(new StyleBundle("~/js/js").Include(
                       "~/js/vendor/modernizr-3.5.0.min.js",
                       "~/js/vendor/jquery-1.12.4.min.js",

@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -112,11 +111,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -133,7 +127,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\flaticon.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\gijgo.css" />
     <Content Include="css\magnific-popup.css" />
@@ -147,7 +140,9 @@
     <Content Include="fonts\fa-brands-400.svg" />
     <Content Include="fonts\fa-regular-400.svg" />
     <Content Include="fonts\fa-solid-900.svg" />
+    <Content Include="css\flaticon.css" />
     <Content Include="fonts\flaticon.css" />
+    <Content Include="fonts\flaticon.html" />
     <Content Include="fonts\Flaticon.svg" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\gijgo-material.svg" />
@@ -155,15 +150,13 @@
     <Content Include="fonts\themify.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="img\about\about.png" />
     <Content Include="img\about\about2.png" />
-    <Content Include="img\banner\banner.png" />
-    <Content Include="img\banner\banner2.png" />
+    <Content Include="img\about\graph.png" />
     <Content Include="img\banner\bradcam2.png" />
     <Content Include="img\banner\bradcam3.png" />
-    <Content Include="img\banner\chose_banner.png" />
     <Content Include="img\banner\contact.png" />
     <Content Include="img\banner\denys-nevozhai-w7YCquMkv2c-unsplash.svg" />
+    <Content Include="img\banner\graduation.png" />
     <Content Include="img\banner\project_details.png" />
     <Content Include="img\blog\author.png" />
     <Content Include="img\blog\blog_1.png" />
@@ -240,12 +233,12 @@
     <Content Include="img\post\post_8.png" />
     <Content Include="img\post\post_9.png" />
     <Content Include="img\post\preview.png" />
-    <Content Include="img\service\1.png" />
-    <Content Include="img\service\2.png" />
-    <Content Include="img\service\3.png" />
     <Content Include="img\service\4.png" />
     <Content Include="img\service\5.png" />
     <Content Include="img\service\6.png" />
+    <Content Include="img\service\listening.jpg" />
+    <Content Include="img\service\speaking.jpg" />
+    <Content Include="img\service\word.jpg" />
     <Content Include="img\slider_background\sider.jpg" />
     <Content Include="img\slider_background\sider2.jpg" />
     <Content Include="img\slider_background\sider3.jpg" />
@@ -306,6 +299,7 @@
     <Content Include="fonts\themify.eot" />
     <Content Include="fonts\themify.ttf" />
     <Content Include="fonts\themify.woff" />
+    <Content Include="scss\_flaticon.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -331,6 +325,32 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="scss\style.scss" />
+    <Content Include="scss\theme-default.scss" />
+    <Content Include="scss\_about.scss" />
+    <Content Include="scss\_blog.scss" />
+    <Content Include="scss\_blog_part.scss" />
+    <Content Include="scss\_bradcam.scss" />
+    <Content Include="scss\_btn.scss" />
+    <Content Include="scss\_choseus.scss" />
+    <Content Include="scss\_contact.scss" />
+    <Content Include="scss\_contact_action.scss" />
+    <Content Include="scss\_delicious.scss" />
+    <Content Include="scss\_elements.scss" />
+    <Content Include="scss\_extend.scss" />
+    <Content Include="scss\_features.scss" />
+    <Content Include="scss\_footer.scss" />
+    <Content Include="scss\_gallery.scss" />
+    <Content Include="scss\_header.scss" />
+    <Content Include="scss\_mixins.scss" />
+    <Content Include="scss\_offers.scss" />
+    <Content Include="scss\_responsive.scss" />
+    <Content Include="scss\_section_title.scss" />
+    <Content Include="scss\_service.scss" />
+    <Content Include="scss\_slick-nav.scss" />
+    <Content Include="scss\_slider.scss" />
+    <Content Include="scss\_testmonial.scss" />
+    <Content Include="scss\_varriable.scss" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -377,12 +397,6 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

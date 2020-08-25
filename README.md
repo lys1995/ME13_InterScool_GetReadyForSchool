@@ -1,2 +1,2 @@
 # ME13_InterScool_GetReadyForSchool
-Create a project that can help indigenous students improve their English skills and also get ready for school
+Create a Website project that can help international students expecially ELICOS students to improve their English skills and also prepare to get ready for school or higher education purpose

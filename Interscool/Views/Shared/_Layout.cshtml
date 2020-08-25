@@ -6,17 +6,7 @@
     <title>@ViewBag.Title - Learning English</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    <!-- CSS here -->
-    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="~/css/magnific-popup.css" rel="stylesheet" />
-    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="~/css/themify-icons.css" rel="stylesheet" />
-    <link href="~/css/gijgo.css" rel="stylesheet" />
-    <link href="~/css/nice-select.css" rel="stylesheet" />
-    <link href="~/css/flaticon.css" rel="stylesheet" />
-    <link href="~/css/slicknav.css" rel="stylesheet" />
-    <link href="~/css/style.css" rel="stylesheet" />
+    @Styles.Render("~/css/css")
 </head>
 <body>
     <!-- header-start -->
@@ -24,36 +14,27 @@
         <div class="header-area ">
            <div class="header-top_area d-none d-lg-block">
            </div>
-            <div class="address_bar d-none d-lg-block">
+            <div class="address_bar d-none d-lg-block" style="padding-bottom: 40px">
                 <div class="container">
                     <div class="row justify-content-between align-items-center">
-                        <div class="col-xl-12 col-lg-12">
-                            <div>
-                                <a href="index.html">
-                                    <h1 style="color:white">Interscool</h1>
-                                </a>
+                        <div class="col-xl-3 col-lg-3">
+                            <a href="~/Views/Home/Index.cshtml">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-9 col-lg-9">
+                            <div class="address_menu d-flex justify-content-end">
+                                <div class="single_address d-flex">
+                                    <div class="icon">
+                                        <img src="img/icon/headset.svg" alt="">
+                                    </div>
+                                    <div class="address_info">
+                                        <h3>Call Us</h3>
+                                        <p>+0420507888</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-@*                        <div class="address_menu d-flex justify-content-end">
-                            <div class="single_address  d-flex">
-                                <div class="icon">
-                                    <img src="img/icon/header-address.svg" alt="">
-                                </div>
-                                <div class="address_info">
-                                    <h3>Address</h3>
-                                    <p>20/D, Kings road, Green lane</p>
-                                </div>
-                            </div>
-                            <div class="single_address d-flex">
-                                <div class="icon">
-                                    <img src="img/icon/headset.svg" alt="">
-                                </div>
-                                <div class="address_info">
-                                    <h3>Call Us</h3>
-                                    <p>+10 673 567 367</p>
-                                </div>
-                            </div>
-                        </div>*@
                     </div>
                 </div>
             </div>
@@ -61,13 +42,6 @@
                 <div class="container">
                     <div class="white_bg_bar">
                         <div class="row align-items-center">
-                            <div class="col-12 d-lg-none">
-                                <div class="logo ">
-                                    <a href="#">
-                                        <img src="img/logo.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
                             <div class="col-xl-8 col-lg-8">
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
@@ -110,7 +84,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -142,7 +115,7 @@
                                 <h3>
                                     Your Bright Future is Our Mission
                                 </h3>
-                                <p>>Build Your Own English Game World</p>
+                                <p>Build Your Own English Game World</p>
                                 <a href="services.html" class="boxed-btn3">English Level Test</a>
                             </div>
                         </div>
@@ -174,33 +147,33 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="single_feature text-center">
                         <div class="icon">
-                            <i class="flaticon-sketch"></i>
+                            <i class="flaticon-student"></i>
                         </div>
-                        <h3>Creative Plan & Design</h3>
+                        <h3>Elementary Level</h3>
                         <p>
-                            There are many variations of passages of lorem Ipsum available, but the majority have
-                            suffered alteration.
+                            A couple of games to improve their grammer and Vocabulary. 
+                            Including quick and easy games to improve their listening,
+                            reading, writing and speaking.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="single_feature text-center">
                         <div class="icon">
-                            <i class="flaticon-helmet"></i>
+                            <i class="flaticon-placement"></i>
                         </div>
-                        <h3>Talented Peoples</h3>
+                        <h3>Intermediate Level</h3>
                         <p>
-                            There are many variations of passages of lorem Ipsum available, but the majority have
-                            suffered alteration.
+                            A couple of advanced level of games as mentioned in Elementary level.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="single_feature text-center">
                         <div class="icon">
-                            <i class="flaticon-support"></i>
+                            <i class="flaticon-skills"></i>
                         </div>
-                        <h3>Modern Tools</h3>
+                        <h3>The Australian culture</h3>
                         <p>
                             There are many variations of passages of lorem Ipsum available, but the majority have
                             suffered alteration.
@@ -218,14 +191,15 @@
                 <div class="row align-items-center">
                     <div class="col-xl-6  col-md-6">
                         <div class="about_thumb">
-                            <img src="img/about/about.png" alt="">
+                            <img src="~/img/about/graph.png" alt="">
                             <div class="pattern_img d-none d-lg-block">
                                 <img src="img/pattern/pattern.svg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-md-6">
-                        <div class="about_info">
+                        @*put the graph here!*@
+@*                        <div class="about_info">
                             <h3>
                                 We Serve all of your <br>
                                 Construction Services
@@ -241,7 +215,7 @@
                                 look even slightly believable.
                             </p>
                             <a href="about.html" class="boxed-btn3">About Us</a>
-                        </div>
+                        </div>*@
                     </div>
                 </div>
             </div>
@@ -255,7 +229,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-50">
-                        <h3>Our Services</h3>
+                        <h3>Our Game Type introduction</h3>
                     </div>
                 </div>
             </div>
@@ -268,13 +242,13 @@
                         <div class="service_active owl-carousel">
                             <div class="single_service">
                                 <div class="thumb">
-                                    <img src="img/service/1.png" alt="">
+                                    <img src="~/img/service/listening.jpg" alt="">
                                 </div>
                                 <div class="service_info">
                                     <a href="#">
-                                        <h3>maintenance & Repair </h3>
+                                        <h3>Listening Game</h3>
                                     </a>
-                                    <p>There are many variations of passages of lorem Ipsum available.</p>
+                                    <p>There are lots of interesting listening games</p>
                                     <a class="d-flex align-items-center" href="#">
                                         More <i class="ti-angle-right"></i>
                                     </a>
@@ -282,13 +256,13 @@
                             </div>
                             <div class="single_service">
                                 <div class="thumb">
-                                    <img src="img/service/2.png" alt="">
+                                    <img src="~/img/service/speaking.jpg" alt="">
                                 </div>
                                 <div class="service_info">
                                     <a href="#">
-                                        <h3>Building Construction</h3>
+                                        <h3>Speaking Game</h3>
                                     </a>
-                                    <p>There are many variations of passages of lorem Ipsum available.</p>
+                                    <p>There are lots of interesting Speaking games</p>
                                     <a class="d-flex align-items-center" href="#">
                                         More <i class="ti-angle-right"></i>
                                     </a>
@@ -296,27 +270,13 @@
                             </div>
                             <div class="single_service">
                                 <div class="thumb">
-                                    <img src="img/service/3.png" alt="">
+                                    <img src="~/img/service/word.jpg" alt="">
                                 </div>
                                 <div class="service_info">
                                     <a href="#">
-                                        <h3>Bridge & Road Construction</h3>
+                                        <h3>Vocabulary and Grammer Game</h3>
                                     </a>
-                                    <p>There are many variations of passages of lorem Ipsum available.</p>
-                                    <a class="d-flex align-items-center" href="#">
-                                        More <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="single_service">
-                                <div class="thumb">
-                                    <img src="img/service/1.png" alt="">
-                                </div>
-                                <div class="service_info">
-                                    <a href="#">
-                                        <h3>maintenance & Repair </h3>
-                                    </a>
-                                    <p>There are many variations of passages of lorem Ipsum available.</p>
+                                    <p>There are lots of interesting Word Games</p>
                                     <a class="d-flex align-items-center" href="#">
                                         More <i class="ti-angle-right"></i>
                                     </a>
@@ -330,173 +290,6 @@
         </div>
     </div>
     <!-- service_area_end  -->
-    <!-- gallery_area-START -->
-    <div class="gallery_area">
-        <div class="container">
-            <div class="gallery_nav">
-                <div class="row align-items-center">
-                    <div class="col-lg-8 col-md-6">
-                        <h3 class="gallery_title">
-                            Take a look Some of our <br>
-                            awesome projects
-                        </h3>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="portfolio-menu">
-                            <button class="active" data-filter="*">All</button>
-                            <button data-filter=".cat1">Architecture</button>
-                            <button data-filter=".cat2">Buildings</button>
-                            <button data-filter=".cat3">Bridges</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid p-0">
-            <div class="row grid no-gutters">
-                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat3 cat3">
-                    <div class="single_gallery">
-                        <div class="thumb">
-                            <img src="img/gallery/1.png" alt="">
-                        </div>
-                        <div class="gallery_hover">
-                            <div class="hover_inner d-flex align-items-center justify-content-between">
-                                <h3>Maintenance & Repair</h3>
-                                <div class="icon">
-                                    <a href="project_details.html">
-                                        <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat3">
-                    <div class="single_gallery">
-                        <div class="thumb">
-                            <img src="img/gallery/2.png" alt="">
-                        </div>
-                        <div class="gallery_hover">
-                            <div class="hover_inner d-flex align-items-center justify-content-between">
-                                <h3>Maintenance & Repair</h3>
-                                <div class="icon">
-                                    <a href="project_details.html">
-                                        <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat2">
-                    <div class="single_gallery">
-                        <div class="thumb">
-                            <img src="img/gallery/3.png" alt="">
-                        </div>
-                        <div class="gallery_hover">
-                            <div class="hover_inner d-flex align-items-center justify-content-between">
-                                <h3>Maintenance & Repair</h3>
-                                <div class="icon">
-                                    <a href="project_details.html">
-                                        <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat1 cat3">
-                    <div class="single_gallery">
-                        <div class="thumb">
-                            <img src="img/gallery/4.png" alt="">
-                        </div>
-                        <div class="gallery_hover">
-                            <div class="hover_inner d-flex align-items-center justify-content-between">
-                                <h3>Maintenance & Repair</h3>
-                                <div class="icon">
-                                    <a href="project_details.html">
-                                        <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat2 cat3 cat4">
-                    <div class="single_gallery">
-                        <div class="thumb">
-                            <img src="img/gallery/5.png" alt="">
-                        </div>
-                        <div class="gallery_hover">
-                            <div class="hover_inner d-flex align-items-center justify-content-between">
-                                <h3>Maintenance & Repair</h3>
-                                <div class="icon">
-                                    <a href="project_details.html">
-                                        <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat1 cat2">
-                    <div class="single_gallery">
-                        <div class="thumb">
-                            <img src="img/gallery/6.png" alt="">
-                        </div>
-                        <div class="gallery_hover">
-                            <div class="hover_inner d-flex align-items-center justify-content-between">
-                                <h3>Maintenance & Repair</h3>
-                                <div class="icon">
-                                    <a href="project_details.html">
-                                        <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat4 cat1">
-                    <div class="single_gallery">
-                        <div class="thumb">
-                            <img src="img/gallery/7.png" alt="">
-                        </div>
-                        <div class="gallery_hover">
-                            <div class="hover_inner d-flex align-items-center justify-content-between">
-                                <h3>Maintenance & Repair</h3>
-                                <div class="icon">
-                                    <a href="project_details.html">
-                                        <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat1 cat2 cat3 cat4">
-                    <div class="single_gallery">
-                        <div class="thumb">
-                            <img src="img/gallery/8.png" alt="">
-                        </div>
-                        <div class="gallery_hover">
-                            <div class="hover_inner d-flex align-items-center justify-content-between">
-                                <h3>Maintenance & Repair</h3>
-                                <div class="icon">
-                                    <a href="project_details.html">
-                                        <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- gallery_area-END -->
-    <!-- more_pro_btn_start  -->
-    <a href="project.html" class="more_pro_btn">More Projects</a>
-    <!-- more_pro_btn_end  -->
     <!-- chose_us_area start -->
     <div class="chose_us_area chose_bg_1">
         <div class="container">
@@ -505,15 +298,14 @@
                     <div class="chose_info">
                         <h3>Why Choose Us?</h3>
                         <p class="lasrge_text">
-                            “Construction is a full service construction company offering building solutions from start
-                            to finish. Our staff has been operating on NYC for ten years.
+                            Students who come to Australia to undertake ELICOS courses intend to improve or develop their English skills in order to continue their stay in Australia or for many other various reasons.
+                            They may face difficulties as they come from different cultural backgrounds and may not have resources beyond what is available at their institutions.
                         </p>
                         <p>
-                            There are many variations of passages of lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected.
+                            Provides support beyond the classroom courses to help improve their English literacy skills.
                         </p>
                         <div class="icon_video">
-                            <a class="popup-video" href="https://www.youtube.com/watch?v=Spi1vvZgLXw">
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=HAnw168huqA&t=2840s">
                                 <i class="fa fa-caret-right"></i>
                             </a>
                         </div>
@@ -523,208 +315,112 @@
         </div>
     </div>
     <!-- chose_us_area end -->
-    <div class="testimonial_area ">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title text-center mb-55">
-                        <h3>Testimonials</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="testmonial_active owl-carousel">
-                        <div class="single_carousel">
-                            <div class="single_testmonial text-center">
-                                <div class="testmonial_author">
-                                    <div class="thumb">
-                                        <img src="img/testimonial/1.png" alt="">
-                                    </div>
-                                    <h4>Jordan Adams</h4>
-                                    <span>Client</span>
-                                </div>
-                                <p>
-                                    “Our program is guided by the developmental milestones which embrace <br>
-                                    the six most important learning domains in education”
-                                </p>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="single_testmonial text-center">
-                                <div class="testmonial_author">
-                                    <div class="thumb">
-                                        <img src="img/testimonial/1.png" alt="">
-                                    </div>
-                                    <h4>Jordan Adams</h4>
-                                    <span>Client</span>
-                                </div>
-                                <p>
-                                    “Our program is guided by the developmental milestones which embrace <br>
-                                    the six most important learning domains in education”
-                                </p>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="single_testmonial text-center">
-                                <div class="testmonial_author">
-                                    <div class="thumb">
-                                        <img src="img/testimonial/1.png" alt="">
-                                    </div>
-                                    <h4>Jordan Adams</h4>
-                                    <span>Client</span>
-                                </div>
-                                <p>
-                                    “Our program is guided by the developmental milestones which embrace <br>
-                                    the six most important learning domains in education”
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- contact_us_start  -->
-    <div class="contact_us overlay">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 col-md-7">
-                    <div class="contact_text">
-                        <h3>
-                            Are you looking for a Construction
-                            and Industrial Experts?
-                        </h3>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-5">
-                    <div class="contact_btn">
-                        <a class="boxed-btn3" href="contact.html">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- contact_us_end -->
     <!-- footer_start  -->
     @RenderBody()
-    <footer class="footer">
-        <div class="download_brochure">
-            <div class="container">
-                <div class="bordered_1px">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="footer_logo">
-                                <a href="#">
-                                    <img src="img/footer_logo.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="download_btn">
-                                <a href="#"> <img src="img/icon/down.svg" alt=""> Download Brochure</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="footer_top">
-            <div class="container">
+<footer class="footer">
+    <div class="download_brochure">
+        <div class="container">
+            <div class="bordered_1px">
                 <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3 ">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                About
-                            </h3>
-                            <p>
-                                5th flora, 700/D kings road, green <br> lane New York-1782 <br>
-                                <a href="#">+10 367 826 2567</a> <br>
-                                <a href="#">contact@carpenter.com</a>
-                            </p>
-                            <p>
+                </div>
+            </div>
 
-
-
-                            </p>
-                            <div class="socail_links">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-pinterest"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-youtube-play"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Popular Searches
-                            </h3>
+        </div>
+    </div>
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-lg-3 ">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                            About
+                        </h3>
+                        <p>
+                            5th flora, 700/D kings road, green <br> XXXXXXXXX-1782 <br>
+                            <a href="#">+10 367 826 2567</a> <br>
+                            <a href="#">contact@XXXXXXXXXXXX.com</a>
+                        </p>
+                        <div class="socail_links">
                             <ul>
-                                <li><a href="#">Apartment for rent </a></li>
-                                <li><a href="#">Office for rent</a></li>
-                                <li><a href="#"> Apartment for sale</a></li>
-                                <li><a href="#"> Luxuries</a></li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-twitter-alt"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-youtube-play"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
+
                     </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2 offset-xl-1 offset-lg-1">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Useful Links
-                            </h3>
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#"> Contact</a></li>
-                                <li><a href="#"> Appointment</a></li>
-                            </ul>
-                        </div>
+                </div>
+@*                <div class="col-xl-2 col-md-6 col-lg-2">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                            Popular Searches
+                        </h3>
+                        <ul>
+                            <li><a href="#">Apartment for rent </a></li>
+                            <li><a href="#">Office for rent</a></li>
+                            <li><a href="#"> Apartment for sale</a></li>
+                            <li><a href="#"> Luxuries</a></li>
+                        </ul>
                     </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Subscribe
-                            </h3>
-                            <form action="#" class="newsletter_form">
-                                <input type="text" placeholder="Enter your mail">
-                                <button type="submit">Subscribe</button>
-                            </form>
-                            <p class="newsletter_text">
-                                Esteem spirit temper too say adieus who direct esteem esteems
-                                luckily.
-                            </p>
-                        </div>
+                </div>*@
+@*                <div class="col-xl-2 col-md-6 col-lg-2 offset-xl-1 offset-lg-1">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                            Useful Links
+                        </h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#"> Contact</a></li>
+                            <li><a href="#"> Appointment</a></li>
+                        </ul>
+                    </div>
+                </div>*@
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                            Subscribe
+                        </h3>
+                        <form action="#" class="newsletter_form">
+                            <input type="text" placeholder="Enter your mail">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                        <p class="newsletter_text">
+                            Never stop learning
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+    <div class="copy-right_text">
+        <div class="container">
+            <div class="footer_border"></div>
+        </div>
+    </div>
+</footer>
     <!-- footer_end  -->
 @*    <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
