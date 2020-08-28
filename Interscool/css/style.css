@@ -1587,7 +1587,7 @@ h3 {
 /* line 35, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 60px;
+  font-size: 35px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -1604,7 +1604,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 35, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 45px;
   }
 }
@@ -1612,7 +1612,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 35, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
-    font-size: 54px;
+    font-size: 40px;
   }
 }
 

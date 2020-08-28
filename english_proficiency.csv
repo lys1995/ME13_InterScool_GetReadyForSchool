@@ -1,294 +1,293 @@
-Country_of_Birth,Speaks English only,Very well,Well,Not well,Not at all,Not stated,Total
-India,10716,70374,22736,2879,556,659,107915
-China (excludes SARs and Taiwan) (b),1177,22527,30770,18509,7561,301,80845
-England,34387,1632,103,19,6,59,36212
-Sri Lanka,2936,15616,7551,1096,123,163,27488
-Philippines,3966,14657,6080,407,32,184,25323
-Malaysia,5144,10457,4420,704,157,55,20920
-Vietnam,443,3607,6556,6940,1953,183,19683
-Australia (c),7216,5661,2000,1159,474,290,16792
-Afghanistan,228,4176,4957,3594,1225,183,14370
-Iraq,192,3556,4032,3459,1507,103,12849
-Pakistan,612,7382,3562,930,258,89,12828
-South Africa,8535,3839,265,21,0,39,12701
-Iran,296,4233,3629,1402,216,57,9835
-Myanmar,89,1201,2733,3836,1497,56,9416
-Indonesia,996,4771,2785,375,51,40,9026
-Thailand,1028,2300,3666,1398,185,67,8643
-Singapore,2837,4430,693,66,12,35,8069
-"Korea, Republic of (South)",557,2514,3058,1455,94,50,7739
-Not stated,1347,2027,1278,775,233,1351,7014
-United States of America,5790,901,105,28,6,19,6860
-Ireland,4897,434,46,25,3,4,5410
-Sudan,301,2638,1581,706,72,101,5391
-Hong Kong (SAR of China),362,2124,2237,508,62,24,5319
-Bangladesh,256,3044,1583,228,28,38,5184
-Nepal,139,2533,1716,141,43,30,4597
-Cambodia,149,642,1470,1700,484,32,4490
-Scotland,4335,103,6,0,0,7,4463
-Ethiopia,290,1611,1757,583,109,91,4452
-Egypt,316,2421,982,361,81,29,4191
-Mauritius,525,2779,786,45,13,26,4175
-Lebanon,161,1320,1615,847,152,48,4144
-Fiji,583,2553,598,87,16,60,3888
-Japan,445,1692,1416,265,17,13,3856
-Germany,999,2469,213,39,4,24,3750
-Turkey,181,855,1060,972,178,43,3278
-Zimbabwe,1212,1721,141,4,3,31,3121
-Canada,2564,476,32,7,5,7,3086
-South Sudan,112,1289,1001,370,46,53,2868
-Taiwan,125,1024,1111,375,54,15,2700
-Russian Federation,264,1346,679,260,92,9,2655
-New Zealand,1817,653,43,14,4,17,2551
-Kenya,473,1577,217,64,16,24,2360
-Syria,45,485,740,701,391,13,2359
-France,431,1565,205,21,3,12,2230
-Italy,262,1222,562,143,27,10,2230
-Colombia,189,1333,531,70,12,5,2145
-Bosnia and Herzegovina,99,840,504,455,132,27,2048
-Somalia,64,686,686,336,33,31,1842
-United Arab Emirates,738,867,147,40,17,12,1823
-The Former Yugoslav Republic of Macedonia,66,657,655,360,59,16,1820
-Israel,203,1275,243,40,4,9,1777
-Brazil,200,1101,245,32,5,11,1596
-Netherlands,453,1019,103,6,0,4,1587
-Poland,253,784,325,138,36,6,1546
-Romania,177,734,335,99,33,11,1380
-Ukraine,100,582,374,181,59,3,1298
-Inadequately described,189,548,277,173,62,14,1274
-Nigeria,359,773,62,3,0,9,1211
-Serbia,50,643,299,149,33,14,1191
-Croatia,51,460,334,247,85,5,1181
-Greece,44,509,352,215,33,6,1170
-Eritrea,39,362,429,253,49,23,1148
-Wales,980,123,8,0,0,0,1108
-Albania,67,336,365,214,79,15,1075
-Saudi Arabia,104,661,140,45,6,5,975
-Northern Ireland,952,19,0,0,0,0,969
-Kuwait,148,453,171,75,20,0,878
-Mexico,68,593,128,14,0,0,814
-Argentina,65,509,153,30,11,0,764
-Sweden,200,509,21,6,0,0,732
-Venezuela,40,510,137,19,8,4,712
-Liberia,323,151,169,40,0,16,707
-"Congo, Democratic Republic of",39,240,253,119,13,10,676
-Chile,52,338,190,78,13,7,671
-Peru,48,344,145,29,4,0,574
-Hungary,67,299,129,45,7,3,549
-Ghana,146,266,84,17,0,9,523
-Spain,80,342,93,7,0,0,516
-Switzerland,133,334,42,0,0,0,512
-Timor-Leste,31,132,147,123,64,9,502
-"South Eastern Europe, nfd (d)",26,193,118,100,38,0,480
-"United Kingdom, Channel Islands and Isle of Man, nfd",371,78,12,4,0,0,474
-Bhutan,3,62,142,125,126,0,466
-Jordan,21,271,98,37,15,0,446
-Malta,79,241,79,14,4,3,417
-Uganda,90,230,66,12,0,0,403
-Belgium,102,258,31,6,0,0,395
-Sierra Leone,82,150,98,20,0,5,361
-Bulgaria,45,200,68,33,9,0,356
-Libya,28,187,91,34,3,0,343
-Zambia,190,122,20,0,3,0,339
-Denmark,93,224,8,0,0,0,329
-Tanzania,54,183,67,15,0,0,325
-Tonga,37,119,117,26,4,5,322
-Austria,54,193,18,0,0,0,274
-Kosovo,16,122,86,40,4,5,269
-Brunei Darussalam,77,136,47,0,0,0,266
-Czech Republic,66,139,30,16,6,0,264
-Bahrain,83,141,27,14,0,0,259
-Finland,50,188,7,4,0,0,258
-Portugal,59,123,62,19,0,0,258
-Belarus,18,133,61,39,8,0,258
-Oman,102,128,12,7,0,0,250
-Kazakhstan,14,133,77,23,11,0,249
-Norway,82,154,3,0,0,0,248
-Papua New Guinea,114,96,36,0,0,0,244
-Laos,20,36,76,89,14,0,244
-Burundi,0,56,86,77,8,6,236
-Morocco,38,71,83,30,0,0,224
-Congo,13,78,66,44,0,8,217
-El Salvador,10,86,65,31,9,6,212
-Botswana,91,98,9,0,0,0,197
-Cyprus,44,64,57,28,0,0,196
-Samoa,27,88,67,8,0,6,194
-Uzbekistan,12,88,55,25,11,0,188
-Moldova,17,84,55,20,0,0,186
-Qatar,47,99,22,7,0,0,182
-Slovakia,35,118,25,6,0,0,180
-Macau (SAR of China),8,73,69,10,0,0,164
-Lithuania,34,88,35,5,0,0,157
-Gaza Strip and West Bank,4,61,53,21,5,0,146
-Seychelles,31,84,16,0,0,0,132
-Latvia,28,62,31,7,0,0,130
-Guinea,53,34,24,7,0,0,121
-Malawi,52,40,11,12,0,0,120
-Slovenia,16,66,14,0,0,0,115
-Namibia,38,66,14,0,0,0,115
-Algeria,23,45,34,12,0,0,110
-"Middle East, nfd",0,33,28,29,11,0,107
-Côte d'Ivoire,64,22,15,3,0,0,105
-Montenegro,5,51,28,10,4,0,103
-Uruguay,8,43,31,15,3,0,97
-"Southern Asia, nfd",0,43,36,15,0,0,90
-Maldives,23,57,11,0,0,0,90
-Armenia,0,39,20,20,0,0,90
-Yemen,8,41,24,10,0,0,89
-Kyrgyzstan,7,49,19,3,0,0,87
-Cuba,7,39,18,7,3,4,87
-Estonia,25,47,9,0,0,0,82
-Azerbaijan,7,41,14,13,0,0,81
-Solomon Islands,29,36,9,0,0,0,79
-Rwanda,13,20,26,14,0,5,79
-Trinidad and Tobago,70,4,0,0,0,0,78
-Cameroon,19,36,13,0,0,0,77
-Ecuador,0,49,16,4,0,0,72
-Jamaica,58,21,0,0,0,0,72
-Georgia,11,25,21,11,3,0,70
-Mozambique,15,23,13,6,0,0,64
-Mongolia,21,27,13,5,0,0,62
-Togo,0,30,19,14,0,0,57
-Nauru,7,29,18,0,0,0,55
-"Eastern Europe, nfd",15,28,8,8,0,0,54
-Vanuatu,19,18,5,0,0,0,42
-Tunisia,4,17,17,0,0,0,40
-Isle of Man,33,0,0,0,0,0,39
-Bolivia,6,16,14,0,0,0,39
-Guatemala,16,11,14,0,0,0,38
-Djibouti,4,15,13,8,0,0,35
-Costa Rica,5,27,4,0,0,0,34
-Benin,3,20,0,0,0,0,28
-Bermuda,26,0,0,0,0,0,25
-"Southern and Central Asia, nfd",0,17,6,4,0,0,24
-Dominican Republic,0,20,0,0,0,0,23
-"North Africa and the Middle East, nfd",0,4,10,4,0,0,22
-Guyana,20,0,0,0,0,0,22
-Senegal,7,15,5,0,0,0,22
-Angola,5,13,10,0,0,0,22
-New Caledonia,0,14,0,0,0,0,21
-Jersey,21,0,0,0,0,0,21
-Madagascar,0,12,9,0,0,0,20
-Swaziland,15,8,0,0,0,0,20
-Gibraltar,16,3,0,0,0,0,19
-Barbados,18,0,0,0,0,0,19
-Guernsey,18,0,0,0,0,0,18
-Iceland,15,4,0,0,0,0,18
-Paraguay,9,6,0,0,0,0,18
-Tajikistan,0,7,6,0,0,0,17
-Turkmenistan,0,12,0,0,0,0,16
-Luxembourg,6,8,3,0,0,0,15
-Lesotho,7,3,0,0,0,0,15
-Kiribati,3,10,0,0,0,0,14
-Bahamas,14,0,0,0,0,0,14
-Cayman Islands,14,0,0,0,0,0,14
-Guam,12,0,0,0,0,0,12
-"Samoa, American",3,0,0,0,0,0,12
-Honduras,0,11,0,0,0,0,12
-Panama,3,3,0,0,0,0,12
-Suriname,0,3,0,0,0,0,11
-French Polynesia,0,7,0,0,0,0,10
-St Lucia,10,0,0,0,0,0,10
-Chad,0,3,0,0,0,0,10
-Comoros,0,5,0,0,0,0,10
-"Central and West Africa, nfd",0,9,0,0,0,0,9
-Burkina Faso,0,6,0,0,0,0,8
-Mali,3,0,0,0,0,0,8
-Réunion,0,8,0,0,0,0,8
-Nicaragua,3,5,0,0,0,0,7
-Dominica,5,0,0,0,0,0,7
-Grenada,7,0,0,0,0,0,7
-Cape Verde,0,0,0,0,0,0,7
-"Northern America, nfd",6,0,0,0,0,0,6
-Antigua and Barbuda,6,0,0,0,0,0,6
-Puerto Rico,3,5,0,0,0,0,6
-Gambia,0,3,0,0,0,0,6
-Marshall Islands,0,5,0,0,0,0,4
-Northern Mariana Islands,0,0,0,0,0,0,4
-Haiti,0,4,0,0,0,0,4
-St Kitts and Nevis,4,0,0,0,0,0,4
-Cook Islands,0,3,0,0,0,0,3
-Tuvalu,0,0,0,0,0,0,3
-"South America, nfd",0,0,0,0,0,0,3
-"Oceania and Antarctica, nfd",0,0,0,0,0,0,0
-"Melanesia, nfd",0,0,0,0,0,0,0
-"Micronesia, nfd",0,0,0,0,0,0,0
-"Micronesia, Federated States of",0,0,0,0,0,0,0
-Palau,0,0,0,0,0,0,0
-"Polynesia (excludes Hawaii), nfd",0,0,0,0,0,0,0
-Niue,0,0,0,0,0,0,0
-Tokelau,0,0,0,0,0,0,0
-Wallis and Futuna,0,0,0,0,0,0,0
-Pitcairn Islands,0,0,0,0,0,0,0
-"Polynesia (excludes Hawaii), nec",0,0,0,0,0,0,0
-"Antarctica, nfd",0,0,0,0,0,0,0
-Adelie Land (France),0,0,0,0,0,0,0
-Argentinian Antarctic Territory,0,0,0,0,0,0,0
-Australian Antarctic Territory,0,0,0,0,0,0,0
-British Antarctic Territory,0,0,0,0,0,0,0
-Chilean Antarctic Territory,0,0,0,0,0,0,0
-Queen Maud Land (Norway),0,0,0,0,0,0,0
-Ross Dependency (New Zealand),0,0,0,0,0,0,0
-"North-West Europe, nfd",0,0,0,0,0,0,0
-"Western Europe, nfd",0,0,0,0,0,0,0
-Liechtenstein,0,0,0,0,0,0,0
-Monaco,0,0,0,0,0,0,0
-"Northern Europe, nfd",0,0,0,0,0,0,0
-Faeroe Islands,0,0,0,0,0,0,0
-Greenland,0,0,0,0,0,0,0
-Aland Islands,0,0,0,0,0,0,0
-"Southern and Eastern Europe, nfd",0,0,0,0,0,0,0
-"Southern Europe, nfd",0,0,0,0,0,0,0
-Andorra,0,0,0,0,0,0,0
-Holy See,0,0,0,0,0,0,0
-San Marino,0,0,0,0,0,0,0
-"North Africa, nfd",0,0,0,0,0,0,0
-Western Sahara,0,0,0,0,0,0,0
-Spanish North Africa,0,0,0,0,0,0,0
-"North Africa, nec",0,0,0,0,0,0,0
-"South-East Asia, nfd",0,0,0,0,0,0,0
-"Mainland South-East Asia, nfd",0,0,0,0,0,0,0
-"Maritime South-East Asia, nfd",0,0,0,0,0,0,0
-"North-East Asia, nfd",0,0,0,0,0,0,0
-"Chinese Asia (includes Mongolia), nfd",0,0,0,0,0,0,0
-"Japan and the Koreas, nfd",0,0,0,0,0,0,0
-"Korea, Democratic People's Republic of (North)",0,0,0,0,0,0,0
-"Central Asia, nfd",0,0,0,0,0,0,0
-"Americas, nfd",0,0,0,0,0,0,0
-St Pierre and Miquelon,0,0,0,0,0,0,0
-Falkland Islands,0,0,0,0,0,0,0
-French Guiana,0,0,0,0,0,0,0
-"South America, nec",0,0,0,0,0,0,0
-"Central America, nfd",0,0,0,0,0,0,0
-Belize,0,0,0,0,0,0,0
-"Caribbean, nfd",0,0,0,0,0,0,0
-Anguilla,0,0,0,0,0,0,0
-Aruba,0,0,0,0,0,0,0
-Guadeloupe,0,0,0,0,0,0,0
-Martinique,0,0,0,0,0,0,0
-Montserrat,0,0,0,0,0,0,0
-St Vincent and the Grenadines,0,0,0,0,0,0,0
-Turks and Caicos Islands,0,0,0,0,0,0,0
-"Virgin Islands, British",0,0,0,0,0,0,0
-"Virgin Islands, United States",0,0,0,0,0,0,0
-St Barthelemy,0,0,0,0,0,0,0
-St Martin (French part),0,0,0,0,0,0,0
-"Bonaire, Sint Eustatius and Saba",0,0,0,0,0,0,0
-Curacao,0,0,0,0,0,0,0
-Sint Maarten (Dutch part),0,0,0,0,0,0,0
-"Sub-Saharan Africa, nfd",0,0,0,0,0,0,0
-Central African Republic,0,0,0,0,0,0,0
-Equatorial Guinea,0,0,0,0,0,0,0
-Gabon,0,0,0,0,0,0,0
-Guinea-Bissau,0,0,0,0,0,0,0
-Mauritania,0,0,0,0,0,0,0
-Niger,0,0,0,0,0,0,0
-Sao Tomé and Principe,0,0,0,0,0,0,0
-"Southern and East Africa, nfd",0,0,0,0,0,0,0
-Mayotte,0,0,0,0,0,0,0
-St Helena,0,0,0,0,0,0,0
-"Southern and East Africa, nec",0,0,0,0,0,0,0
-At sea,0,0,0,0,0,0,0
-Not elsewhere classified,0,0,0,0,0,0,0
-Not applicable,0,0,0,0,0,0,0
-Total,120015,250775,144025,62431,19333,5173,601756
+Country_of_Birth,Speaks English only,Very well,Well,Not well,Not at all,Not stated
+India,10716,70374,22736,2879,556,659
+China (excludes SARs and Taiwan) (b),1177,22527,30770,18509,7561,301
+England,34387,1632,103,19,6,59
+Sri Lanka,2936,15616,7551,1096,123,163
+Philippines,3966,14657,6080,407,32,184
+Malaysia,5144,10457,4420,704,157,55
+Vietnam,443,3607,6556,6940,1953,183
+Australia (c),7216,5661,2000,1159,474,290
+Afghanistan,228,4176,4957,3594,1225,183
+Iraq,192,3556,4032,3459,1507,103
+Pakistan,612,7382,3562,930,258,89
+South Africa,8535,3839,265,21,0,39
+Iran,296,4233,3629,1402,216,57
+Myanmar,89,1201,2733,3836,1497,56
+Indonesia,996,4771,2785,375,51,40
+Thailand,1028,2300,3666,1398,185,67
+Singapore,2837,4430,693,66,12,35
+"Korea, Republic of (South)",557,2514,3058,1455,94,50
+Not stated,1347,2027,1278,775,233,1351
+United States of America,5790,901,105,28,6,19
+Ireland,4897,434,46,25,3,4
+Sudan,301,2638,1581,706,72,101
+Hong Kong (SAR of China),362,2124,2237,508,62,24
+Bangladesh,256,3044,1583,228,28,38
+Nepal,139,2533,1716,141,43,30
+Cambodia,149,642,1470,1700,484,32
+Scotland,4335,103,6,0,0,7
+Ethiopia,290,1611,1757,583,109,91
+Egypt,316,2421,982,361,81,29
+Mauritius,525,2779,786,45,13,26
+Lebanon,161,1320,1615,847,152,48
+Fiji,583,2553,598,87,16,60
+Japan,445,1692,1416,265,17,13
+Germany,999,2469,213,39,4,24
+Turkey,181,855,1060,972,178,43
+Zimbabwe,1212,1721,141,4,3,31
+Canada,2564,476,32,7,5,7
+South Sudan,112,1289,1001,370,46,53
+Taiwan,125,1024,1111,375,54,15
+Russian Federation,264,1346,679,260,92,9
+New Zealand,1817,653,43,14,4,17
+Kenya,473,1577,217,64,16,24
+Syria,45,485,740,701,391,13
+France,431,1565,205,21,3,12
+Italy,262,1222,562,143,27,10
+Colombia,189,1333,531,70,12,5
+Bosnia and Herzegovina,99,840,504,455,132,27
+Somalia,64,686,686,336,33,31
+United Arab Emirates,738,867,147,40,17,12
+The Former Yugoslav Republic of Macedonia,66,657,655,360,59,16
+Israel,203,1275,243,40,4,9
+Brazil,200,1101,245,32,5,11
+Netherlands,453,1019,103,6,0,4
+Poland,253,784,325,138,36,6
+Romania,177,734,335,99,33,11
+Ukraine,100,582,374,181,59,3
+Inadequately described,189,548,277,173,62,14
+Nigeria,359,773,62,3,0,9
+Serbia,50,643,299,149,33,14
+Croatia,51,460,334,247,85,5
+Greece,44,509,352,215,33,6
+Eritrea,39,362,429,253,49,23
+Wales,980,123,8,0,0,0
+Albania,67,336,365,214,79,15
+Saudi Arabia,104,661,140,45,6,5
+Northern Ireland,952,19,0,0,0,0
+Kuwait,148,453,171,75,20,0
+Mexico,68,593,128,14,0,0
+Argentina,65,509,153,30,11,0
+Sweden,200,509,21,6,0,0
+Venezuela,40,510,137,19,8,4
+Liberia,323,151,169,40,0,16
+"Congo, Democratic Republic of",39,240,253,119,13,10
+Chile,52,338,190,78,13,7
+Peru,48,344,145,29,4,0
+Hungary,67,299,129,45,7,3
+Ghana,146,266,84,17,0,9
+Spain,80,342,93,7,0,0
+Switzerland,133,334,42,0,0,0
+Timor-Leste,31,132,147,123,64,9
+"South Eastern Europe, nfd (d)",26,193,118,100,38,0
+"United Kingdom, Channel Islands and Isle of Man, nfd",371,78,12,4,0,0
+Bhutan,3,62,142,125,126,0
+Jordan,21,271,98,37,15,0
+Malta,79,241,79,14,4,3
+Uganda,90,230,66,12,0,0
+Belgium,102,258,31,6,0,0
+Sierra Leone,82,150,98,20,0,5
+Bulgaria,45,200,68,33,9,0
+Libya,28,187,91,34,3,0
+Zambia,190,122,20,0,3,0
+Denmark,93,224,8,0,0,0
+Tanzania,54,183,67,15,0,0
+Tonga,37,119,117,26,4,5
+Austria,54,193,18,0,0,0
+Kosovo,16,122,86,40,4,5
+Brunei Darussalam,77,136,47,0,0,0
+Czech Republic,66,139,30,16,6,0
+Bahrain,83,141,27,14,0,0
+Finland,50,188,7,4,0,0
+Portugal,59,123,62,19,0,0
+Belarus,18,133,61,39,8,0
+Oman,102,128,12,7,0,0
+Kazakhstan,14,133,77,23,11,0
+Norway,82,154,3,0,0,0
+Papua New Guinea,114,96,36,0,0,0
+Laos,20,36,76,89,14,0
+Burundi,0,56,86,77,8,6
+Morocco,38,71,83,30,0,0
+Congo,13,78,66,44,0,8
+El Salvador,10,86,65,31,9,6
+Botswana,91,98,9,0,0,0
+Cyprus,44,64,57,28,0,0
+Samoa,27,88,67,8,0,6
+Uzbekistan,12,88,55,25,11,0
+Moldova,17,84,55,20,0,0
+Qatar,47,99,22,7,0,0
+Slovakia,35,118,25,6,0,0
+Macau (SAR of China),8,73,69,10,0,0
+Lithuania,34,88,35,5,0,0
+Gaza Strip and West Bank,4,61,53,21,5,0
+Seychelles,31,84,16,0,0,0
+Latvia,28,62,31,7,0,0
+Guinea,53,34,24,7,0,0
+Malawi,52,40,11,12,0,0
+Slovenia,16,66,14,0,0,0
+Namibia,38,66,14,0,0,0
+Algeria,23,45,34,12,0,0
+"Middle East, nfd",0,33,28,29,11,0
+Côte d'Ivoire,64,22,15,3,0,0
+Montenegro,5,51,28,10,4,0
+Uruguay,8,43,31,15,3,0
+"Southern Asia, nfd",0,43,36,15,0,0
+Maldives,23,57,11,0,0,0
+Armenia,0,39,20,20,0,0
+Yemen,8,41,24,10,0,0
+Kyrgyzstan,7,49,19,3,0,0
+Cuba,7,39,18,7,3,4
+Estonia,25,47,9,0,0,0
+Azerbaijan,7,41,14,13,0,0
+Solomon Islands,29,36,9,0,0,0
+Rwanda,13,20,26,14,0,5
+Trinidad and Tobago,70,4,0,0,0,0
+Cameroon,19,36,13,0,0,0
+Ecuador,0,49,16,4,0,0
+Jamaica,58,21,0,0,0,0
+Georgia,11,25,21,11,3,0
+Mozambique,15,23,13,6,0,0
+Mongolia,21,27,13,5,0,0
+Togo,0,30,19,14,0,0
+Nauru,7,29,18,0,0,0
+"Eastern Europe, nfd",15,28,8,8,0,0
+Vanuatu,19,18,5,0,0,0
+Tunisia,4,17,17,0,0,0
+Isle of Man,33,0,0,0,0,0
+Bolivia,6,16,14,0,0,0
+Guatemala,16,11,14,0,0,0
+Djibouti,4,15,13,8,0,0
+Costa Rica,5,27,4,0,0,0
+Benin,3,20,0,0,0,0
+Bermuda,26,0,0,0,0,0
+"Southern and Central Asia, nfd",0,17,6,4,0,0
+Dominican Republic,0,20,0,0,0,0
+"North Africa and the Middle East, nfd",0,4,10,4,0,0
+Guyana,20,0,0,0,0,0
+Senegal,7,15,5,0,0,0
+Angola,5,13,10,0,0,0
+New Caledonia,0,14,0,0,0,0
+Jersey,21,0,0,0,0,0
+Madagascar,0,12,9,0,0,0
+Swaziland,15,8,0,0,0,0
+Gibraltar,16,3,0,0,0,0
+Barbados,18,0,0,0,0,0
+Guernsey,18,0,0,0,0,0
+Iceland,15,4,0,0,0,0
+Paraguay,9,6,0,0,0,0
+Tajikistan,0,7,6,0,0,0
+Turkmenistan,0,12,0,0,0,0
+Luxembourg,6,8,3,0,0,0
+Lesotho,7,3,0,0,0,0
+Kiribati,3,10,0,0,0,0
+Bahamas,14,0,0,0,0,0
+Cayman Islands,14,0,0,0,0,0
+Guam,12,0,0,0,0,0
+"Samoa, American",3,0,0,0,0,0
+Honduras,0,11,0,0,0,0
+Panama,3,3,0,0,0,0
+Suriname,0,3,0,0,0,0
+French Polynesia,0,7,0,0,0,0
+St Lucia,10,0,0,0,0,0
+Chad,0,3,0,0,0,0
+Comoros,0,5,0,0,0,0
+"Central and West Africa, nfd",0,9,0,0,0,0
+Burkina Faso,0,6,0,0,0,0
+Mali,3,0,0,0,0,0
+Réunion,0,8,0,0,0,0
+Nicaragua,3,5,0,0,0,0
+Dominica,5,0,0,0,0,0
+Grenada,7,0,0,0,0,0
+Cape Verde,0,0,0,0,0,0
+"Northern America, nfd",6,0,0,0,0,0
+Antigua and Barbuda,6,0,0,0,0,0
+Puerto Rico,3,5,0,0,0,0
+Gambia,0,3,0,0,0,0
+Marshall Islands,0,5,0,0,0,0
+Northern Mariana Islands,0,0,0,0,0,0
+Haiti,0,4,0,0,0,0
+St Kitts and Nevis,4,0,0,0,0,0
+Cook Islands,0,3,0,0,0,0
+Tuvalu,0,0,0,0,0,0
+"South America, nfd",0,0,0,0,0,0
+"Oceania and Antarctica, nfd",0,0,0,0,0,0
+"Melanesia, nfd",0,0,0,0,0,0
+"Micronesia, nfd",0,0,0,0,0,0
+"Micronesia, Federated States of",0,0,0,0,0,0
+Palau,0,0,0,0,0,0
+"Polynesia (excludes Hawaii), nfd",0,0,0,0,0,0
+Niue,0,0,0,0,0,0
+Tokelau,0,0,0,0,0,0
+Wallis and Futuna,0,0,0,0,0,0
+Pitcairn Islands,0,0,0,0,0,0
+"Polynesia (excludes Hawaii), nec",0,0,0,0,0,0
+"Antarctica, nfd",0,0,0,0,0,0
+Adelie Land (France),0,0,0,0,0,0
+Argentinian Antarctic Territory,0,0,0,0,0,0
+Australian Antarctic Territory,0,0,0,0,0,0
+British Antarctic Territory,0,0,0,0,0,0
+Chilean Antarctic Territory,0,0,0,0,0,0
+Queen Maud Land (Norway),0,0,0,0,0,0
+Ross Dependency (New Zealand),0,0,0,0,0,0
+"North-West Europe, nfd",0,0,0,0,0,0
+"Western Europe, nfd",0,0,0,0,0,0
+Liechtenstein,0,0,0,0,0,0
+Monaco,0,0,0,0,0,0
+"Northern Europe, nfd",0,0,0,0,0,0
+Faeroe Islands,0,0,0,0,0,0
+Greenland,0,0,0,0,0,0
+Aland Islands,0,0,0,0,0,0
+"Southern and Eastern Europe, nfd",0,0,0,0,0,0
+"Southern Europe, nfd",0,0,0,0,0,0
+Andorra,0,0,0,0,0,0
+Holy See,0,0,0,0,0,0
+San Marino,0,0,0,0,0,0
+"North Africa, nfd",0,0,0,0,0,0
+Western Sahara,0,0,0,0,0,0
+Spanish North Africa,0,0,0,0,0,0
+"North Africa, nec",0,0,0,0,0,0
+"South-East Asia, nfd",0,0,0,0,0,0
+"Mainland South-East Asia, nfd",0,0,0,0,0,0
+"Maritime South-East Asia, nfd",0,0,0,0,0,0
+"North-East Asia, nfd",0,0,0,0,0,0
+"Chinese Asia (includes Mongolia), nfd",0,0,0,0,0,0
+"Japan and the Koreas, nfd",0,0,0,0,0,0
+"Korea, Democratic People's Republic of (North)",0,0,0,0,0,0
+"Central Asia, nfd",0,0,0,0,0,0
+"Americas, nfd",0,0,0,0,0,0
+St Pierre and Miquelon,0,0,0,0,0,0
+Falkland Islands,0,0,0,0,0,0
+French Guiana,0,0,0,0,0,0
+"South America, nec",0,0,0,0,0,0
+"Central America, nfd",0,0,0,0,0,0
+Belize,0,0,0,0,0,0
+"Caribbean, nfd",0,0,0,0,0,0
+Anguilla,0,0,0,0,0,0
+Aruba,0,0,0,0,0,0
+Guadeloupe,0,0,0,0,0,0
+Martinique,0,0,0,0,0,0
+Montserrat,0,0,0,0,0,0
+St Vincent and the Grenadines,0,0,0,0,0,0
+Turks and Caicos Islands,0,0,0,0,0,0
+"Virgin Islands, British",0,0,0,0,0,0
+"Virgin Islands, United States",0,0,0,0,0,0
+St Barthelemy,0,0,0,0,0,0
+St Martin (French part),0,0,0,0,0,0
+"Bonaire, Sint Eustatius and Saba",0,0,0,0,0,0
+Curacao,0,0,0,0,0,0
+Sint Maarten (Dutch part),0,0,0,0,0,0
+"Sub-Saharan Africa, nfd",0,0,0,0,0,0
+Central African Republic,0,0,0,0,0,0
+Equatorial Guinea,0,0,0,0,0,0
+Gabon,0,0,0,0,0,0
+Guinea-Bissau,0,0,0,0,0,0
+Mauritania,0,0,0,0,0,0
+Niger,0,0,0,0,0,0
+Sao Tomé and Principe,0,0,0,0,0,0
+"Southern and East Africa, nfd",0,0,0,0,0,0
+Mayotte,0,0,0,0,0,0
+St Helena,0,0,0,0,0,0
+"Southern and East Africa, nec",0,0,0,0,0,0
+At sea,0,0,0,0,0,0
+Not elsewhere classified,0,0,0,0,0,0
+Not applicable,0,0,0,0,0,0
