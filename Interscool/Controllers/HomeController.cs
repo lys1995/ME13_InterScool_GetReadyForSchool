@@ -20,9 +20,9 @@ namespace Interscool.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Visual()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your Visualization page.";
 
             return View();
         }
