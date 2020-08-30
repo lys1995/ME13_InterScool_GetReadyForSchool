@@ -2982,7 +2982,7 @@ h3 {
 .footer .download_brochure .bordered_1px {
   border-bottom: 1px solid #363E52;
   padding-bottom: 60px;
-  padding-top: 80px;
+  padding-top: 10px;
 }
 
 /* line 19, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_footer.scss */
@@ -3023,8 +3023,8 @@ h3 {
 
 /* line 42, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 75px;
-  padding-bottom: 124px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 767px) {
