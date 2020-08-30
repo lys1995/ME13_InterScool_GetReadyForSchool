@@ -243,6 +243,7 @@
     <Content Include="img\slider_background\sider2.jpg" />
     <Content Include="img\slider_background\sider3.jpg" />
     <Content Include="img\testimonial\1.png" />
+    <Content Include="img\team_logo.png" />
     <Content Include="js\ajax-form.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\contact.js" />
