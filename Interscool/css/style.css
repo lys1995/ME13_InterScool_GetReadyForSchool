@@ -1679,8 +1679,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_about.scss */
 .about_area {
-  padding-top: 90px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 0px;
 }
 
 @media (max-width: 767px) {
