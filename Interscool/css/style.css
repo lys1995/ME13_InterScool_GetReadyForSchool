@@ -1693,8 +1693,8 @@ h3 {
 
 /* line 8, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_about.scss */
 .about_area.add_padding {
-  padding-top: 250px;
-  margin-bottom: 40px;
+  padding-top: 100px;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {
@@ -2499,7 +2499,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
 .bradcam_bg_2 {
-  background-image: url(../img/banner/bradcam2.png);
+  background-image: url(../img/banner/about.jpg);
 }
 
 /* line 7, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
