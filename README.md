@@ -53,4 +53,4 @@ To-do list:
 UI design is inspired by TheMe Wagon:https://themewagon.com/
 
 ## Contact
-Created by [@TechnolOZY-ME13]
+Created by Team TechnolOZY-ME13 
