@@ -10,28 +10,17 @@
     <!-- header-start -->
     <header>
         <div class="header-area ">
-            <div class="header-top_area d-none d-lg-block">
+            <div class="header-top_area d-none d-lg-block" style="padding-right: 20px; padding-left: 20px; padding-bottom: 10px; padding-top: 20px; ">
             </div>
-            <div class="address_bar d-none d-lg-block" style="padding-bottom: 40px">
+            <div class="address_bar d-none d-lg-block" style="padding-bottom: 45px; padding-top: 5px;">
                 <div class="container">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-xl-3 col-lg-3">
+                    <div class="row justify-content-between align-items-center" style="padding-bottom: 0px;">
                             <a href="/Home/Index">
-                                <img src="~/img/logo.png" alt="">
+                                <img src="~/img/logo.png" style="width:100px;height:70px;">
+                                <p style="color:white;height:15px;width:150px;font-size:12px;">
+                                    Never stop learning
+                                </p>
                             </a>
-                        </div>
-                        <div class="col-xl-9 col-lg-9">
-                            <div class="address_menu d-flex justify-content-end">
-                                <div class="single_address d-flex">
-                                    <div class="icon">
-                                        <img src="~/img/team_logo.png" alt="">
-                                        <p class="newsletter_text">
-                                            Never stop learning
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -40,42 +29,33 @@
                     <div class="white_bg_bar">
                         <div class="row align-items-center">
                             <div class="col-xl-8 col-lg-8">
-                                <div class="main-menu  d-none d-lg-block">
+                                <div class="main-menu  d-none d-lg-block" style="padding-bottom: 0px; padding-top: 0px;">
                                     <nav>
                                         <ul id="navigation">
                                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                                            <li><a href="/Home/Visual">visualize</a></li>
+                                            <li><a href="/Home/Visual">Explore</a></li>
                                             @*<li>
-            <a href="#">pages <i class="ti-angle-down"></i></a>
-            <ul class="submenu">
-                <li><a href="project.html">project</a></li>
-                <li><a href="elements.html">elements</a></li>
-                <li><a href="project_details.html">project details</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="#">blog <i class="ti-angle-down"></i></a>
-            <ul class="submenu">
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="single-blog.html">single-blog</a></li>
-            </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>*@
+                                                    <a href="#">pages <i class="ti-angle-down"></i></a>
+                                                    <ul class="submenu">
+                                                        <li><a href="project.html">project</a></li>
+                                                        <li><a href="elements.html">elements</a></li>
+                                                        <li><a href="project_details.html">project details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">blog <i class="ti-angle-down"></i></a>
+                                                    <ul class="submenu">
+                                                        <li><a href="blog.html">blog</a></li>
+                                                        <li><a href="single-blog.html">single-blog</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="contact.html">Contact</a></li>*@
                                             <li>@Html.ActionLink("About", "About", "Home")</li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4 d-none d-lg-block">
-                                <div class="Appointment d-flex justify-content-end">
-                                    <div class="search_icon">
-                                        <a data-toggle="modal" data-target="#exampleModalCenter" href="#">
-                                            <i class="ti-search"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
+                            <div>
                                 <div class="mobile_menu d-block d-lg-none">
                                 </div>
                             </div>
@@ -104,11 +84,9 @@
                                 About
                             </h3>
                             <p>
-                                5th flora, 700/D kings road, green <br> XXXXXXXXX-1782 <br>
-                                <a href="#">+10 367 826 2567</a> <br>
-                                <a href="#">contact@XXXXXXXXXXXX.com</a>
+                                ©2020 Design by ME13
                             </p>
-                            <div class="socail_links">
+                            @*<div class="socail_links">
                                 <ul>
                                     <li>
                                         <a href="#">
@@ -136,7 +114,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div>*@
 
                         </div>
                     </div>
@@ -168,13 +146,13 @@
                         </div>*@
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="footer_widget">
-@*                            <h3 class="footer_title">
-                                Subscribe
-                            </h3>
-                            <form action="#" class="newsletter_form">
-                                <input type="text" placeholder="Enter your mail">
-                                <button type="submit">Subscribe</button>
-                            </form>*@
+                            @*                            <h3 class="footer_title">
+                                    Subscribe
+                                </h3>
+                                <form action="#" class="newsletter_form">
+                                    <input type="text" placeholder="Enter your mail">
+                                    <button type="submit">Subscribe</button>
+                                </form>*@
                         </div>
                     </div>
                 </div>
