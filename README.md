@@ -1,5 +1,5 @@
 # InterScool
-InterScool is designed by Team TeachnolOZY aimming to help internal students who are takeing English Language Intensive Course(ELICOS) in Australia. 
+InterScool is designed by Team TeachnolOZY aimming to help international students who are takeing English Language Intensive Course(ELICOS) in Australia. 
 
 ## Table of contents
 * [Project Details](#project)
