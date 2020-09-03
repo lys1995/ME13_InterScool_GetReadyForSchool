@@ -15,8 +15,8 @@ English Language Intensive Courses for Overseas Students (ELICOS) are central to
 We would like to provide assisstance in learning Enlgish and better adapting life in Australia for ELICOS students.
 
 ## Technologies
-* IDE - Visual Studio 2019
-* Framework - Asp.Net MVC
+* IDE - Visual Studio community 2019 
+* Framework - ASP.NET MVC 4.8
 * Front End - Bootstrap 4.0, JS, CSS, Html
 * Database - Microsoft SQL server,C# to manipulate data
 * Cloud Hosting - Microsoft Azure
@@ -37,15 +37,10 @@ To-do list:
 
 ## Status
 | Schedule | Status | 
-| ----- | ----- | 
 | Proposal | Finished |
-| ----- | ----- |
 | Iteration 1 | Finished |
-| ----- | ----- |
 | Iteration 2 | in Progress |
-| ----- | ----- |
 | Iteration 3 |             |
-| ----- | ----- |
 | Final Integrate |             |
 
 ## Inspiration
