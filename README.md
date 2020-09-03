@@ -22,8 +22,7 @@ We would like to provide assisstance in learning Enlgish and better adapting lif
 * Cloud Hosting - Microsoft Azure
 
 ## Setup
-Having a laptop or a mobile phone with internet connections
-Go to the browser(e.g. Chrome, Safari, etc.) enter the link:https://interscool.games 
+Having a laptop or a mobile phone with internet connections. Go to the browser(e.g. Chrome, Safari, etc.) enter the link:https://interscool.games 
 
 ## Features
 InterScool has awesome features:
