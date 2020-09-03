@@ -36,7 +36,8 @@ To-do list:
 * Design the English games
 
 ## Status
-| Schedule | Status | 
+| Schedule | Status |
+|----------|--------|
 | Proposal | Finished |
 | Iteration 1 | Finished |
 | Iteration 2 | in Progress |
