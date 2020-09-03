@@ -22,8 +22,8 @@ We would like to provide assisstance in learning Enlgish and better adapting lif
 * Cloud Hosting - Microsoft Azure
 
 ## Setup
-Having a laptop or a mobile phone with internet connections. Go to the browser(e.g. Chrome, Safari, etc.) enter the link:https://interscool.games 
-
+Downloading the whole project from the Github, and run the project by using Visual Studio community 2019.<br />
+Before run the project do remember to add all necessary file <br />like CSS & SCSS files, JavaScript source files, Font Icons and Library and plugin files.
 ## Features
 InterScool has awesome features:
 * Interactive graphs that users can visualize, share, and download
