@@ -2,7 +2,7 @@
 InterScool is designed by Team TeachnolOZY aimming to help international students who are takeing English Language Intensive Course(ELICOS) in Australia. 
 
 ## Table of contents
-* [ProjectDetails](#Project)
+* [Project Details](#project-details)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
@@ -24,7 +24,9 @@ We would like to provide assisstance in learning Enlgish and better adapting lif
 ## Setup
 Install [Visual Studio community 2019](https://visualstudio.microsoft.com/downloads/) on your computer.<br/>
 Clone this repository in the `InterScool` folder, and run the project by using Visual Studio community 2019.<br />
-Before run the project do remember to add all necessary file <br />like `CSS & SCSS` files, `JavaScript source files`, `Font Icons` and `Library and plugin files`.
+Before run the project do remember to add all necessary file <br />like `CSS & SCSS` files, `JavaScript source files`, `Font Icons` and `Library and plugin files`.<br />
+Build and start the application via clicking the `IIS Express` in the `Visual Studio community 2019`.<br/>
+
 ## Features
 InterScool has awesome features:
 * Interactive graphs that users can visualize, share, and download
