@@ -24,7 +24,7 @@ We would like to provide assisstance in learning Enlgish and better adapting lif
 ## Setup
 Install [Visual Studio community 2019](https://visualstudio.microsoft.com/downloads/) on your computer.<br/>
 Clone this repository in the `InterScool` folder, and run the project by using Visual Studio community 2019.<br />
-Before run the project do remember to add all necessary file <br />like CSS & SCSS files, JavaScript source files, Font Icons and Library and plugin files.
+Before run the project do remember to add all necessary file <br />like `CSS & SCSS` files, `JavaScript source files`, `Font Icons` and `Library and plugin files`.
 ## Features
 InterScool has awesome features:
 * Interactive graphs that users can visualize, share, and download
