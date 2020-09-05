@@ -1,4 +1,4 @@
-﻿@model Interscool.Models.University
+﻿@model Interscool.Models.Uni
 
 @{
     ViewBag.Title = "Details";
@@ -8,7 +8,7 @@
 <h2>Details</h2>
 
 <div>
-    <h4>University</h4>
+    <h4>Uni</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -20,19 +20,27 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Address)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Address)
-        </dd>
-
-        <dt>
             @Html.DisplayNameFor(model => model.State)
         </dt>
 
         <dd>
             @Html.DisplayFor(model => model.State)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
         </dd>
 
     </dl>

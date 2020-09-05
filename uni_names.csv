@@ -1,141 +1,141 @@
-University Name,State Name,University Type,University Address
-Charles Sturt University,New South Wales,Public,
-Macquarie University,New South Wales,Public,
-Southern Cross University,New South Wales,Public,
-The University of New England,New South Wales,Public,
-The University of Newcastle,New South Wales,Public,
-The University of Sydney,New South Wales,Public,
-University of New South Wales,New South Wales,Public,
-University of Technology Sydney,New South Wales,Public,
-University of Wollongong,New South Wales,Public,
-Western Sydney University,New South Wales,Public,
-Deakin University,Victoria,Public,
-Federation University Australia,Victoria,Public,
-La Trobe University,Victoria,Public,
-Monash University,Victoria,Public,
-RMIT University,Victoria,Public,
-Swinburne University of Technology,Victoria,Public,
-The University of Melbourne,Victoria,Public,
-Victoria University,Victoria,Public,
-CQUniversity,Queensland,Public,
-Griffith University,Queensland,Public,
-James Cook University,Queensland,Public,
-Queensland University of Technology,Queensland,Public,
-The University of Queensland,Queensland,Public,
-University of Southern Queensland,Queensland,Public,
-University of the Sunshine Coast,Queensland,Public,
-Curtin University,Western Australia,Public,
-Edith Cowan University,Western Australia,Public,
-Murdoch University,Western Australia,Public,
-The University of Western Australia,Western Australia,Public,
-Flinders University,South Australia,Public,
-The University of Adelaide,South Australia,Public,
-University of South Australia,South Australia,Public,
-University of Tasmania,Tasmania,Public,
-Batchelor Institute of Indigenous Tertiary Education,Northern Territory,Public,
-Charles Darwin University,Northern Territory,Public,
-The Australian National University,Australian Capital Territory,Public,
-University of Canberra,Australian Capital Territory,Public,
-AIPE,New South Wales,Private,
-Academy of Information Technology,New South Wales,Private,
-Alphacrucis College,New South Wales,Private,
-Australasian College of Health and Wellness,New South Wales,Private,
-Australian Academy of Music and Performing Arts,New South Wales,Private,
-Australian College of Applied Psychology,New South Wales,Private,
-"Australian Film, Television and Radio School",New South Wales,Private,
-Australian Institute of Management Education & Training,New South Wales,Private,
-Australian Institute of Music,New South Wales,Private,
-Avondale College of Higher Education,New South Wales,Private,
-Blue Mountains Intl Hotel Management School,New South Wales,Private,
-Campion College,New South Wales,Private,
-Excelsia College,New South Wales,Private,
-"International College of Management, Sydney",New South Wales,Private,
-JMC Academy,New South Wales,Private,
-Kaplan Business School,New South Wales,Private,
-Kaplan Higher Education,New South Wales,Private,
-Kent Institute Australia,New South Wales,Private,
-Macleay College,New South Wales,Private,
-Moore Theological College,New South Wales,Private,
-Morling College,New South Wales,Private,
-Nan Tien Institute,New South Wales,Private,
-National Art School,New South Wales,Private,
-Raffles College of Design and Commerce,New South Wales,Private,
-S P Jain School of Global Management,New South Wales,Private,
-SAE Institute,New South Wales,Private,
-Study Group Australia Pty Ltd,New South Wales,Private,
-Sydney College of Divinity,New South Wales,Private,
-Sydney Institute of Business and Technology,New South Wales,Private,
-Sydney Institute of Traditional Chinese Medicine,New South Wales,Private,
-TAFE NSW,New South Wales,Private,
-Tabor College NSW,New South Wales,Private,
-The Australian College of Physical Education,New South Wales,Private,
-The Australian Institute of Theological Education,New South Wales,Private,
-The College of Law,New South Wales,Private,
-The National Institute of Dramatic Art,New South Wales,Private,
-Think: Colleges Pty Ltd,New South Wales,Private,
-Top Education Institute,New South Wales,Private,
-UOW College,New South Wales,Private,
-UTS:INSEARCH,New South Wales,Private,
-Universal Business School Sydney (UBSS),New South Wales,Private,
-Wentworth Institute,New South Wales,Private,
-Whitehouse Institute of Design; Australia,New South Wales,Private,
-Academy of Design Australia,Victoria,Private,
-Australian Guild of Music Education Inc.,Victoria,Private,
-Box Hill Institute,Victoria,Private,
-Cairnmillar Institute School,Victoria,Private,
-Chisholm Institute,Victoria,Private,
-Collarts,Victoria,Private,
-Deakin College,Victoria,Private,
-Eastern College Australia,Victoria,Private,
-Harvest Bible College,Victoria,Private,
-Holmes Institute,Victoria,Private,
-Holmesglen Institute of TAFE,Victoria,Private,
-John Paul ll Institute for Marriage and Family,Victoria,Private,
-La Trobe Melbourne,Victoria,Private,
-Leo Cussen Institute,Victoria,Private,
-MIECAT,Victoria,Private,
-Marcus Oldham College,Victoria,Private,
-Melbourne Institute of Technology,Victoria,Private,
-Monash College,Victoria,Private,
-Northern Melbourne Institute of TAFE,Victoria,Private,
-Photography Studies College (Melbourne),Victoria,Private,
-Stotts Colleges,Victoria,Private,
-The Cairnmillar Institute,Victoria,Private,
-University of Divinity,Victoria,Private,
-VIT (Victorian Institute of Technology),Victoria,Private,
-William Angliss Institute of TAFE,Victoria,Private,
-Australian Institute of Professional Counsellors,Queensland,Private,
-Bond University,Queensland,Private,
-Christian Heritage College,Queensland,Private,
-Endeavour College of Natural Health,Queensland,Private,
-Gestalt Therapy Brisbane,Queensland,Private,
-Jazz Music Institute,Queensland,Private,
-Queensland Institute of Business and Technology,Queensland,Private,
-TAFE Queensland,Queensland,Private,
-Australian School of Management,Western Australia,Private,
-Central Institute of Technology,Western Australia,Private,
-Curtin College,Western Australia,Private,
-Edith Cowan College,Western Australia,Private,
-North Metropolitan TAFE,Western Australia,Private,
-Paramount College of Natural Medicine,Western Australia,Private,
-Perth Bible College,Western Australia,Private,
-Polytechnic West,Western Australia,Private,
-South Metropolitan TAFE,Western Australia,Private,
-The University of Notre Dame Australia,Western Australia,Private,
-West Coast Institute of Training,Western Australia,Private,
-Adelaide Central School of Art,South Australia,Private,
-Adelaide College of Divinity,South Australia,Private,
-Australian Institute of Business,South Australia,Private,
-Carnegie Mellon University Australia,South Australia,Private,
-Eynesbury,South Australia,Private,
-Ikon Institute of Australia,South Australia,Private,
-International College of Hotel Management,South Australia,Private,
-Le Cordon Bleu Australia,South Australia,Private,
-South Aust Institute of Business & Technology,South Australia,Private,
-TAFE SA,South Australia,Private,
-Tabor Adelaide,South Australia,Private,
-Torrens University Australia,South Australia,Private,
-University College London,South Australia,Private,
-Tabor College Tasmania,Tasmania,Private,
-Australian College of Nursing Ltd,Australian Capital Territory,Private,
-Canberra Institute of Technology,Australian Capital Territory,Private,
+Name,State,Type,Address
+Charles Sturt University,New South Wales,Public,1
+Macquarie University,New South Wales,Public,1
+Southern Cross University,New South Wales,Public,1
+The University of New England,New South Wales,Public,1
+The University of Newcastle,New South Wales,Public,1
+The University of Sydney,New South Wales,Public,1
+University of New South Wales,New South Wales,Public,1
+University of Technology Sydney,New South Wales,Public,1
+University of Wollongong,New South Wales,Public,1
+Western Sydney University,New South Wales,Public,1
+Deakin University,Victoria,Public,1
+Federation University Australia,Victoria,Public,1
+La Trobe University,Victoria,Public,1
+Monash University,Victoria,Public,1
+RMIT University,Victoria,Public,1
+Swinburne University of Technology,Victoria,Public,1
+The University of Melbourne,Victoria,Public,1
+Victoria University,Victoria,Public,1
+CQUniversity,Queensland,Public,1
+Griffith University,Queensland,Public,1
+James Cook University,Queensland,Public,1
+Queensland University of Technology,Queensland,Public,1
+The University of Queensland,Queensland,Public,1
+University of Southern Queensland,Queensland,Public,1
+University of the Sunshine Coast,Queensland,Public,1
+Curtin University,Western Australia,Public,1
+Edith Cowan University,Western Australia,Public,1
+Murdoch University,Western Australia,Public,1
+The University of Western Australia,Western Australia,Public,1
+Flinders University,South Australia,Public,1
+The University of Adelaide,South Australia,Public,1
+University of South Australia,South Australia,Public,1
+University of Tasmania,Tasmania,Public,1
+Batchelor Institute of Indigenous Tertiary Education,Northern Territory,Public,1
+Charles Darwin University,Northern Territory,Public,1
+The Australian National University,Australian Capital Territory,Public,1
+University of Canberra,Australian Capital Territory,Public,1
+AIPE,New South Wales,Private,1
+Academy of Information Technology,New South Wales,Private,1
+Alphacrucis College,New South Wales,Private,1
+Australasian College of Health and Wellness,New South Wales,Private,1
+Australian Academy of Music and Performing Arts,New South Wales,Private,1
+Australian College of Applied Psychology,New South Wales,Private,1
+"Australian Film, Television and Radio School",New South Wales,Private,1
+Australian Institute of Management Education & Training,New South Wales,Private,1
+Australian Institute of Music,New South Wales,Private,1
+Avondale College of Higher Education,New South Wales,Private,1
+Blue Mountains Intl Hotel Management School,New South Wales,Private,1
+Campion College,New South Wales,Private,1
+Excelsia College,New South Wales,Private,1
+"International College of Management, Sydney",New South Wales,Private,1
+JMC Academy,New South Wales,Private,1
+Kaplan Business School,New South Wales,Private,1
+Kaplan Higher Education,New South Wales,Private,1
+Kent Institute Australia,New South Wales,Private,1
+Macleay College,New South Wales,Private,1
+Moore Theological College,New South Wales,Private,1
+Morling College,New South Wales,Private,1
+Nan Tien Institute,New South Wales,Private,1
+National Art School,New South Wales,Private,1
+Raffles College of Design and Commerce,New South Wales,Private,1
+S P Jain School of Global Management,New South Wales,Private,1
+SAE Institute,New South Wales,Private,1
+Study Group Australia Pty Ltd,New South Wales,Private,1
+Sydney College of Divinity,New South Wales,Private,1
+Sydney Institute of Business and Technology,New South Wales,Private,1
+Sydney Institute of Traditional Chinese Medicine,New South Wales,Private,1
+TAFE NSW,New South Wales,Private,1
+Tabor College NSW,New South Wales,Private,1
+The Australian College of Physical Education,New South Wales,Private,1
+The Australian Institute of Theological Education,New South Wales,Private,1
+The College of Law,New South Wales,Private,1
+The National Institute of Dramatic Art,New South Wales,Private,1
+Think: Colleges Pty Ltd,New South Wales,Private,1
+Top Education Institute,New South Wales,Private,1
+UOW College,New South Wales,Private,1
+UTS:INSEARCH,New South Wales,Private,1
+Universal Business School Sydney (UBSS),New South Wales,Private,1
+Wentworth Institute,New South Wales,Private,1
+Whitehouse Institute of Design; Australia,New South Wales,Private,1
+Academy of Design Australia,Victoria,Private,1
+Australian Guild of Music Education Inc.,Victoria,Private,1
+Box Hill Institute,Victoria,Private,1
+Cairnmillar Institute School,Victoria,Private,1
+Chisholm Institute,Victoria,Private,1
+Collarts,Victoria,Private,1
+Deakin College,Victoria,Private,1
+Eastern College Australia,Victoria,Private,1
+Harvest Bible College,Victoria,Private,1
+Holmes Institute,Victoria,Private,1
+Holmesglen Institute of TAFE,Victoria,Private,1
+John Paul ll Institute for Marriage and Family,Victoria,Private,1
+La Trobe Melbourne,Victoria,Private,1
+Leo Cussen Institute,Victoria,Private,1
+MIECAT,Victoria,Private,1
+Marcus Oldham College,Victoria,Private,1
+Melbourne Institute of Technology,Victoria,Private,1
+Monash College,Victoria,Private,1
+Northern Melbourne Institute of TAFE,Victoria,Private,1
+Photography Studies College (Melbourne),Victoria,Private,1
+Stotts Colleges,Victoria,Private,1
+The Cairnmillar Institute,Victoria,Private,1
+University of Divinity,Victoria,Private,1
+VIT (Victorian Institute of Technology),Victoria,Private,1
+William Angliss Institute of TAFE,Victoria,Private,1
+Australian Institute of Professional Counsellors,Queensland,Private,1
+Bond University,Queensland,Private,1
+Christian Heritage College,Queensland,Private,1
+Endeavour College of Natural Health,Queensland,Private,1
+Gestalt Therapy Brisbane,Queensland,Private,1
+Jazz Music Institute,Queensland,Private,1
+Queensland Institute of Business and Technology,Queensland,Private,1
+TAFE Queensland,Queensland,Private,1
+Australian School of Management,Western Australia,Private,1
+Central Institute of Technology,Western Australia,Private,1
+Curtin College,Western Australia,Private,1
+Edith Cowan College,Western Australia,Private,1
+North Metropolitan TAFE,Western Australia,Private,1
+Paramount College of Natural Medicine,Western Australia,Private,1
+Perth Bible College,Western Australia,Private,1
+Polytechnic West,Western Australia,Private,1
+South Metropolitan TAFE,Western Australia,Private,1
+The University of Notre Dame Australia,Western Australia,Private,1
+West Coast Institute of Training,Western Australia,Private,1
+Adelaide Central School of Art,South Australia,Private,1
+Adelaide College of Divinity,South Australia,Private,1
+Australian Institute of Business,South Australia,Private,1
+Carnegie Mellon University Australia,South Australia,Private,1
+Eynesbury,South Australia,Private,1
+Ikon Institute of Australia,South Australia,Private,1
+International College of Hotel Management,South Australia,Private,1
+Le Cordon Bleu Australia,South Australia,Private,1
+South Aust Institute of Business & Technology,South Australia,Private,1
+TAFE SA,South Australia,Private,1
+Tabor Adelaide,South Australia,Private,1
+Torrens University Australia,South Australia,Private,1
+University College London,South Australia,Private,1
+Tabor College Tasmania,Tasmania,Private,1
+Australian College of Nursing Ltd,Australian Capital Territory,Private,1
+Canberra Institute of Technology,Australian Capital Territory,Private,1

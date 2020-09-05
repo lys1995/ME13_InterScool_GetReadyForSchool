@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 09/02/2020 21:43:17
--- Generated from EDMX file: F:\Monash UNI\FIT5120\InterScool_GetReadyForSchool\Interscool\Models\ModelUni.edmx
+-- Date Created: 09/05/2020 15:26:29
+-- Generated from EDMX file: F:\Monash UNI\FIT5120\InterScool_GetReadyForSchool\Interscool\Models\UniList.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -27,12 +27,13 @@ GO
 -- Creating all tables
 -- --------------------------------------------------
 
--- Creating table 'UniversitySet'
-CREATE TABLE [dbo].[UniversitySet] (
+-- Creating table 'UniSet'
+CREATE TABLE [dbo].[UniSet] (
     [Id] int IDENTITY(1,1) NOT NULL,
     [Name] nvarchar(max)  NOT NULL,
-    [Address] nvarchar(max)  NOT NULL,
-    [State] nvarchar(max)  NOT NULL
+    [State] nvarchar(max)  NOT NULL,
+    [Type] nvarchar(max)  NOT NULL,
+    [Address] nvarchar(max)  NOT NULL
 );
 GO
 
@@ -40,9 +41,9 @@ GO
 -- Creating all PRIMARY KEY constraints
 -- --------------------------------------------------
 
--- Creating primary key on [Id] in table 'UniversitySet'
-ALTER TABLE [dbo].[UniversitySet]
-ADD CONSTRAINT [PK_UniversitySet]
+-- Creating primary key on [Id] in table 'UniSet'
+ALTER TABLE [dbo].[UniSet]
+ADD CONSTRAINT [PK_UniSet]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 

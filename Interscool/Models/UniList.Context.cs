@@ -13,10 +13,10 @@ namespace Interscool.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ModelUniContainer : DbContext
+    public partial class UniListContainer : DbContext
     {
-        public ModelUniContainer()
-            : base("name=ModelUniContainer")
+        public UniListContainer()
+            : base("name=UniListContainer")
         {
         }
     
@@ -25,6 +25,6 @@ namespace Interscool.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<University> UniversitySet { get; set; }
+        public virtual DbSet<Uni> UniSet { get; set; }
     }
 }

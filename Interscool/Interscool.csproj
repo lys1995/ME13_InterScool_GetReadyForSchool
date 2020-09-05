@@ -123,27 +123,27 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\UniversitiesController.cs" />
+    <Compile Include="Controllers\UniListController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ModelUni.Context.cs">
+    <Compile Include="Models\Uni.cs">
+      <DependentUpon>UniList.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UniList.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelUni.Context.tt</DependentUpon>
+      <DependentUpon>UniList.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\ModelUni.cs">
+    <Compile Include="Models\UniList.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelUni.tt</DependentUpon>
+      <DependentUpon>UniList.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\ModelUni.Designer.cs">
+    <Compile Include="Models\UniList.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModelUni.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\University.cs">
-      <DependentUpon>ModelUni.tt</DependentUpon>
+      <DependentUpon>UniList.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -300,16 +300,16 @@
     <Content Include="js\vendor\modernizr-3.5.0.min.js" />
     <Content Include="js\waypoints.min.js" />
     <Content Include="js\wow.min.js" />
-    <Content Include="Models\ModelUni.Context.tt">
+    <Content Include="Models\UniList.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ModelUni.Context.cs</LastGenOutput>
-      <DependentUpon>ModelUni.edmx</DependentUpon>
+      <LastGenOutput>UniList.Context.cs</LastGenOutput>
+      <DependentUpon>UniList.edmx</DependentUpon>
     </Content>
-    <Content Include="Models\ModelUni.edmx.sql" />
-    <Content Include="Models\ModelUni.tt">
+    <Content Include="Models\UniList.edmx.sql" />
+    <Content Include="Models\UniList.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ModelUni.cs</LastGenOutput>
-      <DependentUpon>ModelUni.edmx</DependentUpon>
+      <LastGenOutput>UniList.cs</LastGenOutput>
+      <DependentUpon>UniList.edmx</DependentUpon>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -343,12 +343,12 @@
     <Content Include="fonts\themify.ttf" />
     <Content Include="fonts\themify.woff" />
     <Content Include="scss\_flaticon.scss" />
-    <EntityDeploy Include="Models\ModelUni.edmx">
+    <EntityDeploy Include="Models\UniList.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ModelUni.Designer.cs</LastGenOutput>
+      <LastGenOutput>UniList.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\ModelUni.edmx.diagram">
-      <DependentUpon>ModelUni.edmx</DependentUpon>
+    <Content Include="Models\UniList.edmx.diagram">
+      <DependentUpon>UniList.edmx</DependentUpon>
     </Content>
     <None Include="Properties\PublishProfiles\Interscool - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -402,12 +402,12 @@
     <Content Include="scss\_slider.scss" />
     <Content Include="scss\_testmonial.scss" />
     <Content Include="scss\_varriable.scss" />
-    <Content Include="Views\Universities\Create.cshtml" />
-    <Content Include="Views\Universities\Delete.cshtml" />
-    <Content Include="Views\Universities\Details.cshtml" />
-    <Content Include="Views\Universities\Edit.cshtml" />
-    <Content Include="Views\Universities\Index.cshtml" />
     <Content Include="Views\Home\Test.cshtml" />
+    <Content Include="Views\UniList\Create.cshtml" />
+    <Content Include="Views\UniList\Delete.cshtml" />
+    <Content Include="Views\UniList\Details.cshtml" />
+    <Content Include="Views\UniList\Edit.cshtml" />
+    <Content Include="Views\UniList\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

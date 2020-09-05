@@ -10,107 +10,116 @@ using Interscool.Models;
 
 namespace Interscool.Controllers
 {
-    public class UniversitiesController : Controller
+    public class UniListController : Controller
     {
-        private ModelUniContainer db = new ModelUniContainer();
+        private UniListContainer db = new UniListContainer();
 
-        // GET: Universities
-        public ActionResult Index()
+        // GET: UniList
+        public ActionResult Index(string state)
         {
-            return View(db.UniversitySet.ToList());
+            var uni = from u in db.UniSet
+                      select u;
+            var states = uni.OrderBy(u => u.State).Select(u => u.State).Distinct();
+            ViewBag.state = new SelectList(states);
+            if (!String.IsNullOrEmpty(state))
+            {
+                uni = uni.Where(u => u.State == state);
+            }
+            return View(uni.ToList());
         }
 
-        // GET: Universities/Details/5
+
+        // GET: UniList/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            University university = db.UniversitySet.Find(id);
-            if (university == null)
+            Uni uni = db.UniSet.Find(id);
+            if (uni == null)
             {
                 return HttpNotFound();
             }
-            return View(university);
+            return View(uni);
         }
 
-        // GET: Universities/Create
+        // GET: UniList/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Universities/Create
+        // POST: UniList/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Address,State")] University university)
+        public ActionResult Create([Bind(Include = "Id,Name,State,Type,Address")] Uni uni)
         {
             if (ModelState.IsValid)
             {
-                db.UniversitySet.Add(university);
+                db.UniSet.Add(uni);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(university);
+            return View(uni);
         }
 
-        // GET: Universities/Edit/5
+        // GET: UniList/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            University university = db.UniversitySet.Find(id);
-            if (university == null)
+            Uni uni = db.UniSet.Find(id);
+            if (uni == null)
             {
                 return HttpNotFound();
             }
-            return View(university);
+            return View(uni);
         }
 
-        // POST: Universities/Edit/5
+        // POST: UniList/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Address,State")] University university)
+        public ActionResult Edit([Bind(Include = "Id,Name,State,Type,Address")] Uni uni)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(university).State = EntityState.Modified;
+                db.Entry(uni).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(university);
+            return View(uni);
         }
 
-        // GET: Universities/Delete/5
+        // GET: UniList/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            University university = db.UniversitySet.Find(id);
-            if (university == null)
+            Uni uni = db.UniSet.Find(id);
+            if (uni == null)
             {
                 return HttpNotFound();
             }
-            return View(university);
+            return View(uni);
         }
 
-        // POST: Universities/Delete/5
+        // POST: UniList/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            University university = db.UniversitySet.Find(id);
-            db.UniversitySet.Remove(university);
+            Uni uni = db.UniSet.Find(id);
+            db.UniSet.Remove(uni);
             db.SaveChanges();
             return RedirectToAction("Index");
         }
