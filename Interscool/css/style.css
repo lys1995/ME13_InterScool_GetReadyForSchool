@@ -110,7 +110,7 @@ p {
     line-height: 28px;
     color: #131115;
     margin-bottom: 0px;
-    font-family: "Raleway", sans-serif;
+    font-family: sans-serif;
 }
 
 /* line 69, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/theme-default.scss */
@@ -2141,7 +2141,7 @@ h3 {
 /* line 1, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_features.scss */
 .features_area {
   position: relative;
-  margin-top: -200px;
+  margin-top: 0px;
   padding-bottom: 0;
 }
 

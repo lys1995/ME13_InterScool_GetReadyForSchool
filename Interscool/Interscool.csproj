@@ -279,6 +279,7 @@
     <Content Include="js\contact.js" />
     <Content Include="js\gijgo.min.js" />
     <Content Include="js\imagesloaded.pkgd.min.js" />
+    <Content Include="js\index.js" />
     <Content Include="js\isotope.pkgd.min.js" />
     <Content Include="js\jquery.ajaxchimp.min.js" />
     <Content Include="js\jquery.counterup.min.js" />
@@ -406,6 +407,7 @@
     <Content Include="Views\Universities\Details.cshtml" />
     <Content Include="Views\Universities\Edit.cshtml" />
     <Content Include="Views\Universities\Index.cshtml" />
+    <Content Include="Views\Home\Test.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

@@ -34,22 +34,22 @@
                                         <ul id="navigation">
                                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
                                             <li><a href="/Home/Visual">Explore</a></li>
+                                            <li><a href="/Home/Test">English Test</a></li>
                                             @*<li>
-                                                    <a href="#">pages <i class="ti-angle-down"></i></a>
-                                                    <ul class="submenu">
-                                                        <li><a href="project.html">project</a></li>
-                                                        <li><a href="elements.html">elements</a></li>
-                                                        <li><a href="project_details.html">project details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">blog <i class="ti-angle-down"></i></a>
-                                                    <ul class="submenu">
-                                                        <li><a href="blog.html">blog</a></li>
-                                                        <li><a href="single-blog.html">single-blog</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact.html">Contact</a></li>*@
+                                            <a href="#">pages <i class="ti-angle-down"></i></a>
+                                            @*<ul class="submenu">
+                                                <li><a href="project.html">project</a></li>
+                                                <li><a href="elements.html">elements</a></li>
+                                                <li><a href="project_details.html">project details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">blog <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.html">blog</a></li>
+                                                <li><a href="single-blog.html">single-blog</a></li>
+                                            </ul>
+                                        </li>*@
                                             <li>@Html.ActionLink("About", "About", "Home")</li>
                                         </ul>
                                     </nav>
@@ -71,18 +71,18 @@
     <footer class="footer">
         <div class="download_brochure">
             <div class="container">
-                <div class="bordered_1px">
+                <div class="bordered_1px" style="padding-top: 10px; padding-bottom: 10px;">
                 </div>
             </div>
         </div>
-        <div class="footer_top">
+        <div class="footer_top" style=" padding-top: 20px;">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-md-6 col-lg-3 ">
                         <div class="footer_widget">
-                            <h3 class="footer_title">
+@*                            <h3 class="footer_title">
                                 About
-                            </h3>
+                            </h3>*@
                             <p>
                                 ©2020 Design by ME13
                             </p>
@@ -144,25 +144,25 @@
                                 </ul>
                             </div>
                         </div>*@
-                    <div class="col-xl-4 col-md-6 col-lg-4">
+@*                    <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="footer_widget">
-                            @*                            <h3 class="footer_title">
+                                 <h3 class="footer_title">
                                     Subscribe
                                 </h3>
                                 <form action="#" class="newsletter_form">
                                     <input type="text" placeholder="Enter your mail">
                                     <button type="submit">Subscribe</button>
-                                </form>*@
+                                </form>
                         </div>
-                    </div>
+                    </div>*@
                 </div>
             </div>
         </div>
-        <div class="copy-right_text">
+@*        <div class="copy-right_text">
             <div class="container">
                 <div class="footer_border"></div>
             </div>
-        </div>
+        </div>*@
     </footer>
     @Scripts.Render("~/js/js")
     @RenderSection("scripts", required: false)

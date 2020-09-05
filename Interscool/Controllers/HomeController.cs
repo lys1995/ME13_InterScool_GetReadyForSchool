@@ -26,5 +26,11 @@ namespace Interscool.Controllers
 
             return View();
         }
+        public ActionResult Test()
+        {
+            ViewBag.Message = "Your Test Level page.";
+
+            return View();
+        }
     }
 }

@@ -59,7 +59,8 @@ namespace Interscool
                       "~/js/jquery.form.js",
                       "~/js/jquery.validate.min.js",
                       "~/js/mail-script.js",
-                      "~/js/main.js"));
+                      "~/js/main.js",
+                      "~/js/index.js"));
         }
     }
 }
