@@ -1,9 +1,8 @@
 # InterScool
-Monash University Sem2,2020
+InterScool is designed by Team TeachnolOZY aimming to help international students who are takeing English Language Intensive Course(ELICOS) in Australia. 
 
 ## Table of contents
-* [General info](#general-info)
-* [Screenshots](#screenshots)
+* [Project Details](#project-details)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
@@ -11,39 +10,45 @@ Monash University Sem2,2020
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
-Add more general information about project. What the purpose of the project is? Motivation?
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
+## Project Details
+English Language Intensive Courses for Overseas Students (ELICOS) are central to Australia’s international education sector. Students come from overseas to study the English language for a variety of reasons. Some need to improve their English for work or career purposes, some have a personal interest in becoming fluent in English, and some intend to travel. Others may want to continue their education in English, either in Australia or elsewhere, and need to develop the necessary language skills to undertake further study.
+We would like to provide assisstance in learning Enlgish and better adapting life in Australia for ELICOS students.
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* IDE - Visual Studio community 2019 
+* Framework - ASP.NET MVC 4.8
+* Front End - Bootstrap 4.0, JS, CSS, Html
+* Database - Microsoft SQL server,C# to manipulate data
+* Cloud Hosting - Microsoft Azure
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+Install [Visual Studio community 2019](https://visualstudio.microsoft.com/downloads/) on your computer.<br/>
+Clone this repository in the `InterScool` folder, and run the project by using Visual Studio community 2019.<br />
+Before run the project do remember to add all necessary file <br />like `CSS & SCSS` files, `JavaScript source files`, `Font Icons` and `Library and plugin files`.<br />
+Build and start the application via clicking the `IIS Express` in the `Visual Studio community 2019`.<br/>
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+InterScool has awesome features:
+* Interactive graphs that users can visualize, share, and download
+* Interesting and Engaging games to improve English skills
+* Relevent information and suggestions about English Learning and Living in Australia
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Main navigation bar naming of each tabs
+* Renaming the headings of interactive graphs
+* Design the English games
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+| Schedule | Status |
+|----------|--------|
+| Proposal | Finished |
+| Iteration 1 | Finished |
+| Iteration 2 | in Progress |
+| Iteration 3 |             |
+| Final Integrate |             |
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+UI design is inspired by TheMe Wagon:https://themewagon.com/
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by Team TechnolOZY-ME13 
