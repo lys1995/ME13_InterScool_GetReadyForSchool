@@ -34,7 +34,8 @@ namespace Interscool
                         "~/css/nice-select.css",
                         "~/css/flaticon.css",
                         "~/css/slicknav.css",
-                        "~/css/style.css"));
+                        "~/css/style.css",
+                        "~/css/PagedList.css"));
             bundles.Add(new ScriptBundle("~/js/js").Include(
                       "~/js/vendor/modernizr-3.5.0.min.js",
                       "~/js/vendor/jquery-1.12.4.min.js",

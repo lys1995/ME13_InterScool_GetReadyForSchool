@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Interscool.Models.Uni>
+﻿@model PagedList.IPagedList<Interscool.Models.Uni>
+@using PagedList.Mvc;
 <!-- slider_area_start -->
 <div class="slider_area">
     <div class="slider_active owl-carousel">
@@ -11,35 +12,35 @@
 <!-- slider_area_end -->
 <div class="container">
     <div class="text-center">
-        <h2 style="height: 40px;padding-top: 20px;">
+        <h3 style="height: 40px;padding-top: 20px;font-weight: bold;">
             University List
-        </h2>
+        </h3>
     </div>
 </div>
 <div class="container">
     <p>
-        @Html.ActionLink("Create New", "Create")
+        @*@Html.ActionLink("Create New", "Create")*@
         @using (Html.BeginForm("Index", "UniList", FormMethod.Get))
         {
-            <div class="display-label">
+            <h3 class="text-heading">
                 Select one State:
-            </div>
+            </h3>
             <div class="editor-field">
-                @Html.DropDownList("state", "State Name")
+                @Html.DropDownList("state",(IEnumerable<SelectListItem>)ViewBag.state)
             </div>
-            <input type="submit" value="Filter" />
+            <input type="submit" class="btn btn-success" value="Search" style="border-left-width: 0px; margin-left: 20px;" />
         }
     </p>
     <table class="table">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSP, present = ViewBag.present })
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.State)
+                State
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Type)
+                Type
             </th>
             @*        <th>
                     @Html.DisplayNameFor(model => model.Address)
@@ -68,8 +69,13 @@
                 </td>
             </tr>
         }
-
     </table>
+    <br />
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.currentPage, present = ViewBag.present }))
+    <h2>Location</h2>
+    <div id="map" style="height:500px"></div>
 </div>
 @* This is for the mapbox map. *@
 <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
@@ -77,14 +83,11 @@
 @*This is used for the Geocoding Mapbox API*@
 <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js'></script>
 <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css' type='text/css' />
-<h2>Location</h2>
-<div id="map" style="height:500px"></div>
 <style>
     .mapboxgl-popup {
         color: black;
     }
 </style>
-<div id='map' style='width: 400px; height: 300px;'></div>
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoieWxpdTAyMDMiLCJhIjoiY2sxc2l3d2N2MDN2dzNibXVwcGNuMnlvNSJ9.OchVPoP-iVNFCF8EbQkajA';
     var ll = new mapboxgl.LngLat(-123.9749, 40.7736);

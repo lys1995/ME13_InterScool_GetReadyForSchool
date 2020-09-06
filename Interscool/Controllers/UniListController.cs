@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Interscool.Models;
+using PagedList;
 
 namespace Interscool.Controllers
 {
@@ -15,17 +16,56 @@ namespace Interscool.Controllers
         private UniListContainer db = new UniListContainer();
 
         // GET: UniList
-        public ActionResult Index(string state)
+        //sort list by state
+        //
+        public ActionResult Index(string sortOrder, string present, string state, int? page)
         {
+            ViewBag.currentPage = sortOrder;
+            ViewBag.NameSP = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            if (state != null)
+            {
+                page = 1;
+            }
+            else
+            {
+                state = present;
+            }
+            ViewBag.present = state;
             var uni = from u in db.UniSet
                       select u;
             var states = uni.OrderBy(u => u.State).Select(u => u.State).Distinct();
-            ViewBag.state = new SelectList(states);
+            List<SelectListItem> listData = new List<SelectListItem>();
+            listData.Add(new SelectListItem
+            {
+                Text = "Please select",
+                Value = "",
+            });
+            SelectList a = new SelectList(states);
+            foreach (var item in a)
+            {
+                listData.Add(new SelectListItem
+                {
+                    Text = item.Text,
+                    Value = item.Value
+                });
+            }
+            ViewBag.state = listData;
             if (!String.IsNullOrEmpty(state))
             {
                 uni = uni.Where(u => u.State == state);
             }
-            return View(uni.ToList());
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    uni = uni.OrderByDescending(u => u.Name);
+                    break;
+                default:
+                    uni = uni.OrderBy(u => u.Name);
+                    break;
+            }
+            int pageSize = 10;
+            int pageNumber = (page ?? 1);
+            return View(uni.ToPagedList(pageNumber, pageSize));
         }
 
 
