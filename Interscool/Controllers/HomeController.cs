@@ -8,11 +8,13 @@ namespace Interscool.Controllers
 {
     public class HomeController : Controller
     {
+        //Get the Home page view
         public ActionResult Index()
         {
             return View();
         }
 
+        //Get the About page view
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -20,12 +22,15 @@ namespace Interscool.Controllers
             return View();
         }
 
+        //Get the Visual page view
         public ActionResult Visual()
         {
             ViewBag.Message = "Your Visualization page.";
 
             return View();
         }
+
+        //Get the Test page view
         public ActionResult Test()
         {
             ViewBag.Message = "Your Test Level page.";

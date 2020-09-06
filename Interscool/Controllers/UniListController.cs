@@ -15,9 +15,9 @@ namespace Interscool.Controllers
     {
         private UniListContainer db = new UniListContainer();
 
-        // GET: UniList
-        //sort list by state
-        //
+        //GET: UniList
+        //Sort list by University name
+        //filter by the State of Australia
         public ActionResult Index(string sortOrder, string present, string state, int? page)
         {
             ViewBag.currentPage = sortOrder;
