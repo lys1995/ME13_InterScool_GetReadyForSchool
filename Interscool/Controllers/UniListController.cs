@@ -11,6 +11,7 @@ using PagedList;
 
 namespace Interscool.Controllers
 {
+    [Authorize]
     public class UniListController : Controller
     {
         private UniListContainer db = new UniListContainer();

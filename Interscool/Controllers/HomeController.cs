@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace Interscool.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         //Get the Home page view
