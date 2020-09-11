@@ -23,6 +23,7 @@ namespace Interscool.Controllers
         {
             ViewBag.currentPage = sortOrder;
             ViewBag.NameSP = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewBag.TypeSP = sortOrder == "type_asc" ? "type_desc" : "type_asc";
             if (state != null)
             {
                 page = 1;
@@ -38,7 +39,7 @@ namespace Interscool.Controllers
             List<SelectListItem> listData = new List<SelectListItem>();
             listData.Add(new SelectListItem
             {
-                Text = "Please select",
+                Text = "All",
                 Value = "",
             });
             SelectList a = new SelectList(states);
@@ -60,6 +61,12 @@ namespace Interscool.Controllers
                 case "name_desc":
                     uni = uni.OrderByDescending(u => u.Name);
                     break;
+                case "type_asc":
+                    uni = uni.OrderBy(u => u.Type);
+                    break;
+                case "type_desc":
+                    uni = uni.OrderByDescending(u => u.Type);
+                    break;
                 default:
                     uni = uni.OrderBy(u => u.Name);
                     break;
@@ -68,7 +75,12 @@ namespace Interscool.Controllers
             int pageNumber = (page ?? 1);
             return View(uni.ToPagedList(pageNumber, pageSize));
         }
-
+        //Write action for return database data 
+        public ActionResult loaddata()
+        {
+            var data = db.UniSet.OrderBy(u => u.Id).ToList();
+            return Json(new { data }, JsonRequestBehavior.AllowGet);
+        }
 
         // GET: UniList/Details/5
         public ActionResult Details(int? id)

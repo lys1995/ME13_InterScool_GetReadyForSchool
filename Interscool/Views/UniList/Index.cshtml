@@ -1,5 +1,4 @@
-﻿@model PagedList.IPagedList<Interscool.Models.Uni>
-@using PagedList.Mvc;
+﻿@model IEnumerable<Interscool.Models.Uni>
 <!-- slider_area_start -->
 <div class="slider_area">
     <div class="slider_active owl-carousel">
@@ -16,88 +15,212 @@
             University List
         </h3>
     </div>
-</div>
-<div class="container">
-    <p>
-        @*@Html.ActionLink("Create New", "Create")*@
-        @using (Html.BeginForm("Index", "UniList", FormMethod.Get))
-        {
-            <h3 class="text-heading">
-                Select one State:
-            </h3>
-            <div class="editor-field">
-                @Html.DropDownList("state",(IEnumerable<SelectListItem>)ViewBag.state)
-            </div>
-            <input type="submit" class="btn btn-success" value="Search" style="border-left-width: 0px; margin-left: 20px;" />
-        }
-    </p>
-    <table class="table">
-        <tr>
-            <th>
-                @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSP, present = ViewBag.present })
-            </th>
-            <th>
-                State
-            </th>
-            <th>
-                Type
-            </th>
-            @*        <th>
-                    @Html.DisplayNameFor(model => model.Address)
-                </th>*@
-            <th></th>
-        </tr>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.State)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Type)
-                </td>
-                @*            <td>
-                        @Html.DisplayFor(modelItem => item.Address)
-                    </td>*@
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-                </td>
-            </tr>
-        }
-    </table>
-    <br />
-    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
-
-    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.currentPage, present = ViewBag.present }))
-    <h2>Location</h2>
+    <div class="container">
+        <div class="row">
+            <h4 style="padding-top: 10px; padding-right: 20px;">Select one State:</h4>
+            <select id="dropdown">
+                <option value="">All</option>
+                <option value="Northern Territory">Northern Territory</option>
+                <option value="New South Wales">New South Wales</option>
+                <option value="Victoria">Victoria</option>
+                <option value="Queensland">Queensland</option>
+                <option value="Western Australia">Western Australia</option>
+                <option value="South Australia">South Australia</option>
+                <option value="Australian Capital Territory">Australian Capital Territory</option>
+                <option value="Tasmania">Tasmania</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h4 style="padding-top: 10px; padding-right: 45px;">Select a Type:</h4>
+            <select id="dropdown1">
+                <option value="">All</option>
+                <option value="Private">Private</option>
+                <option value="Public">Public</option>
+            </select>
+        </div>
+    </div>
+    <div style="width:90%; margin:0 auto;">
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>State</th>
+                    <th>Type</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <h3 style="height: 40px;padding-top: 20px;font-weight: bold;">
+        Location
+    </h3>
+    <h4 style="padding-top: 10px; padding-right: 20px;">Try to find the distance between you and your favourite university: </h4>
     <div id="map" style="height:500px"></div>
+    <p>Go Back:</p>
+    <a href="/Home/Visual">
+        <img src="~/img/arrow-pointing-left.png" alt="">
+    </a>
 </div>
-@* This is for the mapbox map. *@
-<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
-@*This is used for the Geocoding Mapbox API*@
-<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js'></script>
-<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css' type='text/css' />
 <style>
+    tr.even {
+        background-color: #F5F5F5 !important;
+    }
+
     .mapboxgl-popup {
         color: black;
     }
 </style>
-<script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoieWxpdTAyMDMiLCJhIjoiY2sxc2l3d2N2MDN2dzNibXVwcGNuMnlvNSJ9.OchVPoP-iVNFCF8EbQkajA';
-    var ll = new mapboxgl.LngLat(-123.9749, 40.7736);
-    var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [145.0424543, -37.8773989],
-        zoom: 11
-    });
-    var marker = new mapboxgl.Marker()
-        .setLngLat([145.0424543, -37.8773989])
-        .addTo(map);
-</script>
+@* Load datatable css *@
+<link href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+@* This is for the mapbox map. *@
+<link href="~/css/mapbox-gl.css" rel="stylesheet" />
+<link href="~/css/mapbox-gl-directions.css" rel="stylesheet" />
+@* Load datatable and mapbox js *@
+@section Scripts{
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <script>
+        $(document).ready(function () {
+            var table = $('#myTable').DataTable({
+                "ajax": {
+                    url: '../UniList/loaddata',
+                    type: 'GET',
+                    datatype: 'json'
+                },
+                deferRender: true,
+                columns: [
+                    { "data": "Name", "autoWidth": true },
+                    { "data": "State", "autoWidth": true },
+                    { "data": "Type", "autoWidth": true },
+                    { "data": "Address", "autoWidth": true },
+                ]
+            });
+            $('#dropdown').on('change', function () {
+                table.columns(1).search(this.value).draw();
+            });
+            $('#dropdown1').on('change', function () {
+                table.columns(2).search(this.value).draw();
+            });
+        });
+
+        mapboxgl.accessToken = 'pk.eyJ1IjoieWxpdTAyMDMiLCJhIjoiY2sxc2l3d2N2MDN2dzNibXVwcGNuMnlvNSJ9.OchVPoP-iVNFCF8EbQkajA';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [145.0424543, -37.8773989],
+            zoom: 11
+        });
+
+        map.addControl(
+            new MapboxDirections({
+                accessToken: mapboxgl.accessToken
+            }),
+            'top-left'
+        );
+        map.addControl(
+            new mapboxgl.GeolocateControl({
+                positionOptions: {
+                    enableHighAccuracy: true
+                },
+                trackUserLocation: true
+            })
+        );
+    </script>
+}
+@*<script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoieWxpdTAyMDMiLCJhIjoiY2sxc2l3d2N2MDN2dzNibXVwcGNuMnlvNSJ9.OchVPoP-iVNFCF8EbQkajA';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [145.0424543, -37.8773989],
+            zoom: 11
+        });
+
+        map.addControl(
+            new MapboxDirections({
+                accessToken: mapboxgl.accessToken
+            }),
+            'top-left'
+        );
+        map.addControl(
+            new mapboxgl.GeolocateControl({
+                positionOptions: {
+                    enableHighAccuracy: true
+                },
+                trackUserLocation: true
+            })
+        );
+        var marker = new mapboxgl.Marker()
+            .setLngLat([145.0424543, -37.8773989])
+            .addTo(map);
+    </script>*@
+@*<div class="container">
+        <p>
+            @Html.ActionLink("Create New", "Create")
+            @using (Html.BeginForm("Index", "UniList", FormMethod.Get))
+            {
+                <h3 class="text-heading">
+                    Select one State:
+                </h3>
+                <div class="editor-field">
+                    @Html.DropDownList("state", (IEnumerable<SelectListItem>)ViewBag.state)
+                </div>
+                <input type="submit" class="btn btn-success" value="Search" style="border-left-width: 0px; margin-left: 20px;" />
+            }
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    Name
+                    <a href="@Url.Action("Index", "UniList",new { sortOrder = ViewBag.NameSP, present = ViewBag.present })">
+                        <img src="~/img/icons8-up-down-arrow-50.png" style="width: 20px;" />
+                    </a>
+                    @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSP, present = ViewBag.present })
+                </th>
+                <th>
+                    State
+                </th>
+                <th>
+                    Type
+                    <a href="@Url.Action("Index", "UniList",new { sortOrder = ViewBag.TypeSP, present = ViewBag.present })">
+                        <img src="~/img/icons8-up-down-arrow-50.png" style="width: 20px;" />
+                    </a>
+                     @Html.ActionLink("Type", "Index", new { sortOrder = ViewBag.TypeSP, present = ViewBag.present })
+                </th>
+                <th>
+                    Address
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.State)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Type)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                            <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                        </td>
+                </tr>
+            }
+        </table>
+        <br />
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.currentPage, present = ViewBag.present }))
+        <h2>Location</h2>
+        <div id="map" style="height:500px"></div>
+    </div>*@
