@@ -3,19 +3,49 @@
 <script src="https://surveyjs.azureedge.net/1.8.0/survey.jquery.min.js"></script>
 <script src="https://surveyjs.azureedge.net/1.8.0/survey.jquery.js"></script>
 <link href="https://surveyjs.azureedge.net/1.8.0/modern.css" type="text/css" rel="stylesheet" />
+<style>
+    .sv-header__text {
+        width: 800px;
+    }
 
-<div class="bradcam_area bradcam_bg_2">
+    .sv-footer {
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+
+    .sv-btn {
+        font-size: 1.5em;
+    }
+</style>
+<div class="bradcam_area bradcam_bg_1">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="bradcam_text text-center">
-                    <h3 style="margin-top: 100px;">Test</h3>
+                    <h3 style="margin-top: 50px;">English Level Test</h3>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!--/ bradcam_area  -->
-<div id="surveyElement" style="display:inline-block;width:100%;"></div>
-<div id="surveyResult"></div>
+<div class="project_details_info">
+    <div class="container">
+        <div class="row justify-content-center" style="margin-bottom: 100px;">
+            <div class="col-xl-10 col-lg-10">
+                <div id="surveyElement" style="display:inline-block;width:100%;"></div>
+                <div id="surveyResult" style="font-size:24px; font-family:sans-serif; color:black"></div>
+                <div class="border_1px">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div style=" text-align: center">
+                                <input type="button" onclick="window.location.href='Visual'" value="Exit survey" class="sv-btn sv-footer__start-btn" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script type="text/javascript" src="~/js/index.js"></script>

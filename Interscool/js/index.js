@@ -3,11 +3,13 @@ Survey
     .applyTheme("modern");
 
 var json = {
-    title: "English Level Test",
+    title: "More about English Grammar, Phrases, Semantics",
     showProgressBar: "bottom",
+    showTimerPanel: "top",
+/*    showTimerPanelMode = "page",*/
     showPrevButton: true,
-/*    maxTimeToFinishPage: 10,
-    maxTimeToFinish: 25,*/
+    maxTimeToFinishPage: 18,
+    maxTimeToFinish: 180,
     firstPageIsStarted: true,
     startSurveyText: "Start Quiz",
     pages: [
@@ -15,7 +17,7 @@ var json = {
             questions: [
                 {
                     type: "html",
-                    html: "You are about to start quiz by history. <br/>You have 10 seconds for every page and 25 seconds for the whole survey of 3 questions.<br/>Please click on <b>'Start Quiz'</b> button when you are ready."
+                    html: "You are about to start quiz by English knowledge. <br/>You have 15 seconds for every page and 3 mins for the whole test of 10 questions.<br/>Please click on <b>'Start Quiz'</b> button when you are ready."
                 }
             ]
         }, {
@@ -65,10 +67,10 @@ window.survey = new Survey.Model(json);
 
 survey
     .onComplete
-    .add(function (result) {
+    .add(function () {
         document
             .querySelector('#surveyResult')
-            .textContent = "Result:\n" + JSON.stringify(result.data, null, 3);
+            .textContent = "Do you want to know more about Australia?";
     });
 
 $("#surveyElement").Survey({model: survey});
