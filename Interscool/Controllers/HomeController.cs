@@ -38,5 +38,13 @@ namespace Interscool.Controllers
 
             return View();
         }
+
+        //Get the Quiz page view
+        public ActionResult Quiz()
+        {
+            ViewBag.Message = "Your Quiz page.";
+
+            return View();
+        }
     }
 }

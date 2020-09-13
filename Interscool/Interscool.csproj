@@ -220,6 +220,8 @@
     <Content Include="img\about\about2.png" />
     <Content Include="img\about\graph.png" />
     <Content Include="img\arrow-pointing-left.png" />
+    <Content Include="img\banner\kangaroo-2223329_1920.jpg" />
+    <Content Include="img\service\animal.png" />
     <Content Include="img\banner\about.jpg" />
     <Content Include="img\banner\bradcam3.png" />
     <Content Include="img\banner\contact.png" />
@@ -302,8 +304,13 @@
     <Content Include="img\service\4.png" />
     <Content Include="img\service\5.png" />
     <Content Include="img\service\6.png" />
+    <Content Include="img\service\cuisine.png" />
+    <Content Include="img\service\Festivals.jpg" />
+    <Content Include="img\service\Geography.jpg" />
     <Content Include="img\service\listening.jpg" />
+    <Content Include="img\service\slang.png" />
     <Content Include="img\service\speaking.jpg" />
+    <Content Include="img\service\sport22.jpg" />
     <Content Include="img\service\word.jpg" />
     <Content Include="img\slider_background\sider.jpg" />
     <Content Include="img\slider_background\sider2.jpg" />
@@ -552,6 +559,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Home\Quiz.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
