@@ -76,15 +76,15 @@
     }
 </style>
 @* Load datatable css *@
-<link href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="~/css/jquery.dataTables.min.css" rel="stylesheet" />
 @* This is for the mapbox map. *@
 <link href="~/css/mapbox-gl.css" rel="stylesheet" />
 <link href="~/css/mapbox-gl-directions.css" rel="stylesheet" />
 @* Load datatable and mapbox js *@
 @section Scripts{
-    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
-    <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <script src='~/js/mapbox-gl.js'></script>
+    <script src="~/js/jquery.dataTables.min.js"></script>
+    <script src="~/js/mapbox-gl-directions.js"></script>
     <script>
         $(document).ready(function () {
             var table = $('#myTable').DataTable({
@@ -133,6 +133,7 @@
         );
     </script>
 }
+
 @*<script>
         mapboxgl.accessToken = 'pk.eyJ1IjoieWxpdTAyMDMiLCJhIjoiY2sxc2l3d2N2MDN2dzNibXVwcGNuMnlvNSJ9.OchVPoP-iVNFCF8EbQkajA';
         var map = new mapboxgl.Map({

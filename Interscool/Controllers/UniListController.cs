@@ -19,7 +19,7 @@ namespace Interscool.Controllers
         //GET: UniList
         //Sort list by University name
         //filter by the State of Australia
-        public ActionResult Index(string sortOrder, string present, string state, int? page)
+/*        public ActionResult Index(string sortOrder, string present, string state, int? page)
         {
             ViewBag.currentPage = sortOrder;
             ViewBag.NameSP = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
@@ -74,7 +74,12 @@ namespace Interscool.Controllers
             int pageSize = 10;
             int pageNumber = (page ?? 1);
             return View(uni.ToPagedList(pageNumber, pageSize));
+        }*/
+        public ActionResult Index()
+        {
+            return View();
         }
+
         //Write action for return database data 
         public ActionResult loaddata()
         {
