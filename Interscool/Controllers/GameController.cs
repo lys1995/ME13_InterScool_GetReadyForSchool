@@ -43,5 +43,10 @@ namespace Interscool.Controllers
         {
             return View();
         }
+        // GET: result page
+        public ActionResult result()
+        {
+            return View();
+        }
     }
 }

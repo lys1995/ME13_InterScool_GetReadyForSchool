@@ -24,7 +24,7 @@ namespace Interscool.Controllers
         }
 
         //Get the Visual page view
-        public ActionResult Visual()
+        public ActionResult Facts()
         {
             ViewBag.Message = "Your Visualization page.";
 

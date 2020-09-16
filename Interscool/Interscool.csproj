@@ -156,6 +156,21 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AzureModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AzureModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AzureModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AzureModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AzureModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AzureModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\Uni.cs">
       <DependentUpon>UniList.tt</DependentUpon>
@@ -175,17 +190,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UniList.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\UniSet.cs">
+      <DependentUpon>AzureModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\AzureDatabase.mdf" />
+    <Content Include="App_Data\AzureDatabase_log.ldf">
+      <DependentUpon>AzureDatabase.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\Database.mdf" />
     <Content Include="App_Data\Database_log.ldf">
       <DependentUpon>Database.mdf</DependentUpon>
-    </Content>
-    <Content Include="App_Data\WebAzure.mdf" />
-    <Content Include="App_Data\WebAzure_log.ldf">
-      <DependentUpon>WebAzure.mdf</DependentUpon>
     </Content>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -194,7 +212,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\PagedList.css" />
-    <Content Include="css\jquery.dataTables.min.css" />
     <Content Include="css\login.css" />
     <Content Include="css\mapbox-gl-directions.css" />
     <Content Include="css\mapbox-gl.css" />
@@ -255,8 +272,12 @@
     <Content Include="img\User_Icon\user.png" />
     <Content Include="img\User_Icon\user.svg" />
     <Content Include="js\ajax-form.js" />
+    <Content Include="js\Animals.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\contact.js" />
+    <Content Include="js\Cuisine.js" />
+    <Content Include="js\Festival.js" />
+    <Content Include="js\Geography.js" />
     <Content Include="js\gijgo.min.js" />
     <Content Include="js\imagesloaded.pkgd.min.js" />
     <Content Include="js\index.js" />
@@ -264,7 +285,6 @@
     <Content Include="js\jquery-3.5.1.min.js" />
     <Content Include="js\jquery.ajaxchimp.min.js" />
     <Content Include="js\jquery.counterup.min.js" />
-    <Content Include="js\jquery.dataTables.min.js" />
     <Content Include="js\jquery.form.js" />
     <Content Include="js\jquery.magnific-popup.min.js" />
     <Content Include="js\jquery.scrollUp.min.js" />
@@ -278,12 +298,25 @@
     <Content Include="js\owl.carousel.min.js" />
     <Content Include="js\plugins.js" />
     <Content Include="js\popper.min.js" />
+    <Content Include="js\review.js" />
     <Content Include="js\scrollIt.js" />
+    <Content Include="js\slang.js" />
     <Content Include="js\slick.min.js" />
+    <Content Include="js\sports.js" />
     <Content Include="js\vendor\jquery-1.12.4.min.js" />
     <Content Include="js\vendor\modernizr-3.5.0.min.js" />
     <Content Include="js\waypoints.min.js" />
     <Content Include="js\wow.min.js" />
+    <Content Include="Models\AzureModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AzureModel.edmx</DependentUpon>
+      <LastGenOutput>AzureModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\AzureModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AzureModel.edmx</DependentUpon>
+      <LastGenOutput>AzureModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\UniList.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>UniList.Context.cs</LastGenOutput>
@@ -332,6 +365,13 @@
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />
     <Content Include="Scripts\esm\popper.min.js" />
+    <EntityDeploy Include="Models\AzureModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AzureModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\AzureModel.edmx.diagram">
+      <DependentUpon>AzureModel.edmx</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\iteration2 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />
@@ -453,7 +493,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Visual.cshtml" />
+    <Content Include="Views\Home\Facts.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="scss\style.scss" />
     <Content Include="scss\theme-default.scss" />
@@ -505,6 +545,7 @@
     <Content Include="Views\Game\Festival.cshtml" />
     <Content Include="Views\Game\Geography.cshtml" />
     <Content Include="Views\Game\Cuisine.cshtml" />
+    <Content Include="Views\Game\result.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

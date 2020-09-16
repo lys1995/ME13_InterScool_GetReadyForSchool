@@ -6474,12 +6474,12 @@ h6 {
     }
 /* line 281, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_common.scss */
 .header-btn {
-    padding: 15px 20px !important;
+    padding: 25px 25px !important;
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     /* line 281, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_common.scss */
     .header-btn {
-        padding: 20px 15px !important;
+        padding: 25px 20px !important;
     }
 }

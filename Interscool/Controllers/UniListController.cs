@@ -14,7 +14,7 @@ namespace Interscool.Controllers
     [Authorize]
     public class UniListController : Controller
     {
-        private UniListContainer db = new UniListContainer();
+        private Interscool_dbEntities db = new Interscool_dbEntities();
 
         //GET: UniList
         //Sort list by University name
@@ -83,7 +83,7 @@ namespace Interscool.Controllers
         //Write action for return database data 
         public ActionResult loaddata()
         {
-            var data = db.UniSet.OrderBy(u => u.Id).ToList();
+            var data = db.UniSets.OrderBy(u => u.Id).ToList();
             return Json(new { data }, JsonRequestBehavior.AllowGet);
         }
 
@@ -94,7 +94,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Uni uni = db.UniSet.Find(id);
+            UniSet uni = db.UniSets.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -113,11 +113,11 @@ namespace Interscool.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,State,Type,Address")] Uni uni)
+        public ActionResult Create([Bind(Include = "Id,Name,State,Type,Address")] UniSet uni)
         {
             if (ModelState.IsValid)
             {
-                db.UniSet.Add(uni);
+                db.UniSets.Add(uni);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -132,7 +132,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Uni uni = db.UniSet.Find(id);
+            UniSet uni = db.UniSets.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -145,7 +145,7 @@ namespace Interscool.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,State,Type,Address")] Uni uni)
+        public ActionResult Edit([Bind(Include = "Id,Name,State,Type,Address")] UniSet uni)
         {
             if (ModelState.IsValid)
             {
@@ -163,7 +163,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Uni uni = db.UniSet.Find(id);
+            UniSet uni = db.UniSets.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -176,8 +176,8 @@ namespace Interscool.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Uni uni = db.UniSet.Find(id);
-            db.UniSet.Remove(uni);
+            UniSet uni = db.UniSets.Find(id);
+            db.UniSets.Remove(uni);
             db.SaveChanges();
             return RedirectToAction("Index");
         }
