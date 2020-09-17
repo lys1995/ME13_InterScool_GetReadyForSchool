@@ -33,23 +33,21 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                                            <li><a href="/Home/Facts">Facts & Figures</a></li>
+                                            <li>
+                                                <a>Facts & Figures <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="/Home/UniGraph">Uni Help</a></li>
+                                                    <li><a href="/Home/LearnEnglish">Learn English</a></li>
+                                                </ul>
+                                            </li>
                                             <li><a href="/Home/Quiz">Fun Quizzes</a></li>
                                             @*<li>
-                                            <a href="#">pages <i class="ti-angle-down"></i></a>
-                                            @*<ul class="submenu">
-                                                <li><a href="project.html">project</a></li>
-                                                <li><a href="elements.html">elements</a></li>
-                                                <li><a href="project_details.html">project details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">blog <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
-                                        </li>*@
+                                                <a href="#">blog <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">blog</a></li>
+                                                    <li><a href="single-blog.html">single-blog</a></li>
+                                                </ul>
+                                            </li>*@
                                             <li>@Html.ActionLink("About", "About", "Home")</li>
                                         </ul>
                                     </nav>

@@ -46,5 +46,19 @@ namespace Interscool.Controllers
 
             return View();
         }
+        //Get the student enrolment graph Graph page view
+        public ActionResult UniGraph()
+        {
+            ViewBag.Message = "Your enrolment graph page.";
+
+            return View();
+        }
+        //Get the English proficiency graph page view
+        public ActionResult LearnEnglish()
+        {
+            ViewBag.Message = "Your English proficiency graph page.";
+
+            return View();
+        }
     }
 }

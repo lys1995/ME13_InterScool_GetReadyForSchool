@@ -72,8 +72,8 @@ a:hover,
 /* line 35, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
-  outline: medium none;
+    color: #ea5a2e;
+    outline: medium none;
 }
 
 /* line 40, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/theme-default.scss */
@@ -2207,11 +2207,11 @@ h3 {
 }
 
 /* line 43, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_features.scss */
-/*.features_area .single_feature:hover {
+.features_area .single_feature:hover {
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-}*/
+}
 
 /* line 49, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_features.scss */
 .project_details_banner {

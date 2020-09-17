@@ -546,6 +546,8 @@
     <Content Include="Views\Game\Geography.cshtml" />
     <Content Include="Views\Game\Cuisine.cshtml" />
     <Content Include="Views\Game\result.cshtml" />
+    <Content Include="Views\Home\UniGraph.cshtml" />
+    <Content Include="Views\Home\LearnEnglish.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

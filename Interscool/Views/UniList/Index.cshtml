@@ -10,12 +10,19 @@
 <!-- slider_area_end -->
 <div class="container">
     <div class="text-center">
-        <h3 style="height: 40px;padding-top: 20px;font-weight: bold;">
+@*        <h3 style="height: 40px;padding-top: 20px;font-weight: bold;">
             University List
+        </h3>*@
+        <h3 style="height: 180px;padding-top: 20px;font-weight: bold;">
+            Still struggling with college choices?<br>
+            Don’t know which University to apply to?<br>
+            Don’t worry!!<br>
+            We will introduce some popular public and private universities and education institutions to you.<br>
+            Just choose from the dropdown list, you’ll get the recommended universities.
         </h3>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center justify-content-center">
             <h4 style="padding-top: 10px; padding-right: 20px;">Select one State:</h4>
             <select id="dropdown">
                 <option value="">All</option>
@@ -28,9 +35,15 @@
                 <option value="Australian Capital Territory">Australian Capital Territory</option>
                 <option value="Tasmania">Tasmania</option>
             </select>
+            <h4 style="padding-top: 10px; padding-right: 45px; margin-left: 50px;">Select a Type:</h4>
+            <select id="dropdown1">
+                <option value="">All</option>
+                <option value="Private">Private</option>
+                <option value="Public">Public</option>
+            </select>
         </div>
     </div>
-    <div class="container">
+    @*<div class="container">
         <div class="row">
             <h4 style="padding-top: 10px; padding-right: 45px;">Select a Type:</h4>
             <select id="dropdown1">
@@ -39,7 +52,7 @@
                 <option value="Public">Public</option>
             </select>
         </div>
-    </div>
+    </div>*@
     <div style="width:90%; margin:0 auto;">
         <table id="myTable">
             <thead>
@@ -61,7 +74,7 @@
     </div>
     <div id="map" style="height:500px"></div>
     <p>Go Back:</p>
-    <a href="/Home/Visual">
+    <a href="/Home/UniGraph">
         <img src="~/img/arrow-pointing-left.png" alt="">
     </a>
 </div>

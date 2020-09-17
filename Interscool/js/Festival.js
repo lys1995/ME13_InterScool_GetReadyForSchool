@@ -38,7 +38,7 @@ var json = {
                 },
                 {
                     "type": "radiogroup",
-                    "title": "When does Queensland celebrate Queen¡¯s Birthday?",
+                    "title": "When does Queensland celebrate Queen's Birthday?",
                     "name": "question 2",
                     "choicesOrder": "random",
                     "choices": [
@@ -154,7 +154,7 @@ var json = {
             ]
         }
     ],
-    completedHtml: "<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4><h4>Marks between <b>0-5</b> is belong to <b>Elementary level</b>.</h4><h4>Marks between <b>6-10</b> is belong to <b>intermediate level</b>.</h4>"
+    completedHtml: "<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4><h4>Know more about Australian Festivals.</h4>"
 };
 window.survey = new Survey.Model(json);
 /*survey
@@ -169,16 +169,11 @@ survey
         document
             .querySelector('#buttonMore')
             .style.display = 'inline';
-        document
-            .querySelector('#buttonMore1')
-            .style.display = 'inline';
     });
 
 $("#surveyElement").Survey({ model: survey }).add(function () {
     if (a) {
         document
             .getElementById('buttonMore').style.display = 'none';
-        document
-            .getElementById('buttonMore1').style.display = 'none';
     }
 });
