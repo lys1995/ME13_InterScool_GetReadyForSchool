@@ -37,6 +37,16 @@ var json = {
                     "correctAnswer": "Melbourne Cup"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 1}='Melbourne Cup'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 1}='Anzac Day'or {question 1}='Boxing Day' or {question 1}='Australia Day'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "title": "When does Queensland celebrate Queen's Birthday?",
                     "name": "question 2",
@@ -48,6 +58,16 @@ var json = {
                         "July 4th"
                     ],
                     "correctAnswer": "October 5th"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 2}='October 5th'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 2}='June 8th'or {question 2}='September 28th' or {question 2}='July 4th'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "radiogroup",
@@ -63,6 +83,16 @@ var json = {
                     "correctAnswer": "December 26th"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 3}='December 26th'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 3}='December 24th'or {question 3}='December 25th' or {question 3}='January 1st'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
                     "name": "question 4",
@@ -74,6 +104,16 @@ var json = {
                         "Australia Day"
                     ],
                     "correctAnswer": "Australia Day"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 4}='Australia Day'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 4}='Anzac Day'or {question 4}='Easter' or {question 4}='Good Friday'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "radiogroup",
@@ -88,6 +128,16 @@ var json = {
                     "correctAnswer": "The founding of the founding of the British Swan River Colony in 1829"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 5}='The founding of the founding of the British Swan River Colony in 1829'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 5}='No idea'or {question 5}='Queen's Birthday'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
                     "name": "question 6",
@@ -98,6 +148,16 @@ var json = {
                         "No idea"
                     ],
                     "correctAnswer": "No"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 6}='No'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 6}='Yes'or {question 6}='No idea'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "radiogroup",
@@ -113,6 +173,16 @@ var json = {
                     "correctAnswer": "All of the above"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 7}='All of the above'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 7}='Garma festival'or {question 7}='Yeperenye Dreaming'or {question 7}='Barunga festival'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "choicesOrder": "random",
                     "type": "radiogroup",
                     "name": "question 8",
@@ -124,6 +194,16 @@ var json = {
                         "All of the Above"
                     ],
                     "correctAnswer": "Tasmanian"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 8}='Tasmanian'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 8}='Queenslanders'or {question 8}='Victorians'or {question 8}='All of the Above'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "radiogroup",
@@ -139,6 +219,16 @@ var json = {
                     "correctAnswer": "April 25th"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 9}='April 25th'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 9}='August 1st'or {question 9}='November 11th'or {question 9}='July 10th'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
                     "name": "question 10",
@@ -150,7 +240,17 @@ var json = {
                         "Melbourne Cup",
                         "Canberra Day"
                     ]
-                }
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 10}='Canberra Day'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 10}='Melbourne Cup'or {question 10}='Reconciliation Day'or {question 10}='Anzac Day'",
+                    "html": "<h4>No, think again!</h4>"
+                },
             ]
         }
     ],

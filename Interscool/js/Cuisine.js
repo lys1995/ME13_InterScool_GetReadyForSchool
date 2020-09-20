@@ -41,6 +41,16 @@ var json = {
                     "correctAnswer": "Vegemite"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 1}='Vegemite'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 1}='Pretzels'or {question 1}='Finger lime' or {question 1}='Sausage sanger'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "image",
                     "imageLink": "https://cdn.now.howstuffworks.com/media-content/ce903aed-3bdf-4ef5-a52b-026d31f0bc40-1024-576.jpg"
                 },
@@ -56,6 +66,16 @@ var json = {
                         "Emu"
                     ],
                     "correctAnswer": "Anzac biscuit"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 2}='Anzac biscuit'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 2}='Pavlova'or {question 2}='Sea parsley' or {question 2}='Emu'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "image",
@@ -75,6 +95,16 @@ var json = {
                     "correctAnswer": "Lamington"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 3}='Lamington'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 3}='Macadamia'or {question 3}='Almondray' or {question 3}='Damper'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "image",
                     "imageLink": "https://cdn.now.howstuffworks.com/media-content/06cf249a-d57a-4a7d-8628-d93897fbf6e8-1024-576.jpg"
                 },
@@ -90,6 +120,16 @@ var json = {
                         "Meat pie"
                     ],
                     "correctAnswer": "Meat pie"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 4}='Meat pie'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 4}='Salt and pepper calamari'or {question 4}='Fish 'n' chips' or {question 4}='VoVo'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "image",
@@ -109,6 +149,16 @@ var json = {
                     "correctAnswer": "Neenish tart"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 5}='Neenish tart'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 5}='Sticky rice'or {question 5}='Turkish delight' or {question 5}='Sausage roll'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "image",
                     "imageLink": "https://cdn.now.howstuffworks.com/media-content/ec1e6d27-ba36-440c-a3a3-d32519df43a0-1024-576.jpg"
                 },
@@ -124,6 +174,16 @@ var json = {
                         "Bowen mangoes"
                     ],
                     "correctAnswer": "Bowen mangoes"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 6}='Bowen mangoes'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 6}='Tamarind'or {question 6}='Camachile' or {question 6}='Rose apple'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "image",
@@ -142,6 +202,16 @@ var json = {
                     ],
                     "correctAnswer": "Avocado"
                 },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 7}='Avocado'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 7}='Bamboo shoots'or {question 7}='Calamari' or {question 7}='Taho'",
+                    "html": "<h4>No, think again!</h4>"
+                }
             ]
         }
     ],

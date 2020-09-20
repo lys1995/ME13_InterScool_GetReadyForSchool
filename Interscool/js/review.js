@@ -197,4 +197,4 @@ survey
         header.appendChild(span);
     });
 
-$("#surveyElement").Survey({model: survey});
+$("#slangresult").Survey({model: survey});

@@ -31,10 +31,20 @@ var json = {
                     "choices": [
                         "Cricket",
                         "Football",
-                        "ustralian Football",
+                        "Australian Football",
                         "None"
                     ],
                     "correctAnswer": "None"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 1}='None'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 1}='Cricket'or {question 1}='Football' or {question 1}='Australian Football'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "radiogroup",
@@ -50,6 +60,16 @@ var json = {
                     "correctAnswer": "Australian Football Rules"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 2}='Australian Football Rules'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 2}='Soccer'or {question 2}='Baseball' or {question 2}='Cycling'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
                     "name": "question 3",
@@ -61,6 +81,16 @@ var json = {
                         "Canada"
                     ],
                     "correctAnswer": "England"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 3}='England'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 3}='New Zealand'or {question 3}='Mongolia' or {question 3}='Canada'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "radiogroup",
@@ -76,6 +106,16 @@ var json = {
                     "correctAnswer": "Cricket"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 4}='Cricket'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 4}='Soccer'or {question 4}='Basketball' or {question 4}='Baseball'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "name": "question 5",
                     "title": "If you are in Victoria, you would be getting a public holiday for the \"Melbourne Cup\". Which sport is it associated with?",
@@ -87,6 +127,16 @@ var json = {
                         "Horse Racing"
                     ],
                     "correctAnswer": "Horse Racing"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 5}='Horse Racing'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 5}='Basketball'or {question 5}='Australian Rules Football' or {question 5}='Cricket'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "radiogroup",
@@ -102,6 +152,16 @@ var json = {
                     "correctAnswer": "Called to represent the Australian Cricket team"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 6}='Called to represent the Australian Cricket team'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 6}='Given a green bag'or {question 6}='Received a green card in a sport' or {question 6}='Given the prestigious sport award for contribution to the game'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
                     "name": "question 7",
@@ -113,6 +173,16 @@ var json = {
                         "Australian Rules Football"
                     ],
                     "correctAnswer": "Rugby"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 7}='Rugby'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 7}='Volleyball'or {question 7}='Soccer' or {question 7}='Australian Rules Football'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "choicesOrder": "random",
@@ -128,6 +198,16 @@ var json = {
                     "correctAnswer": "Melbourne"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 8}='Melbourne'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 8}='Sydney'or {question 8}='Adelaide' or {question 8}='Brisbane'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
                     "name": "question 9",
@@ -141,17 +221,37 @@ var json = {
                     "correctAnswer": "Formula 1"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 9}='Formula 1'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 9}='Australian Open'or {question 9}='Olympics' or {question 9}='World Snooker Championships'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
                     "name": "question 10",
                     "title": "Don Bradman is an Australian legend associate with which sport?",
-                    "correctAnswer": "A Toilet",
+                    "correctAnswer": "Cricket",
                     "choices": [
                         "Football",
                         "Basketball",
-                        "Formula1",
+                        "Formula 1",
                         "Cricket"
                     ]
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 10}='Cricket'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 10}='Football'or {question 10}='Basketball' or {question 10}='Formula 1'",
+                    "html": "<h4>No, think again!</h4>"
                 }
             ]
         }

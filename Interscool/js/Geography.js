@@ -37,6 +37,16 @@ var json = {
                     "correctAnswer": "6"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 1}='6'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 1}='7'or {question 1}='8' or {question 1}='5'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "title": "The capital of Australia is",
                     "name": "question 2",
@@ -50,6 +60,16 @@ var json = {
                     "correctAnswer": "Canberra, ACT"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 2}='Canberra, ACT'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 2}='Melbourne, VIC'or {question 2}='Sydney, NSW' or {question 2}='Brisbane, QLD'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
                     "name": "question 3",
@@ -61,6 +81,16 @@ var json = {
                         "Western Australia"
                     ],
                     "correctAnswer": "Western Australia"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 3}='Western Australia'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 3}='Queensland'or {question 3}='Northern Territory' or {question 3}='Victoria'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "image",
@@ -80,6 +110,16 @@ var json = {
                     "correctAnswer": "Uluru / Ayers Rock"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 4}='Uluru / Ayers Rock'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 4}='Mount Baw Baw'or {question 4}='Rock of Divinity' or {question 4}='Mount Kalanguta'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "name": "question 5",
                     "title": "Visible from space, the largest ecosystem in the world is in Australia. What is called?",
@@ -91,6 +131,16 @@ var json = {
                         "The Great Dipper"
                     ],
                     "correctAnswer": "The Great Barrier Reef"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 5}='The Great Barrier Reef'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 5}='The Great Australian Eco System'or {question 5}='The Great Coral Barrier' or {question 5}='The Great Dipper'",
+                    "html": "<h4>No, think again!</h4>"
                 },
                 {
                     "type": "radiogroup",
@@ -106,6 +156,16 @@ var json = {
                     "correctAnswer": "The largest sand island in the world"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 6}='The largest sand island in the world'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 6}='Highest population of Kangaroos'or {question 6}='Southernmost Island in Australia' or {question 6}='Largest population of indeginous groups in the world'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
                     "name": "question 7",
@@ -117,6 +177,16 @@ var json = {
                         "Largest war memorial in the world"
                     ],
                     "correctAnswer": "Largest war memorial in the world"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 7}='Largest war memorial in the world'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 7}='The road with most mountains'or {question 7}='The road with the most amount of Kangaroos' or {question 7}='The longest road in the world'",
+                    "html": "<h4>No, think again!</h4>"
                 }
             ]
         }

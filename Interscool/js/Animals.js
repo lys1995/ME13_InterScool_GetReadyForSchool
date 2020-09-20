@@ -68,7 +68,7 @@ var json = {
                 {
                     "type": "radiogroup",
                     "title": "Koalas nap for around 10 hours every day",
-                    "name": "question 2",
+                    "name": "question 1",
                     "choices": [
                         "True",
                         "False"
@@ -76,9 +76,19 @@ var json = {
                     "correctAnswer": "False"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 1}='False'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 1}='True'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
-                    "name": "question 3",
+                    "name": "question 2",
                     "title": "The female platypus is venomous",
                     "choices": [
                         "True",
@@ -87,9 +97,19 @@ var json = {
                     "correctAnswer": "False"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 2}='False'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 2}='True'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
-                    "name": "question 4",
+                    "name": "question 3",
                     "title": "Tasmanian devils are only found in Tasmania",
                     "choices": [
                         "True",
@@ -98,8 +118,18 @@ var json = {
                     "correctAnswer": "True"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 3}='True'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 3}='False'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
-                    "name": "question 5",
+                    "name": "question 4",
                     "title": "A wombat's poo is shaped like a cube",
                     "choicesOrder": "random",
                     "choices": [
@@ -109,9 +139,19 @@ var json = {
                     "correctAnswer": "True"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 4}='True'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 4}='False'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
-                    "name": "question 6",
+                    "name": "question 5",
                     "title": "Female kangaroos have three vaginas",
                     "choices": [
                         "True",
@@ -120,9 +160,19 @@ var json = {
                     "correctAnswer": "True"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 5}='True'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 5}='False'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
-                    "name": "question 7",
+                    "name": "question 6",
                     "title": "Quokkas are always smiling",
                     "choices": [
                         "True",
@@ -131,9 +181,19 @@ var json = {
                     "correctAnswer": "False"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 6}='False'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 6}='True'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "choicesOrder": "random",
                     "type": "radiogroup",
-                    "name": "question 8",
+                    "name": "question 7",
                     "title": "There's a species of echidna named after Sir David Attenborough",
                     "choices": [
                         "True",
@@ -142,15 +202,35 @@ var json = {
                     "correctAnswer": "True"
                 },
                 {
+                    "type": "html",
+                    "visibleIf": "{question 7}='True'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 7}='False'",
+                    "html": "<h4>No, think again!</h4>"
+                },
+                {
                     "type": "radiogroup",
                     "choicesOrder": "random",
-                    "name": "question 9",
+                    "name": "question 8",
                     "title": "Emus are not related to kiwis",
                     "choices": [
                         "True",
                         "False"
                     ],
                     "correctAnswer": "False"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 8}='False'",
+                    "html": "<h4 style='background-color:aqua'>Yes! Correct!!</h4>"
+                },
+                {
+                    "type": "html",
+                    "visibleIf": "{question 8}='True'",
+                    "html": "<h4>No, think again!</h4>"
                 }
             ]
         }
