@@ -17,7 +17,7 @@ var json = {
                 {
                     "type": "html",
                     "name": "question1",
-                    "html": "You are about to start quiz by Aussie Cuisine. <br/>You have 2 mins for the whole test of 7 questions.<br/>Please click on <b>'Start Quiz'</b> button when you are ready.</br>Quiz design is inspired by TheMe Wagon:https://play.howstuffworks.com"
+                    "html": "You are about to start quiz by Aussie Cuisine. <br/>You have 2 mins for the whole test of 7 questions.<br/>Please click on <b>'Start Quiz'</b> button when you are ready.</br>Quiz design is inspired by howstuffworks:https://play.howstuffworks.com"
                 }
             ]
         },
