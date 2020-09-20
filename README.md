@@ -11,8 +11,7 @@ InterScool is designed by Team TeachnolOZY aimming to help international student
 * [Contact](#contact)
 
 ## Project Details
-English Language Intensive Courses for Overseas Students (ELICOS) are central to Australia’s international education sector. Students come from overseas to study the English language for a variety of reasons. Some need to improve their English for work or career purposes, some have a personal interest in becoming fluent in English, and some intend to travel. Others may want to continue their education in English, either in Australia or elsewhere, and need to develop the necessary language skills to undertake further study.
-We would like to provide assisstance in learning Enlgish and better adapting life in Australia for ELICOS students.
+With Interscool, we aim to fill the gap in the adaptability and English language issues that are faced by the ELICOS students who come to Australia by providing them a platform to self-examine, learn and improve their English skills and the knowledge of the Australian culture, all under one roof. Being non-native English speakers ourselves, we aim to use our own experience to help ELICOS students integrate themselves into life in Australia. Our mission is to create a memorable user experience that can be fun as well as informative to improve their literacy of the global language, with a local flavor.
 
 ## Technologies
 * IDE - Visual Studio community 2019 
@@ -30,25 +29,35 @@ Build and start the application via clicking the `IIS Express` in the `Visual St
 ## Features
 InterScool has awesome features:
 * Interactive graphs that users can visualize, share, and download
+* Fun Quizzes to learn more about Australia Culture
+* Self-examined test to know your own English proficiency level
 * Interesting and Engaging games to improve English skills
 * Relevent information and suggestions about English Learning and Living in Australia
 
 To-do list:
-* Main navigation bar naming of each tabs
-* Renaming the headings of interactive graphs
-* Design the English games
+* Improvements
+  * Uni List page 
+    * The whole page moves under "Facts & Figure" tab
+    * Remove "Go back" button under Uni Map
+    * Make Uni addresses clickable and automatically showing on Map
+  * Consider user journey
+* Starting Iteration 3
+  * Consider Unique Proposition (Selling points)
+  * Design interactive English Games
+  * Countinue working on the flows
 
 ## Status
 | Schedule | Status |
 |----------|--------|
 | Proposal | Finished |
 | Iteration 1 | Finished |
-| Iteration 2 | in Progress |
-| Iteration 3 |             |
+| Iteration 2 | Finished |
+| Iteration 3 | Started |
 | Final Integrate |             |
 
 ## Inspiration
-UI design is inspired by TheMe Wagon:https://themewagon.com/
+UI design is inspired by TheMe Wagon:https://themewagon.com/          
+Quiz questions are inspired by howstuffworks:https://play.howstuffworks.com
 
 ## Contact
 Created by Team TechnolOZY-ME13 
