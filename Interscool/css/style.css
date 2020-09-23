@@ -6483,3 +6483,13 @@ h6 {
         padding: 25px 20px !important;
     }
 }
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.ftco-animate {
+    opacity: 0;
+    visibility: hidden;
+}
