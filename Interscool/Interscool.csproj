@@ -266,8 +266,9 @@
     <Content Include="img\service\speaking.jpg" />
     <Content Include="img\service\sport22.jpg" />
     <Content Include="img\service\word.jpg" />
+    <Content Include="img\slider_background\pexels.jpg" />
     <Content Include="img\slider_background\sider.jpg" />
-    <Content Include="img\slider_background\sider2.jpg" />
+    <Content Include="img\slider_background\sider1.jpg" />
     <Content Include="img\slider_background\sider3.jpg" />
     <Content Include="img\User_Icon\user.png" />
     <Content Include="img\User_Icon\user.svg" />

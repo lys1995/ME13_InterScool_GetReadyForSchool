@@ -1543,12 +1543,14 @@ h3 {
 
 /* line 4, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/slider_background/sider2.jpg);
+  background-image: url(../img/slider_background/sider1.jpg);
 }
 .slider_bg_3 {
     background-image: url(../img/slider_background/sider3.jpg);
 }
-
+.slider_bg_4 {
+    background-image: url(../img/slider_background/pexels.jpg);
+}
 /* line 7, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
 .slider_area {
   position: relative;
