@@ -8,43 +8,34 @@ namespace Interscool.Controllers
 {
     public class GameController : Controller
     {
-        // GET: Slang page
-        public ActionResult Slang()
+        // GET: Fast Vocabulary Game View
+        public ActionResult FastVocab()
         {
             return View();
         }
 
-        // GET: Animals page
-        public ActionResult Animals()
+        //GET: Comparatives Game View
+        public ActionResult Compare()
         {
             return View();
         }
-
-        // GET: Cuisine page
-        public ActionResult Cuisine()
+        //GET: Past Tense Game View()
+        public ActionResult PastTense()
         {
             return View();
         }
-
-        // GET: Geography page
-        public ActionResult Geography()
+        //GET: Future Tense View
+        public ActionResult FutureTense()
         {
             return View();
         }
-
-        // GET: Sports page
-        public ActionResult Sports()
+        //GET: Job Games View
+        public ActionResult Job()
         {
             return View();
         }
-
-        // GET: Festival page
-        public ActionResult Festival()
-        {
-            return View();
-        }
-        // GET: result page
-        public ActionResult result()
+        //GET: Food Game View
+        public ActionResult Food()
         {
             return View();
         }

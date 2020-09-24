@@ -150,6 +150,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CulturalQuizController.cs" />
     <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UniListController.cs" />
@@ -243,6 +244,10 @@
     <Content Include="img\about\graph.png" />
     <Content Include="img\arrow-pointing-left.png" />
     <Content Include="img\banner\kangaroo-2223329_1920.jpg" />
+    <Content Include="img\game\blackboard.jpg" />
+    <Content Include="img\game\English Learning-1.jpg" />
+    <Content Include="img\game\English Learning.jpg" />
+    <Content Include="img\game\fast vocabulary.jpg" />
     <Content Include="img\service\animal.png" />
     <Content Include="img\banner\about.jpg" />
     <Content Include="img\banner\bradcam3.png" />
@@ -269,6 +274,7 @@
     <Content Include="img\slider_background\sider.jpg" />
     <Content Include="img\slider_background\sider2.jpg" />
     <Content Include="img\slider_background\sider3.jpg" />
+    <Content Include="img\slider_background\sider4.jpg" />
     <Content Include="img\User_Icon\user.png" />
     <Content Include="img\User_Icon\user.svg" />
     <Content Include="js\ajax-form.js" />
@@ -539,15 +545,22 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\Quiz.cshtml" />
-    <Content Include="Views\Game\Slang.cshtml" />
-    <Content Include="Views\Game\Sports.cshtml" />
-    <Content Include="Views\Game\Animals.cshtml" />
-    <Content Include="Views\Game\Festival.cshtml" />
-    <Content Include="Views\Game\Geography.cshtml" />
-    <Content Include="Views\Game\Cuisine.cshtml" />
-    <Content Include="Views\Game\result.cshtml" />
+    <Content Include="Views\CulturalQuiz\Slang.cshtml" />
+    <Content Include="Views\CulturalQuiz\Sports.cshtml" />
+    <Content Include="Views\CulturalQuiz\Animals.cshtml" />
+    <Content Include="Views\CulturalQuiz\Festival.cshtml" />
+    <Content Include="Views\CulturalQuiz\Geography.cshtml" />
+    <Content Include="Views\CulturalQuiz\Cuisine.cshtml" />
+    <Content Include="Views\CulturalQuiz\Result.cshtml" />
     <Content Include="Views\Home\UniGraph.cshtml" />
     <Content Include="Views\Home\LearnEnglish.cshtml" />
+    <Content Include="Views\Home\EnglishGame.cshtml" />
+    <Content Include="Views\Game\FastVocab.cshtml" />
+    <Content Include="Views\Game\Compare.cshtml" />
+    <Content Include="Views\Game\PastTense.cshtml" />
+    <Content Include="Views\Game\FutureTense.cshtml" />
+    <Content Include="Views\Game\Job.cshtml" />
+    <Content Include="Views\Game\Food.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
