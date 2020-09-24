@@ -1543,14 +1543,15 @@ h3 {
 
 /* line 4, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/slider_background/sider1.jpg);
+  background-image: url(../img/slider_background/sider2.jpg);
 }
 .slider_bg_3 {
     background-image: url(../img/slider_background/sider3.jpg);
 }
-.slider_bg_4 {
-    background-image: url(../img/slider_background/pexels.jpg);
+.slier_bg_4 {
+    background-image: url('../img/slider_background/sider4.jpg');
 }
+
 /* line 7, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
 .slider_area {
   position: relative;
@@ -2512,6 +2513,12 @@ h3 {
 /* line 10, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
 .bradcam_bg_4 {
     background-image: url(../img/slider_background/sider.jpg);
+}
+.bradcam_bg_5 {
+    background-image: url('../img/slider_background/sider4.jpg');
+}
+.bradcam_bg_6 {
+    background-image: url('../img/game/fast vocabulary.jpg');
 }
 
 /* line 13, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */

@@ -60,5 +60,11 @@ namespace Interscool.Controllers
 
             return View();
         }
+        //Get the English Game page view
+        public ActionResult EnglishGame()
+        {
+            ViewBag.Message = "Your English Game page";
+            return View();
+        }
     }
 }
