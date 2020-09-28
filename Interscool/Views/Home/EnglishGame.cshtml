@@ -13,31 +13,31 @@
 <body>
     <div id="main-div">
         <div class="game-front-page">
-            <a class="game-front-pane" id="fastVocab" href="~/Game/FastVocab">
+            <a class="game-front-pane" id="food" href="~/Game/Food">
                 <div class="game-top-title"></div>
                 <div class="game-thumb"></div>
-                <p class="front-page-description">Click and drap the images to match the words</p>
+                <p class="front-page-description">Listen and click on the correct food images.</p>
             </a>
-            <a class="game-front-pane" id="compare" href="~/Game/Compare">
+            <a class="game-front-pane" id="jobGame" href="~/Game/Job">
                 <div class="game-top-title"></div>
                 <div class="game-thumb"></div>
-                <p class="front-page-description">Click on the words to complete the phrases</p>
+                <p class="front-page-description">Guess the job and practice job language.</p>
             </a>
         </div>
         <br />
         <div class="game-front-page">
-            <a class="game-front-pane" id="pastTense" href="~/Game/PastTense">
+            <a class="game-front-pane" id="fastPhrases" href="~/Game/FastPhrases">
                 <div class="game-top-title"></div>
                 <div class="game-thumb"></div>
-                <p class="front-page-description">Practice making sentences in past tense</p>
+                <p class="front-page-description">Describe the images by making sentences.</p>
             </a>
-            <a class="game-front-pane" id="futureTense" href="~/Game/FutureTense">
+            <a class="game-front-pane" id="weather" href="~/Game/Weather">
                 <div class="game-top-title"></div>
                 <div class="game-thumb"></div>
-                <p class="front-page-description">Practice making sentences in future tense</p>
+                <p class="front-page-description">Guess the job and practice job language.</p>
             </a>
         </div>
-        <br />
+        @* <br />
         <div class="game-front-page">
             <a class="game-front-pane" id="jobGame" href="~/Game/Job">
                 <div class="game-top-title"></div>
@@ -49,16 +49,16 @@
                 <div class="game-thumb"></div>
                 <p class="front-page-description">Listen and click on the correct images</p>
             </a>
-        </div>
+        </div>*@
     </div>
 </body>
 <style>
     #main-div {
-        border-color: #EFEBE9;
-        border-width: 8px;
+        border-color: #F6DDCC;
+        border-width: 2px;
         border-style: solid;
-        border-radius: 3.5em;
-        box-shadow: 0 0 16px 2px #424242;
+        border-radius: 1.5em;
+        box-shadow: 0 0 16px 2px #EDBB99;
         z-index: 99;
         background-image: url('../../img/game/English Learning.jpg');
         background-repeat: no-repeat;
@@ -66,19 +66,16 @@
         background-position: center center;
         background-size: cover;
         position: relative;
-        margin: 12px auto -30px auto;
+        margin-left:auto;
+        margin-right:auto;
         text-align: center;
         display: block;
         line-height: 1.15;
     }
-
+      
     .a:-webkit-any {
         color: -webkit-link;
         cursor: pointer;
-    }
-
-    .game-front-page {
-        display: block;
     }
 
     .game-front-pane:link {
@@ -89,84 +86,74 @@
         outline-style: none;
         outline-width: initial;
     }
-
     .game-front-pane {
-        background-image: url('../../img/game/blackboard.jpg');
+        background-image: url('../../img/game/woodback.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center center;
         background-size: cover;
-        border-color: #EFEBE9;
-        border-width: 14px;
+        border-color: #F6DDCC;
+        border-width: 8px;
         border-style: solid;
-        box-shadow: 0 0 2px 2px #BDC3C7,inset 0 0 2px #D7DBDD;
-        border-radius: 3em;
-        margin: 20px 2% 20px 2%;
+        box-shadow: 0 0 2px 2px #EDBB99,inset 0 0 2px #D7DBDD;
+        border-radius: 3.5em;
+        margin: 20px 2% 40px 2%;
         vertical-align: top;
         display: inline-block;
     }
 
-    #fastVocab .game-top-title {
-        background-position: -800px 0px;
+    #fastPhrases .game-top-title {
+        background-image: url('../../img/game/Fast Phrases.png');
+        background-size:contain;
     }
 
-    #compare .game-top-title {
-        background-position: -200px 0;
-    }
-
-    #pastTense .game-top-title {
-        background-position: 0 -67px;
-    }
-
-    #futureTense .game-top-title {
-        background-position: -800px -67px;
+    #weather .game-top-title {
+        background-image: url('../../img/game/Weather.png');
+        background-size: contain;
+        width:190px;
     }
 
     #jobGame .game-top-title {
-        background-position: -1000px 0;
+        background-image: url('../../img/game/Job.png');
+        background-size: contain;
     }
 
     #food .game-top-title {
-        background-position: -1000px -67px;
+        background-image: url('../../img/game/Food.png');
+        background-size: contain;
     }
 
     .game-top-title {
-        background: url(https://www.gamestolearnenglish.com/ims/titlesTop.1.7.png);
         width: 200px;
         height: 67px;
         margin: 16px auto 6px auto;
         display: block;
     }
 
-    #fastVocab .game-thumb {
-        background-position: -600px 0px;
+    #fastPhrases .game-thumb {
+        background-image: url('../../img/game/FastPhrases-thumb.png');
+        background-size: contain;
     }
 
-    #compare .game-thumb {
-        background-position: -150px 0;
-    }
-
-    #pastTense .game-thumb {
-        background-position: 0 -150px;
-    }
-
-    #futureTense .game-thumb {
-        background-position: -600px -150px;
+    #weather .game-thumb {
+        background-image: url('../../img/game/Weather-thumb.png');
+        background-size: contain;
     }
 
     #jobGame .game-thumb {
-        background-position: -750px 0;
+        background-image: url('../../img/game/Job-thumb.png');
+        background-size: contain;
     }
 
     #food .game-thumb {
-        background-position: -750px -150px;
+        background-image: url('../../img/game/Food-thumb.png');
+        background-size: contain;
     }
 
     .game-thumb {
-        background: url(https://www.gamestolearnenglish.com/ims/thumbsTop.1.5.png);
         width: 150px;
         height: 150px;
-        border: 3px solid #EFEBE9;
+        border: 1px solid #F6DDCC;
         display: inline-block;
         vertical-align: top;
         margin: 10px 8px 18px 8px;
