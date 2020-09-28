@@ -16,20 +16,55 @@
     .sv-btn {
         font-size: 1.5em;
     }
-    .sv-btn.sv-footer__start-btn{
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .sv-btn.sv-footer__complete-btn {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
+        .sv-btn.sv-footer__start-btn {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 22px;
+        }
+        .sv-btn.sv-footer__next-btn {
+            padding-top: 0px;
+            padding-bottom: 3px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size:21px;
+        }
+        .sv-btn.sv-footer__complete-btn {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 22px;
+        }
+        .sv-btn.sv-footer__prev-btn {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 22px;
+        }
+        .sv-btn.sv-footer__preview-btn {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 21px;
+        }
+        .sv-btn.sv-footer__edit-btn {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 22px;
+        }
     .sv-row.sv-clearfix {
         padding-bottom: 10px;
+    }
+    span {
+        font-size: 20px;
+        color: black;
+        font-family: sans-serif;
     }
 </style>
 <div class="bradcam_area bradcam_bg_1">
@@ -54,12 +89,12 @@
                     <input id="buttonMore" type="button" onclick="window.location='Test'" value="Try again" class="sv-btn sv-footer__start-btn"/>
                 </div>
                 <div style=" text-align: center">
-                    <input id="buttonMore1" type="button" onclick="window.location='/Game/result'" value="Correct Answer" class="sv-btn sv-footer__start-btn" style="margin-top: 15px;"/>
+                    <input id="buttonMore1" type="button" onclick="window.location='/CulturalQuiz/Result'" value="Correct Answer" class="sv-btn sv-footer__start-btn" style="margin-top: 15px;"/>
                 </div>
                     <div class="border_1px">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div style=" text-align: center">
+                            <div style=" text-align: center;">
                                 <input type="button" onclick="window.location.href='LearnEnglish'" value="Exit Test" class="sv-btn sv-footer__start-btn"/>
                             </div>
                         </div>
@@ -69,4 +104,4 @@
             </div>
     </div>
 </div>
-<script type="text/javascript" src="~/js/index.js"></script>
+<script type="text/javascript" src="~/js/index.js" ></script>

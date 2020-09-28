@@ -1543,13 +1543,14 @@ h3 {
 
 /* line 4, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/slider_background/sider2.jpg);
+  background-image: url(../img/slider_background/sider1.jpg);
 }
 .slider_bg_3 {
     background-image: url(../img/slider_background/sider3.jpg);
 }
-.slier_bg_4 {
-    background-image: url('../img/slider_background/sider4.jpg');
+
+.slider_bg_4 {
+    background-image: url('../img/slider_background/pexels.jpg');
 }
 
 /* line 7, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
@@ -2507,7 +2508,7 @@ h3 {
 
 /* line 7, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
 .bradcam_bg_3 {
-  background-image: url(../img/banner/kangaroo-2223329_1920.jpg);
+    background-image: url(../img/banner/kangaroo.jpg);
 }
 
 /* line 10, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
@@ -2519,6 +2520,9 @@ h3 {
 }
 .bradcam_bg_6 {
     background-image: url('../img/game/fast vocabulary.jpg');
+}
+.bradcam_bg_7 {
+    background-image: url(../img/banner/melbourne.jpg);
 }
 
 /* line 13, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */

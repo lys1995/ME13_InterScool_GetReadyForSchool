@@ -65,71 +65,19 @@ var json = {
                     "type": "radiogroup",
                     "choicesOrder": "random",
                     "name": "question 4",
-                    "title": "Match Below two halves of these sentences",
+                    "title": "_______ to be much chance of our catching him up in the near future.",
                     "choices": [
-                        "Some people will never forget the war. My mother has never forgot my birthday. This week I have forgotten where I live twice. Last week my wife forgotten my birthday.",
-                        "Some people will never forget the war. My mother has never forgotten my birthday. This week I have forgotten where I live twice. Last week my wife forgot my birthday.",
-                        "Some people will never forgotten where I live twice.; My mother has never forget the war; This week I have Last week my wife. Last week my wife forgotten my birthday.",
-                        "Some people will never forgot my birthday. My mother has never forgotten where I live twice. This week I have forget the war. Last week my wife forgotten my birthday."
+                        "You don't seem",
+                        "There doesn't seem",
+                        "That doesn't seem",
+                        "It doesn't see"
                     ],
-                    "correctAnswer": "Some people will never forget the war. My mother has never forgotten my birthday. This week I have forgotten where I live twice. Last week my wife forgot my birthday."
+                    "correctAnswer": "There doesn't seem"
                 },
                 {
                     "type": "radiogroup",
+                    "choicesOrder": "random",
                     "name": "question 5",
-                    "title": "Match Below two halves of these sentences",
-                    "choicesOrder": "random",
-                    "choices": [
-                        "The black one is as nice as the blue one. The black on isn't as nice as the blue one. The blue one is nicer than the black one. I think the blue one is the nicest of the two shirts.",
-                        "The black one is nicer than the black one.; The black on isn't as nice as the blue one. The blue one is the nicest of the two shirts.; I think the blue one nice as the blue one.",
-                        "The black one is is the nicest of the two shirts. The black on isn't as nice as the blue one. The blue one is nicer than the black one.; I think the blue one nice as the blue one.",
-                        "The black one is nicer than the black one.; The black on isn't as 8; The blue one is nice as the blue one. I think the blue one as nice as the blue one"
-                    ],
-                    "correctAnswer": "The black one is as nice as the blue one. The black on isn't as nice as the blue one. The blue one is nicer than the black one. I think the blue one is the nicest of the two shirts."
-                },
-                {
-                    "type": "radiogroup",
-                    "choicesOrder": "random",
-                    "name": "question 6",
-                    "title": "Match Below two halves of these sentences",
-                    "choices": [
-                        "Different cultures are regional and national. Some cultures customs are ancient. Their culture have different customs. All cultures seems strange to me.",
-                        "Different cultures have different customs. Some cultures are regional and national. Their culture seems strange to me. All cultures customs are ancient.",
-                        "Different cultures seems strange to me. Some cultures are regional and national. Their culture have different customs. All cultures customs are ancient.",
-                        "Different cultures have different customs. Some cultures customs are ancient. Their culture seems strange to me. All cultures are regional and national."
-                    ],
-                    "correctAnswer": "Different cultures have different customs. Some cultures customs are ancient. Their culture seems strange to me. All cultures are regional and national."
-                },
-                {
-                    "type": "radiogroup",
-                    "choicesOrder": "random",
-                    "name": "question 7",
-                    "title": "Arrange below these lines into a logical order",
-                    "choices": [
-                        "Is why we offer our service totally free of charge, with no additional fees as fellow travelers and language lovers, we know how important it is that your trip fits your budget, which",
-                        "How important it is that your trip fits your budget, which as fellow travelers and language lovers, we know is why we offer our service totally free of charge, with no additional fees",
-                        "As fellow travelers and language lovers, we know how important it is that your trip fits your budget, which is why we offer our service totally free of charge, with no additional fees",
-                        "Charge, with no additional fees is why we offer our service totally free of as fellow travelers and language lovers, we know how important it is that your trip fits your budget, which"
-                    ],
-                    "correctAnswer": "As fellow travelers and language lovers, we know how important it is that your trip fits your budget, which is why we offer our service totally free of charge, with no additional fees"
-                },
-                {
-                    "choicesOrder": "random",
-                    "type": "radiogroup",
-                    "name": "question 8",
-                    "title": "Arrange below these lines into a logical order",
-                    "choices": [
-                        "Are place with a homestay whose tastes a vegetarian, the host family will also be vegetarian when we match you with a homestay we will match your preferences so that you-Match your own - for example, if you are",
-                        "A vegetarian, the host family will also be vegetarian-Match your own - for example, if you are will match your preferences so that you when we match you with a homestay we are place with a homestay whose tastes",
-                        "Match your own - for example, if you are when we match you with a homestay we a vegetarian, the host family will also be vegetarian will match your preferences so that you are place with a homestay whose tastes",
-                        "When we match you with a homestay we will match your preferences so that you are place with a homestay whose tastes match your own - for example, if you are a vegetarian, the host family will also be vegetarian"
-                    ],
-                    "correctAnswer": "When we match you with a homestay we will match your preferences so that you are place with a homestay whose tastes match your own - for example, if you are a vegetarian, the host family will also be vegetarian"
-                },
-                {
-                    "type": "radiogroup",
-                    "choicesOrder": "random",
-                    "name": "question 9",
                     "title": "It can be great fun ___ in a city, ____ if you like shopping and eating _____  in restaurants.",
                     "choices": [
                         "living; especially;out",
@@ -142,7 +90,7 @@ var json = {
                 {
                     "type": "radiogroup",
                     "choicesOrder": "random",
-                    "name": "question 10",
+                    "name": "question 6",
                     "title": "English _____ the most important language _____the world because more and more people use English to communicate. Furthermore, there are less and less people who are unable to use English at _____. Scientific research has proven that learning English in context makes _____connection.",
                     "correctAnswer": "has become; in; all; logical",
                     "choices": [
@@ -154,7 +102,7 @@ var json = {
                 },
                 {
                     "type": "radiogroup",
-                    "name": "question 11",
+                    "name": "question 7",
                     "title": "Does \"Break up\" mean ending a relationship?",
                     "correctAnswer": "True",
                     "choices": [
@@ -164,7 +112,7 @@ var json = {
                 },
                 {
                     "type": "radiogroup",
-                    "name": "question 12",
+                    "name": "question 8",
                     "title": "Does \"Break out\" mean wearing something several times?",
                     "correctAnswer": "False",
                     "choices": [
@@ -174,7 +122,7 @@ var json = {
                 },
                 {
                     "type": "radiogroup",
-                    "name": "question 13",
+                    "name": "question 9",
                     "title": "Does \"Break into\" mean losing self-control?",
                     "correctAnswer": "False",
                     "choices": [
@@ -184,7 +132,7 @@ var json = {
                 },
                 {
                     "type": "radiogroup",
-                    "name": "question 14",
+                    "name": "question 10",
                     "title": "Does \"Break in\" mean entering forcibly?",
                     "correctAnswer": "False",
                     "choices": [
@@ -203,17 +151,13 @@ survey.data = {
     "question 1": "through; under",
     "question 2": "earn; spend",
     "question 3": "reply; to ; in ; about",
-    "question 4": "Some people will never forget the war. My mother has never forgotten my birthday. This week I have forgotten where I live twice. Last week my wife forgot my birthday.",
-    "question 5": "The black one is as nice as the blue one. The black on isn't as nice as the blue one. The blue one is nicer than the black one. I think the blue one is the nicest of the two shirts.",
-    "question 6": "Different cultures have different customs. Some cultures customs are ancient. Their culture seems strange to me. All cultures are regional and national.",
-    "question 7": "As fellow travelers and language lovers, we know how important it is that your trip fits your budget, which is why we offer our service totally free of charge, with no additional fees",
-    "question 8": "When we match you with a homestay we will match your preferences so that you are place with a homestay whose tastes match your own - for example, if you are a vegetarian, the host family will also be vegetarian",
-    "question 9": "living; especially;out",
-    "question 10": "has become; in; all; logical",
-    "question 11": "True",
-    "question 12": "False",
-    "question 13": "False",
-    "question 14": "False"
+    "question 4": "When we match you with a homestay we will match your preferences so that you are place with a homestay whose tastes match your own - for example, if you are a vegetarian, the host family will also be vegetarian",
+    "question 5": "living; especially;out",
+    "question 6": "has become; in; all; logical",
+    "question 7": "True",
+    "question 8": "False",
+    "question 9": "False",
+    "question 10": "False"
 };
 survey.mode = "display";
 survey.questionsOnPageMode = "singlePage";

@@ -7891,8 +7891,8 @@ var store = storeWithMiddleware(_reducers2.default);
  * @param {Boolean} [options.controls.profileSwitcher=true] Hide or display the default profile switch with options for traffic, driving, walking and cycling.
  * @param {Number} [options.zoom=16] If no bbox exists from the geocoder result, the zoom you set here will be used in the flyTo.
  * @param {String} [options.language="en"] The language of returned turn-by-turn text instructions. See supported languages : https://docs.mapbox.com/api/navigation/#instructions-languages
- * @param {String} [options.placeholderOrigin="Choose a starting place"] If set, this text will appear as the placeholder attribute for the origin input element.
- * @param {String} [options.placeholderDestination="Choose destination"] If set, this text will appear as the placeholder attribute for the destination input element.
+ * @param {String} [options.placeholderOrigin="The starting position"] If set, this text will appear as the placeholder attribute for the origin input element.
+ * @param {String} [options.placeholderDestination="University Location"] If set, this text will appear as the placeholder attribute for the destination input element.
  * @param {Boolean} [options.flyTo=true] If false, animating the map to a selected result is disabled.
  * @param {String} [options.exclude=null] Exclude certain road types from routing. The default is to not exclude anything. Search for `exclude` in `optional parameters`: https://docs.mapbox.com/api/navigation/#retrieve-directions
  * @param {number | PaddingOptions} [options.routePadding=80] Specify padding surrounding route. A single number of pixels or a [PaddingOptions](https://docs.mapbox.com/mapbox-gl-js/api/#paddingoptions) object.
@@ -8652,8 +8652,8 @@ var initialState = {
   congestion: false,
   unit: 'imperial',
   flyTo: true,
-  placeholderOrigin: 'Choose a starting place',
-  placeholderDestination: 'Choose destination',
+    placeholderOrigin: 'The starting position',
+  placeholderDestination: 'University Location',
   zoom: 16,
   language: 'en',
   compile: null,
