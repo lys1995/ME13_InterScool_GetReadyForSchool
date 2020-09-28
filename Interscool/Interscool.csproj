@@ -242,6 +242,9 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="img\about\graph.png" />
+    <Content Include="img\about\learning.jpg" />
+    <Content Include="img\about\never stop learning.jpg" />
+    <Content Include="img\about\Team Logo1.png" />
     <Content Include="img\arrow-pointing-left.png" />
     <Content Include="img\banner\kangaroo.jpg" />
     <Content Include="img\banner\melbourne.jpg" />
