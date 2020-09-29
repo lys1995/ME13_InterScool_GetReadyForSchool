@@ -2521,12 +2521,15 @@ h3 {
 .bradcam_bg_6 {
     background-image: url('../img/game/FoodGameHeader.jpg');
 }
+
 .bradcam_bg_7 {
     background-image: url('../img/game/JobGameHeader.jpg');
 }
+
 .bradcam_bg_8 {
     background-image: url('../img/game/WeatherGameHeader.jpg');
 }
+
 /* line 13, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;

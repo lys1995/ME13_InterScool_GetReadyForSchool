@@ -571,10 +571,10 @@
     <Content Include="Views\Home\UniGraph.cshtml" />
     <Content Include="Views\Home\LearnEnglish.cshtml" />
     <Content Include="Views\Home\EnglishGame.cshtml" />
-    <Content Include="Views\Game\FastPhrases.cshtml" />
-    <Content Include="Views\Game\Weather.cshtml" />
     <Content Include="Views\Game\Job.cshtml" />
     <Content Include="Views\Game\Food.cshtml" />
+    <Content Include="Views\Game\FastPhrases.cshtml" />
+    <Content Include="Views\Game\Weather.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

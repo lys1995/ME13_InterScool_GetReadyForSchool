@@ -8,7 +8,7 @@ namespace Interscool.Controllers
 {
     public class GameController : Controller
     {
-        // GET: Speaking Easy Game View
+        // GET: Fast Phrases Game View
         public ActionResult FastPhrases()
         {
             return View();
