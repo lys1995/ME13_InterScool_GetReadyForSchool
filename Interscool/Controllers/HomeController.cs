@@ -66,5 +66,12 @@ namespace Interscool.Controllers
             ViewBag.Message = "Your English Game page";
             return View();
         }
+
+        //Get the English Resource page view
+        public ActionResult Resource()
+        {
+            ViewBag.Message = "Your English Resource page";
+            return View();
+        }
     }
 }

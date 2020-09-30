@@ -564,6 +564,7 @@
     <Content Include="Views\Game\FutureTense.cshtml" />
     <Content Include="Views\Game\Job.cshtml" />
     <Content Include="Views\Game\Food.cshtml" />
+    <Content Include="Views\Home\Resource.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
