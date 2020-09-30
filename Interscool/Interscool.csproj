@@ -257,6 +257,7 @@
     <Content Include="img\game\Food.png" />
     <Content Include="img\game\FoodGameBack.jpg" />
     <Content Include="img\game\FoodGameHeader.jpg" />
+    <Content Include="img\game\FoodGameHeader1.jpg" />
     <Content Include="img\game\Job-thumb.png" />
     <Content Include="img\game\Job.png" />
     <Content Include="img\game\JobGameBack.jpg" />
