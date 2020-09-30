@@ -2519,10 +2519,15 @@ h3 {
     background-image: url('../img/slider_background/sider4.jpg');
 }
 .bradcam_bg_6 {
-    background-image: url('../img/game/fast vocabulary.jpg');
+    background-image: url('../img/game/FoodGameHeader.jpg');
 }
+
 .bradcam_bg_7 {
-    background-image: url(../img/banner/melbourne.jpg);
+    background-image: url('../img/game/JobGameHeader.jpg');
+}
+
+.bradcam_bg_8 {
+    background-image: url('../img/game/WeatherGameHeader.jpg');
 }
 
 /* line 13, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_bradcam.scss */

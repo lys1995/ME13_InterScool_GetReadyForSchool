@@ -1,7 +1,105 @@
-﻿
-@{
-    ViewBag.Title = "Food";
-}
-
-<h2>Food</h2>
-
+﻿<!-- bradcam_area  -->
+<div class="bradcam_area bradcam_bg_6">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="bradcam_text text-center">
+                    <h3 style="margin-top: 100px;">Food</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-div">
+    <div class="describe">
+        <div class="describe-pane" id="description">
+            <p style="text-align:center; color:antiquewhite; font-weight:bold; font-size:20px; margin:10px auto; padding:20px 50px;">
+                Fast Phrases Game
+                <br />
+                is designed for
+                <br />
+                learning ESL food vocabulary.
+            </p>
+            <p class="contents">
+                Practicing English food words, food quantifiers and simple food request phrases.
+                <br />
+                Hope these phrases and vocabulary can help you in food related situation.
+            </p>
+        </div>
+        <div class="describe-pane" id="description">
+            <p style="text-align:center; color:antiquewhite; font-weight:bold; font-size:20px; margin:10px auto; padding:20px 130px;">
+                How to Play
+            </p>
+            <p class="contents">
+                Three difficulty level: Easy, Medium, Hard.You can click on one to start the game.
+                <br />
+                Click on "View" to select different categories from:
+                <br />
+                Snacks, Fruits, Meat, Drinks, Meals, Bread, Vegetables, Groceries and Stores.
+            </p>
+        </div>
+    </div>
+    <div class="my-game">
+        <div class="containerDiv">
+            <iframe src="https://www.gamestolearnenglish.com/food/embed.html" scrolling="no"></iframe>
+        </div>
+    </div>
+</div>
+<style>
+    .main-div {
+      @*  border-color: #F6DDCC;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 1.5em;*@
+        box-shadow: 0 0 16px 2px #EDBB99;
+        z-index: 99;
+        background-image: url('../../img/game/FoodGameBack.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: block;
+        line-height: 1.15;
+    }
+    .describe {
+        text-align: center;
+        vertical-align: top;
+    }
+    .describe-pane {
+        background-image: url('../../img/game/woodback.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        border-color: #F6DDCC;
+        border-width: 8px;
+        border-style: solid;
+        box-shadow: 0 0 2px 2px #EDBB99,inset 0 0 2px #D7DBDD;
+        border-radius: 3.5em;
+        margin: 20px 2% 20px 2%;
+        vertical-align: top;
+        display: inline-flex;
+    }
+  .contents{
+        text-align: justify;
+        color: wheat;
+        margin: 10px auto;
+        padding: 20px 50px 20px 50px;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .containerDiv {
+        text-align: center;
+    }
+    iframe {
+        max-width: 800px;
+        overflow: hidden;
+        border: none;
+        width:100%;
+        height:550px;
+    }
+</style>
