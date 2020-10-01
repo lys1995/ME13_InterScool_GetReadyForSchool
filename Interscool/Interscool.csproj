@@ -260,8 +260,8 @@
     <Content Include="img\game\FoodGameHeader1.jpg" />
     <Content Include="img\game\Job-thumb.png" />
     <Content Include="img\game\Job.png" />
-    <Content Include="img\game\JobGameBack.jpg" />
-    <Content Include="img\game\JobGameHeader.jpg" />
+    <Content Include="img\game\JobGameBBACK.jpg" />
+    <Content Include="img\game\JobGameHeaders.jpg" />
     <Content Include="img\game\Weather-thumb.png" />
     <Content Include="img\game\Weather.png" />
     <Content Include="img\game\weatherGameBack.jpg" />
