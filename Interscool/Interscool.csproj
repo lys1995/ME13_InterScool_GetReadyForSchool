@@ -252,6 +252,8 @@
     <Content Include="img\game\English Learning-1.jpg" />
     <Content Include="img\game\English Learning.jpg" />
     <Content Include="img\game\Fast Phrases.png" />
+    <Content Include="img\game\FastPhraseBackg.jpg" />
+    <Content Include="img\game\FastPhraseHeader.jpg" />
     <Content Include="img\game\FastPhrases-thumb.png" />
     <Content Include="img\game\Food-thumb.png" />
     <Content Include="img\game\Food.png" />
@@ -262,6 +264,7 @@
     <Content Include="img\game\Job.png" />
     <Content Include="img\game\JobGameBBACK.jpg" />
     <Content Include="img\game\JobGameHeaders.jpg" />
+    <Content Include="img\game\FastPhraseB.jpg" />
     <Content Include="img\game\Weather-thumb.png" />
     <Content Include="img\game\Weather.png" />
     <Content Include="img\game\weatherGameBack.jpg" />
