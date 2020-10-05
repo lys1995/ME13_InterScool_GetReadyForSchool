@@ -14,67 +14,67 @@ namespace Interscool.Controllers
     [Authorize]
     public class UniListController : Controller
     {
-        private Interscool_dbEntities db = new Interscool_dbEntities();
-
+        //private Interscool_dbEntities db = new Interscool_dbEntities();
+        private UniListContainer db = new UniListContainer();
         //GET: UniList
         //Sort list by University name
         //filter by the State of Australia
-/*        public ActionResult Index(string sortOrder, string present, string state, int? page)
-        {
-            ViewBag.currentPage = sortOrder;
-            ViewBag.NameSP = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
-            ViewBag.TypeSP = sortOrder == "type_asc" ? "type_desc" : "type_asc";
-            if (state != null)
-            {
-                page = 1;
-            }
-            else
-            {
-                state = present;
-            }
-            ViewBag.present = state;
-            var uni = from u in db.UniSet
-                      select u;
-            var states = uni.OrderBy(u => u.State).Select(u => u.State).Distinct();
-            List<SelectListItem> listData = new List<SelectListItem>();
-            listData.Add(new SelectListItem
-            {
-                Text = "All",
-                Value = "",
-            });
-            SelectList a = new SelectList(states);
-            foreach (var item in a)
-            {
-                listData.Add(new SelectListItem
+        /*        public ActionResult Index(string sortOrder, string present, string state, int? page)
                 {
-                    Text = item.Text,
-                    Value = item.Value
-                });
-            }
-            ViewBag.state = listData;
-            if (!String.IsNullOrEmpty(state))
-            {
-                uni = uni.Where(u => u.State == state);
-            }
-            switch (sortOrder)
-            {
-                case "name_desc":
-                    uni = uni.OrderByDescending(u => u.Name);
-                    break;
-                case "type_asc":
-                    uni = uni.OrderBy(u => u.Type);
-                    break;
-                case "type_desc":
-                    uni = uni.OrderByDescending(u => u.Type);
-                    break;
-                default:
-                    uni = uni.OrderBy(u => u.Name);
-                    break;
-            }
-            int pageSize = 10;
-            int pageNumber = (page ?? 1);
-            return View(uni.ToPagedList(pageNumber, pageSize));
-        }*/
+                    ViewBag.currentPage = sortOrder;
+                    ViewBag.NameSP = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+                    ViewBag.TypeSP = sortOrder == "type_asc" ? "type_desc" : "type_asc";
+                    if (state != null)
+                    {
+                        page = 1;
+                    }
+                    else
+                    {
+                        state = present;
+                    }
+                    ViewBag.present = state;
+                    var uni = from u in db.UniSet
+                              select u;
+                    var states = uni.OrderBy(u => u.State).Select(u => u.State).Distinct();
+                    List<SelectListItem> listData = new List<SelectListItem>();
+                    listData.Add(new SelectListItem
+                    {
+                        Text = "All",
+                        Value = "",
+                    });
+                    SelectList a = new SelectList(states);
+                    foreach (var item in a)
+                    {
+                        listData.Add(new SelectListItem
+                        {
+                            Text = item.Text,
+                            Value = item.Value
+                        });
+                    }
+                    ViewBag.state = listData;
+                    if (!String.IsNullOrEmpty(state))
+                    {
+                        uni = uni.Where(u => u.State == state);
+                    }
+                    switch (sortOrder)
+                    {
+                        case "name_desc":
+                            uni = uni.OrderByDescending(u => u.Name);
+                            break;
+                        case "type_asc":
+                            uni = uni.OrderBy(u => u.Type);
+                            break;
+                        case "type_desc":
+                            uni = uni.OrderByDescending(u => u.Type);
+                            break;
+                        default:
+                            uni = uni.OrderBy(u => u.Name);
+                            break;
+                    }
+                    int pageSize = 10;
+                    int pageNumber = (page ?? 1);
+                    return View(uni.ToPagedList(pageNumber, pageSize));
+                }*/
         public ActionResult Index()
         {
             return View();
@@ -94,7 +94,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UniSet uni = db.UniSets.Find(id);
+            Uni uni = db.UniSets.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -113,7 +113,7 @@ namespace Interscool.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,State,Type,Address")] UniSet uni)
+        public ActionResult Create([Bind(Include = "Id,Name,State,Type,Address")] Uni uni)
         {
             if (ModelState.IsValid)
             {
@@ -132,7 +132,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UniSet uni = db.UniSets.Find(id);
+            Uni uni = db.UniSets.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -145,7 +145,7 @@ namespace Interscool.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,State,Type,Address")] UniSet uni)
+        public ActionResult Edit([Bind(Include = "Id,Name,State,Type,Address")] Uni uni)
         {
             if (ModelState.IsValid)
             {
@@ -163,7 +163,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UniSet uni = db.UniSets.Find(id);
+            Uni uni = db.UniSets.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -176,7 +176,7 @@ namespace Interscool.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            UniSet uni = db.UniSets.Find(id);
+            Uni uni = db.UniSets.Find(id);
             db.UniSets.Remove(uni);
             db.SaveChanges();
             return RedirectToAction("Index");
