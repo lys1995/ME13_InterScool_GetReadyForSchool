@@ -272,6 +272,9 @@
     <Content Include="img\game\weatherGameBack.jpg" />
     <Content Include="img\game\WeatherGameHeader.jpg" />
     <Content Include="img\game\woodback.jpg" />
+    <Content Include="img\green1.jpg" />
+    <Content Include="img\icons8-up-left-48.png" />
+    <Content Include="img\icons8-up-right-52.png" />
     <Content Include="img\service\animal.png" />
     <Content Include="img\banner\about.jpg" />
     <Content Include="img\banner\denys-nevozhai-w7YCquMkv2c-unsplash.svg" />
@@ -400,6 +403,10 @@
     <Content Include="Models\AzureModel.edmx.diagram">
       <DependentUpon>AzureModel.edmx</DependentUpon>
     </Content>
+    <Content Include="File\cuisine.pdf" />
+    <Content Include="File\Animal Quiz Updated.pptx.pdf" />
+    <Content Include="File\Festival Quiz.pptx.pdf" />
+    <Content Include="File\AUSTRALIAN CUISINE.pptx.pdf" />
     <Content Include="File\slang.pdf" />
     <None Include="Properties\PublishProfiles\ME13Interscool - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />

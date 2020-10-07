@@ -26,7 +26,7 @@
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
 font-style: normal;
-margin-left: 20px;
+margin-left: 0px;
 }
 
 .flaticon-student:before { content: "\f100"; }

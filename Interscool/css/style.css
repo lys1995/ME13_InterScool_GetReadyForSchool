@@ -2144,15 +2144,22 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_features.scss */
 .features_area {
-  position: relative;
-  margin-top: 0px;
-  padding-bottom: 0;
+    position: relative;
+    margin-top: 0px;
+    padding-bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    padding: 271px 0 118px 0;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    background-image: url('../img/green1.jpg');
 }
 
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_features.scss */
   .features_area {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
   }
 }
 
@@ -2178,13 +2185,13 @@ h3 {
 
 /* line 19, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_features.scss */
 .features_area .single_feature {
-  margin-bottom: 30px;
-  background: #fff;
-  padding: 50px 30px 40px 30px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+    margin-bottom: 60px;
+    background:space;
+    padding: 50px 30px 40px 30px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 /* line 25, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_features.scss */
@@ -2204,8 +2211,8 @@ h3 {
 
 /* line 37, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_features.scss */
 .features_area .single_feature p {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 28px;
   margin-bottom: 0;
 }
