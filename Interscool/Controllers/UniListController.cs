@@ -14,8 +14,8 @@ namespace Interscool.Controllers
     [Authorize]
     public class UniListController : Controller
     {
-        //private Interscool_dbEntities db = new Interscool_dbEntities();
-        private UniListContainer db = new UniListContainer();
+        private Interscool_dbEntities db = new Interscool_dbEntities();
+        //private UniListContainer db = new UniListContainer();
         //GET: UniList
         //Sort list by University name
         //filter by the State of Australia
@@ -94,7 +94,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Uni uni = db.UniSets.Find(id);
+            UniSet uni = db.UniSets.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -113,7 +113,7 @@ namespace Interscool.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,State,Type,Address")] Uni uni)
+        public ActionResult Create([Bind(Include = "Id,Name,State,Type,Address")] UniSet uni)
         {
             if (ModelState.IsValid)
             {
@@ -132,7 +132,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Uni uni = db.UniSets.Find(id);
+            UniSet uni = db.UniSets.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -145,7 +145,7 @@ namespace Interscool.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,State,Type,Address")] Uni uni)
+        public ActionResult Edit([Bind(Include = "Id,Name,State,Type,Address")] UniSet uni)
         {
             if (ModelState.IsValid)
             {
@@ -163,7 +163,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Uni uni = db.UniSets.Find(id);
+            UniSet uni = db.UniSets.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -176,7 +176,7 @@ namespace Interscool.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Uni uni = db.UniSets.Find(id);
+            UniSet uni = db.UniSets.Find(id);
             db.UniSets.Remove(uni);
             db.SaveChanges();
             return RedirectToAction("Index");

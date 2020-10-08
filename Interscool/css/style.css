@@ -2186,7 +2186,7 @@ h3 {
 /* line 19, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_features.scss */
 .features_area .single_feature {
     margin-bottom: 60px;
-    background:space;
+    background: skyblue;
     padding: 50px 30px 40px 30px;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
