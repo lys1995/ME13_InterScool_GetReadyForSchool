@@ -157,6 +157,21 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Azure2.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Azure2.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Azure2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Azure2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Azure2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Azure2.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\AzureModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -192,7 +207,7 @@
       <DependentUpon>UniList.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\UniSet.cs">
-      <DependentUpon>AzureModel.tt</DependentUpon>
+      <DependentUpon>Azure2.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -201,6 +216,10 @@
     <Content Include="App_Data\AzureDatabase.mdf" />
     <Content Include="App_Data\AzureDatabase_log.ldf">
       <DependentUpon>AzureDatabase.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AzureDB.mdf" />
+    <Content Include="App_Data\AzureDB_log.ldf">
+      <DependentUpon>AzureDB.mdf</DependentUpon>
     </Content>
     <Content Include="App_Data\Database.mdf" />
     <Content Include="App_Data\Database_log.ldf">
@@ -273,6 +292,7 @@
     <Content Include="img\game\WeatherGameHeader.jpg" />
     <Content Include="img\game\woodback.jpg" />
     <Content Include="img\green1.jpg" />
+    <Content Include="img\home_background.jpg" />
     <Content Include="img\icons8-up-left-48.png" />
     <Content Include="img\icons8-up-right-52.png" />
     <Content Include="img\service\animal.png" />
@@ -295,6 +315,7 @@
     <Content Include="img\service\speaking.jpg" />
     <Content Include="img\service\sport22.jpg" />
     <Content Include="img\service\word.jpg" />
+    <Content Include="img\slider_background\sky.jpg" />
     <Content Include="img\slider_background\pexels.jpg" />
     <Content Include="img\slider_background\sider.jpg" />
     <Content Include="img\slider_background\sider1.jpg" />
@@ -338,6 +359,16 @@
     <Content Include="js\vendor\modernizr-3.5.0.min.js" />
     <Content Include="js\waypoints.min.js" />
     <Content Include="js\wow.min.js" />
+    <Content Include="Models\Azure2.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Azure2.edmx</DependentUpon>
+      <LastGenOutput>Azure2.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Azure2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Azure2.edmx</DependentUpon>
+      <LastGenOutput>Azure2.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\AzureModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>AzureModel.edmx</DependentUpon>
@@ -408,6 +439,13 @@
     <Content Include="File\Festival Quiz.pptx.pdf" />
     <Content Include="File\AUSTRALIAN CUISINE.pptx.pdf" />
     <Content Include="File\slang.pdf" />
+    <EntityDeploy Include="Models\Azure2.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Azure2.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Azure2.edmx.diagram">
+      <DependentUpon>Azure2.edmx</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\ME13Interscool - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />
@@ -516,6 +554,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="video\1.mp4" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -588,6 +627,7 @@
     <Content Include="Views\Game\Food.cshtml" />
     <Content Include="Views\Game\FastPhrases.cshtml" />
     <Content Include="Views\Game\Weather.cshtml" />
+    <Content Include="Views\Home\Resource.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

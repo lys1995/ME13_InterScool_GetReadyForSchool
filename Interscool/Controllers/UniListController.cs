@@ -14,7 +14,8 @@ namespace Interscool.Controllers
     [Authorize]
     public class UniListController : Controller
     {
-        private Interscool_dbEntities db = new Interscool_dbEntities();
+        private Interscool_dbEntities1 db = new Interscool_dbEntities1();
+        //private Interscool_dbEntities db = new Interscool_dbEntities();
         //private UniListContainer db = new UniListContainer();
         //GET: UniList
         //Sort list by University name
@@ -83,7 +84,7 @@ namespace Interscool.Controllers
         //Write action for return database data 
         public ActionResult loaddata()
         {
-            var data = db.UniSets.OrderBy(u => u.Id).ToList();
+            var data = db.UniSet.OrderBy(u => u.Id).ToList();
             return Json(new { data }, JsonRequestBehavior.AllowGet);
         }
 
@@ -94,7 +95,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UniSet uni = db.UniSets.Find(id);
+            UniSet uni = db.UniSet.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -117,7 +118,7 @@ namespace Interscool.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.UniSets.Add(uni);
+                db.UniSet.Add(uni);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -132,7 +133,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UniSet uni = db.UniSets.Find(id);
+            UniSet uni = db.UniSet.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -163,7 +164,7 @@ namespace Interscool.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UniSet uni = db.UniSets.Find(id);
+            UniSet uni = db.UniSet.Find(id);
             if (uni == null)
             {
                 return HttpNotFound();
@@ -176,8 +177,8 @@ namespace Interscool.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            UniSet uni = db.UniSets.Find(id);
-            db.UniSets.Remove(uni);
+            UniSet uni = db.UniSet.Find(id);
+            db.UniSet.Remove(uni);
             db.SaveChanges();
             return RedirectToAction("Index");
         }
