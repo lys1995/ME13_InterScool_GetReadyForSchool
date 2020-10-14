@@ -14,7 +14,7 @@ namespace Interscool.Controllers
     [Authorize]
     public class UniListController : Controller
     {
-        private Interscool_dbEntities1 db = new Interscool_dbEntities1();
+        private Interscool_dbEntities2 db = new Interscool_dbEntities2();
         //private Interscool_dbEntities db = new Interscool_dbEntities();
         //private UniListContainer db = new UniListContainer();
         //GET: UniList
@@ -77,6 +77,10 @@ namespace Interscool.Controllers
                     return View(uni.ToPagedList(pageNumber, pageSize));
                 }*/
         public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult Map()
         {
             return View();
         }

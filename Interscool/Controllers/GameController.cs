@@ -31,5 +31,10 @@ namespace Interscool.Controllers
         {
             return View();
         }
+        //GET: Food Game View
+        public ActionResult Story()
+        {
+            return View();
+        }
     }
 }

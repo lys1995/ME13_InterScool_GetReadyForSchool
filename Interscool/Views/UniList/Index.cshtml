@@ -59,13 +59,7 @@
 </div>
 <!-- slider_area_end -->
 <!-- slider_area_end -->
-<!--<body style="background-image: url('../../img/slider_background/uniBack.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: center center; background-size: cover ">
-    <div class="container" style="background: rgba(55, 108, 139,0.5);">
-        <div class="about_area add_padding" style="padding-top: 80px;">
-            <div class="container">
-                <div class="border_1px" style="border-width:0px">
-                    <div class="row align-items-center justify-content-center" style=" padding-bottom-->
-<div style="background-image: url('../../img/slider_background/sky.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: center center; background-size: cover;height: 1700px;">
+<div style="background-image: url('../../img/slider_background/sky.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: center center; background-size: cover;height: auto;padding-bottom: 20px;">
     <div class="container" style="background: rgba(55, 108, 139,0.5);">
         <div class="about_area add_padding" style=" padding-top: 80px; ">
             <div class="container">
@@ -91,39 +85,33 @@
                         </select>
                     </div>
                     <div style="width:90%; margin:0 auto;background:rgba(255, 255, 255,0.7)">
-                        <table id="myTable"style="background-color:wheat">
-                            <thead style="background-color:wheat">
+                        <table id="myTable" style="background-color:wheat;width:100%">
+                            <thead style="background-color: #ecc754; ">
                                 <tr>
                                     <th>Name</th>
                                     <th>State</th>
                                     <th>Type</th>
                                     <th>Address</th>
                                     <th>Ranking</th>
+                                    <th>Website</th>
                                 </tr>
                             </thead>
                         </table>
                     </div>
-                    <div id="m" class="container" style="padding-top:20px;">
-                        <div class="text-center" style="margin-top: 20px;">
-                            <h3 style="padding-top: 20px; padding-right: 20px;color:wheat;font-weight: bold;font-size: x-large;">Find the distance between you and your favourite University: </h3>
-                            <h4 style="padding-top: 0px; padding-right: 20px;color:wheat;font-weight: bold;font-size: x-large;">Click above address of Uni List might help below copy function</h4>
-                            <input type="text" id="myText">
-                            <div class="tooltip1">
-                                <button onclick="Clear()" onmouseout="outFunc()" class="btn-primary">
-                                    <span class="tooltiptext" id="myTooltip" style=" margin-left: 0px; margin-top: 0px; bottom: 0px; top: 40px; height: 30px; width: 150px;">Copy to clipboard</span>
-                                    Copy location
-                                </button>
+                    @*                    <div id="m" class="container" style="padding-top:20px;">
+                            <div class="text-center" style="margin-top: 20px;">
+                                <h3 style="padding-top: 20px; padding-right: 20px;color:wheat;font-weight: bold;font-size: x-large;">Find the distance between you and your favourite University: </h3>
+                                <h4 style="padding-top: 0px; padding-right: 20px;color:wheat;font-weight: bold;font-size: x-large;">Click above address of Uni List might help below copy function</h4>
+                                <input type="text" id="myText">
+                                <div class="tooltip1">
+                                    <button onclick="Clear()" onmouseout="outFunc()" class="btn-primary">
+                                        <span class="tooltiptext" id="myTooltip" style=" margin-left: 0px; margin-top: 0px; bottom: 0px; top: 40px; height: 30px; width: 150px;">Copy to clipboard</span>
+                                        Copy location
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        @*<input type="text" id="myText">
-                            <div class="tooltip1">
-                                <button onclick="ClearFields()" onmouseout="outFunc()" class="btn-primary">
-                                    <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-                                    Copy location
-                                </button>
-                            </div>*@
-                        <div id="map" style="height:500px"></div>
-                    </div>
+                            <div id="map" style="height:500px"></div>
+                        </div>*@
                 </div>
             </div>
         </div>
@@ -222,15 +210,16 @@
                     { "data": "Name", "autoWidth": true },
                     { "data": "State", "autoWidth": true },
                     { "data": "Type", "autoWidth": true },
+                    { "data": "Address", "autoWidth": true },
+                    { "data": "Ranking", "autoWidth": true },
                     {
-                        "data": "Address",
+                        "data": "Website",
                         "bSortable": false,
                         "autoWidth": true,
                         "mRender": function (data, type, full) {
-                            return '<a class="btn-primary" style="color:#142ee2;background-color:white;" href=#/' + full[0] + '>' + data + '</a>';
+                            return '<a href=' + data + '>' + data + '</a>';
                         }
                     },
-                    { "data": "Ranking", "autoWidth": true }
                 ]
 @*                ,columnDefs: [
                     {

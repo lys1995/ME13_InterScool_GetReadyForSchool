@@ -20,5 +20,6 @@ namespace Interscool.Models
         public string Type { get; set; }
         public string Address { get; set; }
         public int Ranking { get; set; }
+        public string Website { get; set; }
     }
 }

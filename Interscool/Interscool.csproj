@@ -172,6 +172,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Azure2.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Azure3.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Azure3.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Azure3.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Azure3.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Azure3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Azure3.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\AzureModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -207,16 +222,12 @@
       <DependentUpon>UniList.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\UniSet.cs">
-      <DependentUpon>Azure2.tt</DependentUpon>
+      <DependentUpon>Azure3.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\AzureDatabase.mdf" />
-    <Content Include="App_Data\AzureDatabase_log.ldf">
-      <DependentUpon>AzureDatabase.mdf</DependentUpon>
-    </Content>
     <Content Include="App_Data\AzureDB.mdf" />
     <Content Include="App_Data\AzureDB_log.ldf">
       <DependentUpon>AzureDB.mdf</DependentUpon>
@@ -315,6 +326,7 @@
     <Content Include="img\service\speaking.jpg" />
     <Content Include="img\service\sport22.jpg" />
     <Content Include="img\service\word.jpg" />
+    <Content Include="img\slider_background\fisherman.jpg" />
     <Content Include="img\slider_background\sky.jpg" />
     <Content Include="img\slider_background\pexels.jpg" />
     <Content Include="img\slider_background\sider.jpg" />
@@ -368,6 +380,16 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Azure2.edmx</DependentUpon>
       <LastGenOutput>Azure2.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Azure3.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Azure3.edmx</DependentUpon>
+      <LastGenOutput>Azure3.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Azure3.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Azure3.edmx</DependentUpon>
+      <LastGenOutput>Azure3.cs</LastGenOutput>
     </Content>
     <Content Include="Models\AzureModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -445,6 +467,13 @@
     </EntityDeploy>
     <Content Include="Models\Azure2.edmx.diagram">
       <DependentUpon>Azure2.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\Azure3.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Azure3.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Azure3.edmx.diagram">
+      <DependentUpon>Azure3.edmx</DependentUpon>
     </Content>
     <None Include="Properties\PublishProfiles\ME13Interscool - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
@@ -628,6 +657,8 @@
     <Content Include="Views\Game\FastPhrases.cshtml" />
     <Content Include="Views\Game\Weather.cshtml" />
     <Content Include="Views\Home\Resource.cshtml" />
+    <Content Include="Views\UniList\Map.cshtml" />
+    <Content Include="Views\Game\Story.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

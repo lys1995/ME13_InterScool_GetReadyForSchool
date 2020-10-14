@@ -1553,6 +1553,9 @@ h3 {
     background-image: url('../img/slider_background/pexels.jpg');
 }
 
+.slider_bg_5 {
+    background-image: url('../img/slider_background/fisherman.jpg');
+}
 /* line 7, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_slider.scss */
 .slider_area {
   position: relative;
