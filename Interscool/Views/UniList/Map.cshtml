@@ -24,9 +24,8 @@
                 <div class="border_1px" style="border-width:0px">
                     <div id="m" class="container" style="padding-top: 20px; padding-right: 50px; padding-left: 50px;">
                         <div class="text-center" style="margin-top: 20px;">
-                            <h4 style="padding-top: 10px; padding-right: 20px; color: #f79c2c; font-size: 25px;font-weight: bold;">Type the starting position in A</h4>
-                            <h4 style="padding-top: 10px; padding-right: 20px; color: #f79c2c; font-size: 25px;font-weight: bold;">Type any location in B</h4>
-                            <h4 style="padding-top: 10px; padding-right: 20px; color: #f79c2c; font-size: 25px;margin-bottom: 50px;font-weight: bold;">If you want to automatically get your location, press right top corner icon</h4>
+                            <h4 style="padding-top: 10px; padding-right: 20px; color: #e0f721; font-size: 25px;font-weight: bold;">Type the starting position in A</h4>
+                            <h4 style="padding-top: 10px; padding-right: 20px; color: #e0f721; font-size: 25px;font-weight: bold;">Type any location in B</h4>
                             @*                            <h4 style="padding-top: 0px; padding-right: 20px;color:wheat;font-weight: bold;font-size: x-large;">Click above address of Uni List might help below copy function</h4>
         <input type="text" id="myText">
         <div class="tooltip1">
@@ -122,14 +121,6 @@
                 accessToken: mapboxgl.accessToken
             }),
             'top-left'
-        );
-        map.addControl(
-            new mapboxgl.GeolocateControl({
-                positionOptions: {
-                    enableHighAccuracy: true
-                },
-                trackUserLocation: true
-            })
         );
     </script>
 }

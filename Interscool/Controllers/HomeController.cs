@@ -73,5 +73,12 @@ namespace Interscool.Controllers
             ViewBag.Message = "Your English Resource page";
             return View();
         }
+
+        //Get the English printables page view
+        public ActionResult Printables()
+        {
+            ViewBag.Message = "Your printables page";
+            return View();
+        }
     }
 }

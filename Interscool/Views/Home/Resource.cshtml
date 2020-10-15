@@ -1,4 +1,9 @@
 ﻿<!-- bradcam_area  -->
+<style>
+    .dataTables_filter, .dataTables_info {
+        display: none;
+    }
+</style>
 <div class="slider_area">
     <div class="single_slider  d-flex align-items-center slider_bg_5 overlay" style="height: 600px;">
         <div class="container">
@@ -9,20 +14,30 @@
                             After ELICOS, what do you want to do?
                         </h3>
                     </div>
-                    <a href="#work" class="boxed-btn3" style="padding-left: 20px; padding-right: 20px; margin-right: 40px; padding-top: 5px; padding-bottom: 5px; text-transform: unset; border-radius: 20px;">Work</a>
-                    <a href="#education" class="boxed-btn3" style="padding-left: 20px; padding-right: 20px; margin-right: 40px; padding-top: 5px; padding-bottom: 5px;text-transform: unset;border-radius: 20px;">Higher Education</a>
-                    <a href="/Home/Index" class="boxed-btn3" style="padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px;text-transform: unset;border-radius: 20px;">Go Back Home</a>
+                    <div class="row" style="justify-content:center">
+                        <a href="#work" class="boxed-btn3" style="padding-left: 20px; padding-right: 20px; margin-right: 40px; padding-top: 5px; padding-bottom: 5px; text-transform: unset; border-radius: 20px; width: 214px;">Work</a>
+                        <a href="#education" class="boxed-btn3" style="padding-left: 20px; padding-right: 20px; margin-right: 40px; padding-top: 5px; padding-bottom: 5px;text-transform: unset;border-radius: 20px;">Higher Education</a>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="work" class="about_area add_padding" style=" padding-top: 80px; ">
+    <div class="container">
+        <div class="border_1px" style="border-width:0px">
+            <div class="row">
+                <h4 style="padding-top: 10px; padding-right: 20px;font-size: x-large;">Coming feature:</h4>
             </div>
         </div>
     </div>
 </div>
 <div id="education" class="about_area add_padding" style=" padding-top: 80px; ">
     <div class="container">
-        <div class="border_1px" style="border-width:0px">
+        <div class="border_1px" style="border-width:5px">
             <div class="row">
                 <h4 style="padding-top: 10px; padding-right: 20px;font-size: x-large;">1. Which state do you want to go?</h4>
-                <select id="dropdown">
+                <select id="dropdown1">
                     <option value="">All</option>
                     <option value="Northern Territory">Northern Territory</option>
                     <option value="New South Wales">New South Wales</option>
@@ -40,21 +55,21 @@
                     <label>Show the Top <input type="text" id="max" name="max"> Universities</label>
                 </p>
             </div>
-                <div style="width:90%; margin:0 auto;background:rgba(255, 255, 255,0.7)">
-                    <table id="myTable" style="background-color:wheat;width:100%">
-                        <thead style="background-color: #ecc754; ">
-                            <tr>
-                                <th>Name</th>
-                                <th>State</th>
-                                <th>Type</th>
-                                <th>Ranking</th>
-                            </tr>
-                        </thead>
-                    </table>
-                </div>
+            <div style="width:90%; margin:0 auto;background:rgba(255, 255, 255,0.7)">
+                <table id="myTable" style="background-color:wheat;width:100%">
+                    <thead style="background-color: #ecc754; ">
+                        <tr>
+                            <th>Ranking</th>
+                            <th>Name</th>
+                            <th>State</th>
+                        </tr>
+                    </thead>
+                </table>
             </div>
         </div>
+    </div>
 </div>
+<!-- gallery_area-END -->
 @* Load datatable css *@
 <link href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css" rel="stylesheet" />
 <link href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" />
@@ -72,54 +87,11 @@
     <script src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
     <script src="~/js/mapbox-gl-directions.js"></script>
     <script>
-@*        var val_range;
-        var sal_range;
-        var live_range_val;
-        $(document).ready(function () {
-            var table = $("#myTable").DataTable({
-                "ajax": {
-                    url: '../UniList/loaddata',
-                    type: 'GET',
-                    datatype: 'json'
-                },
-                deferRender: true,
-                columns: [
-                    { "data": "Name", "autoWidth": true },
-                    { "data": "State", "autoWidth": true },
-                    { "data": "Type", "autoWidth": true },
-                    { "data": "Ranking", "autoWidth": true }
-                ]
-            });
-            $('#dropdown').on('change', function () {
-                table.columns(1).search(this.value).draw();
-            });
-            $('#dropdown1').on('change', function () {
-                table.columns(2).search(this.value).draw();
-            });
-            sal_range = $("#val_range_salary");
-            val_range = $("#val_range");
-            live_range_val = $("#live_range_val");
-            val_range.slider({
-                range: true,
-                min: 0,
-                max: 90,
-                step: 1,
-                values: [0, 90],
-                slide: function (event, ui) {
-                    console.log(ui.values[0]);
-                    live_range_val.val(ui.values[0] + " - " + ui.values[1]);
-                },
-                stop: function (event, ui) {
-                    table.draw();
-                }
-            });
-            live_range_val.val(val_range.slider("values", 0) + " - " + val_range.slider("values", 1));
-        });*@
         $.fn.dataTable.ext.search.push(
             function (settings, data, dataIndex) {
                 var min = parseInt($('#min').val(), 10);
                 var max = parseInt($('#max').val(), 10);
-                var age = parseFloat(data[3]) || 0; // use data for the age column
+                var age = parseFloat(data[0]) || 0; // use data for the age column
 
                 if ((isNaN(min) && isNaN(max)) ||
                     (isNaN(min) && age <= max) ||
@@ -133,7 +105,7 @@
         $(document).ready(function () {
             var table = $('#myTable').DataTable({
                 "bLengthChange": false,
-                "bFilter": false,
+                "bFilter": true,
                 "bAutoWidth": true,
                 "ajax": {
                     url: '../UniList/loaddata',
@@ -142,17 +114,16 @@
                 },
                 deferRender: true,
                 columns: [
+                    { "data": "Ranking", "autoWidth": true },
                     { "data": "Name", "autoWidth": true },
-                    { "data": "State", "autoWidth": true },
-                    { "data": "Type", "autoWidth": true },
-                    { "data": "Ranking", "autoWidth": true }
+                    { "data": "State", "autoWidth": true }
                 ]
             });
-            $('#dropdown').on('change', function () {
-                table.columns(1).search(this.value).draw();
+            $('#dropdown1').on('change', function () {
+                table.columns(2).search(this.value).draw();
             });
             // Event listener to the two range filtering inputs to redraw on input
-            $('#min, #max').keyup(function () {
+            $('#max').keyup(function () {
                 table.draw();
             });
         });
