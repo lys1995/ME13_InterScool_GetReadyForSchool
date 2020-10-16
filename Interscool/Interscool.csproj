@@ -306,8 +306,8 @@
     <Content Include="img\home_background.jpg" />
     <Content Include="img\icons8-up-left-48.png" />
     <Content Include="img\icons8-up-right-52.png" />
+    <Content Include="img\printable\Cinema.png" />
     <Content Include="img\printable\conversation.jpg" />
-    <Content Include="img\printable\Conversation_Cinema.jpg" />
     <Content Include="img\printable\Conversation_DrugStore.jpg" />
     <Content Include="img\printable\Conversation_Restaurant.jpg" />
     <Content Include="img\printable\Conversation_Shopping.jpg" />
@@ -483,6 +483,8 @@
     </Content>
     <Content Include="File\geography_quiz.pptx.pdf" />
     <Content Include="File\Final_Sports_Quiz.pptx.pdf" />
+    <Content Include="File\Visiting The Doctor_Final.pdf" />
+    <Content Include="File\Visiting the Cinema.pdf" />
     <None Include="Properties\PublishProfiles\ME13Interscool - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />
