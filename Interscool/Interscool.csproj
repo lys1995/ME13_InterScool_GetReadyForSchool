@@ -276,6 +276,7 @@
     <Content Include="img\about\learning.jpg" />
     <Content Include="img\about\never stop learning.jpg" />
     <Content Include="img\about\Team Logo1.png" />
+    <Content Include="img\about\Warehouse.jpg" />
     <Content Include="img\arrow-pointing-left.png" />
     <Content Include="img\banner\kangaroo.jpg" />
     <Content Include="img\banner\melbourne.jpg" />
@@ -312,6 +313,7 @@
     <Content Include="img\printable\Conversation_Restaurant.jpg" />
     <Content Include="img\printable\Conversation_Shopping.jpg" />
     <Content Include="img\printable\doctor.png" />
+    <Content Include="img\printable\Restaraunt.png" />
     <Content Include="img\service\animal.png" />
     <Content Include="img\banner\about.jpg" />
     <Content Include="img\banner\denys-nevozhai-w7YCquMkv2c-unsplash.svg" />
@@ -485,6 +487,7 @@
     <Content Include="File\Final_Sports_Quiz.pptx.pdf" />
     <Content Include="File\Visiting The Doctor_Final.pdf" />
     <Content Include="File\Visiting the Cinema.pdf" />
+    <Content Include="File\Visiting Restaraunt.pdf" />
     <None Include="Properties\PublishProfiles\ME13Interscool - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />
