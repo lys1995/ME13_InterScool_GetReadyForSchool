@@ -280,6 +280,7 @@
     <Content Include="img\arrow-pointing-left.png" />
     <Content Include="img\banner\kangaroo.jpg" />
     <Content Include="img\banner\melbourne.jpg" />
+    <Content Include="img\beach.jpg" />
     <Content Include="img\game\English Learning-1.jpg" />
     <Content Include="img\game\English Learning.jpg" />
     <Content Include="img\game\Fast Phrases.png" />
@@ -305,15 +306,17 @@
     <Content Include="img\game\woodback.jpg" />
     <Content Include="img\green1.jpg" />
     <Content Include="img\home_background.jpg" />
+    <Content Include="img\home_pic\game.png" />
+    <Content Include="img\home_pic\printable.png" />
+    <Content Include="img\home_pic\work.png" />
     <Content Include="img\icons8-up-left-48.png" />
     <Content Include="img\icons8-up-right-52.png" />
     <Content Include="img\printable\Cinema.png" />
     <Content Include="img\printable\conversation.jpg" />
-    <Content Include="img\printable\Conversation_DrugStore.jpg" />
-    <Content Include="img\printable\Conversation_Restaurant.jpg" />
-    <Content Include="img\printable\Conversation_Shopping.jpg" />
     <Content Include="img\printable\doctor.png" />
+    <Content Include="img\printable\drugStore.png" />
     <Content Include="img\printable\Restaraunt.png" />
+    <Content Include="img\printable\shopping.png" />
     <Content Include="img\service\animal.png" />
     <Content Include="img\banner\about.jpg" />
     <Content Include="img\banner\denys-nevozhai-w7YCquMkv2c-unsplash.svg" />
@@ -464,11 +467,8 @@
     <Content Include="Models\AzureModel.edmx.diagram">
       <DependentUpon>AzureModel.edmx</DependentUpon>
     </Content>
-    <Content Include="File\cuisine.pdf" />
     <Content Include="File\Animal Quiz Updated.pptx.pdf" />
     <Content Include="File\Festival Quiz.pptx.pdf" />
-    <Content Include="File\AUSTRALIAN CUISINE.pptx.pdf" />
-    <Content Include="File\slang.pdf" />
     <EntityDeploy Include="Models\Azure2.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Azure2.Designer.cs</LastGenOutput>
@@ -485,9 +485,13 @@
     </Content>
     <Content Include="File\geography_quiz.pptx.pdf" />
     <Content Include="File\Final_Sports_Quiz.pptx.pdf" />
+    <Content Include="File\AUSSIE SLANG.pdf" />
+    <Content Include="File\AUSTRALIAN CUISINE.pdf" />
+    <Content Include="File\drug_store.pdf" />
+    <Content Include="File\shopping_convo.pdf" />
+    <Content Include="File\Visiting Restaraunt.pdf" />
     <Content Include="File\Visiting The Doctor_Final.pdf" />
     <Content Include="File\Visiting the Cinema.pdf" />
-    <Content Include="File\Visiting Restaraunt.pdf" />
     <None Include="Properties\PublishProfiles\ME13Interscool - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />

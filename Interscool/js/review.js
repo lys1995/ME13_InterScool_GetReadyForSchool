@@ -151,7 +151,7 @@ survey.data = {
     "question 1": "through; under",
     "question 2": "earn; spend",
     "question 3": "reply; to ; in ; about",
-    "question 4": "When we match you with a homestay we will match your preferences so that you are place with a homestay whose tastes match your own - for example, if you are a vegetarian, the host family will also be vegetarian",
+    "question 4": "There doesn't seem",
     "question 5": "living; especially;out",
     "question 6": "has become; in; all; logical",
     "question 7": "True",
