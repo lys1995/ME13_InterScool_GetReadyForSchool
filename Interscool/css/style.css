@@ -2189,7 +2189,7 @@ h3 {
 /* line 19, ../../Arafath/CL/Cl November/226. Construction/HTML/scss/_features.scss */
 .features_area .single_feature {
     margin-bottom: 60px;
-    background: rgba(117,194,186,0.7);
+/*    background: rgba(117,194,186,0.7);*/
 /*    background: #fff;*/
     padding: 50px 30px 40px 30px;
     -webkit-transition: 0.3s;

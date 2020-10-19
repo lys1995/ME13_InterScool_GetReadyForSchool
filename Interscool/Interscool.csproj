@@ -491,11 +491,11 @@
     <Content Include="File\Final_Sports_Quiz.pptx.pdf" />
     <Content Include="File\AUSSIE SLANG.pdf" />
     <Content Include="File\AUSTRALIAN CUISINE.pdf" />
-    <Content Include="File\drug_store.pdf" />
-    <Content Include="File\shopping_convo.pdf" />
     <Content Include="File\Visiting Restaraunt.pdf" />
     <Content Include="File\Visiting The Doctor_Final.pdf" />
     <Content Include="File\Visiting the Cinema.pdf" />
+    <Content Include="File\Drug Store Conversation.pdf" />
+    <Content Include="File\Shopping Center Conversation.pdf" />
     <None Include="Properties\PublishProfiles\ME13Interscool - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />
