@@ -271,6 +271,7 @@
     <Content Include="fonts\themify.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\about\about.jpg" />
     <Content Include="img\about\cloudsback.jpg" />
     <Content Include="img\about\graph.png" />
     <Content Include="img\about\learning.jpg" />
@@ -306,7 +307,10 @@
     <Content Include="img\game\woodback.jpg" />
     <Content Include="img\green1.jpg" />
     <Content Include="img\home_background.jpg" />
+    <Content Include="img\home_pic\111.jpg" />
+    <Content Include="img\home_pic\12.jpg" />
     <Content Include="img\home_pic\game.png" />
+    <Content Include="img\home_pic\home1.jpg" />
     <Content Include="img\home_pic\printable.png" />
     <Content Include="img\home_pic\work.png" />
     <Content Include="img\icons8-up-left-48.png" />

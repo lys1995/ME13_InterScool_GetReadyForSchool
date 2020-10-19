@@ -1,20 +1,33 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿<style>
+    .about_area .border_1px {
+        border-bottom: hidden;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .testimonial_area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+</style>
 <!-- slider_area_start -->
 <div class="slider_area">
     <div class="single_slider  d-flex align-items-center slider_bg_1 overlay" style="height: 600px;">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-xl-9 col-md-9 col-md-12">
+                <div class="col-xl-9 col-md-9 col-md-12" style="margin-top: 250px;">
                     <div class="slider_text text-center">
-                        <h3 style="margin-top: 100px;">
+                        <h3>
                             Welcome to INTERSCOOL!
                         </h3>
+                        <p>
+                            Our mission is to help you achieve your English language goals in a positive and nurturing environment.
+                            We strive to provide information to those undertaking ELICOS courses in order to make their study a comfortable one.
+                        </p>
                         @*<p>
-                                On Interscool you can visualize, share and download your own charts!
-                            </p>
-                            <a href="/Home/LearnEnglish" class="boxed-btn3" style="padding-left:50px;padding-right:50px">GO</a>*@
+            On Interscool you can visualize, share and download your own charts!
+        </p>
+        <a href="/Home/LearnEnglish" class="boxed-btn3" style="padding-left:50px;padding-right:50px">GO</a>*@
                     </div>
                 </div>
             </div>
@@ -56,154 +69,172 @@
             </div>
         </div>*@
 </div>
-<!-- slider_area_end -->
-<!-- features_area_start -->
-    <div class="features_area align-items-center" style="padding-top: 30px; padding-bottom: 30px;">
+<div style="background-image: url('../../img/home_pic/12.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: center center; background-size: cover;">
+    <div class="about_area add_padding">
         <div class="container">
-            <div class="row" style="justify-content: center; height: 80px;">
-                <div class="section_title text-center mb-50" style="margin-top: 10px;">
-                    <h3 style="background: rgba(117,194,186,0.7); width: 300px; margin-bottom: 0px;">Our Services</h3>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 20px;">
-                <div class="col-lg-3 col-md-3" style="margin-bottom: 0px;">
-                    <div class="single_feature text-center" style="margin-top: 0px; padding-bottom: 10px; padding-top: 10px; padding-right: 0px; margin-bottom: 0px; padding-left: 0px;">
-                        <a href="/Home/UniGraph">
-                            <div class="icon" style="height: 70px; margin-bottom: 0px;">
-                                <i class="flaticon-student"></i>
-                            </div>
-                            <h3 style="margin-bottom: 0px;">Get Uni Guide</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <div class="single_feature text-center" style="margin-top: 0px; margin-bottom: 0px; padding-bottom: 10px; padding-top: 10px;">
-                        <p class="about_info" style="text-align: justify">
-                            We have some interesting trend charts for you to explore,
-                            which will allow you to choose the best university for you in Australia and find the best transport to your desired university in advance.
-                        </p>
-                        <a class="d-flex align-items-center" href="/Home/UniGraph" style="font-weight: bold;">
-                            Click me to know more <i class="ti-angle-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 20px;">
-                <div class="col-lg-3 col-md-3">
-                    <div class="single_feature text-center" style="margin-top: 0px; padding-bottom: 10px; padding-top: 10px; padding-right: 0px; margin-bottom: 0px; padding-left: 0px;">
-                        <a href="/Home/LearnEnglish">
-                            <div class="icon" style="height: 70px; margin-bottom: 20px;">
-                                <i class="flaticon-placement"></i>
-                            </div>
-                            <h3 style="margin-bottom: 0px;">English Level Test</h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <div class="single_feature text-center" style="margin-top: 0px; margin-bottom: 0px; padding-bottom: 10px; padding-top: 10px;">
-                        <p class="about_info" style="text-align: justify">
-                            Learn more about your country’s level of English in Australia and compare it with people in other countries.
-                            In addition, through some interesting English test questions to test their English proficiency.
-                        </p>
-                        <a class="d-flex align-items-center" href="/Home/LearnEnglish" style="font-weight: bold;">
-                            Click me to know more <i class="ti-angle-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 20px;">
-                <div class="col-lg-3 col-md-3">
-                    <div class="single_feature text-center" style="margin-top: 0px; padding-bottom: 10px; padding-top: 10px; padding-right: 0px; margin-bottom: 0px; padding-left: 0px;">
-                        <a href="/Home/Quiz">
-                            <div class="icon" style="height: 70px; margin-bottom: 0px;">
-                                <i class="flaticon-skills"></i>
-                            </div>
-                            <h3 style="margin-bottom: 0px;">
-                                Australian Culture
+            <div class="border_1px">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="about_info">
+                            <h3 style="color: white;">
+                                What is ELICOS? <br>
                             </h3>
-                        </a>
+                            <p class="first_para" style="color: white;">
+                                English Language Intensive Courses for Overseas Students.
+                            </p>
+                            <p style="color: white;">
+                                Interscool has been developed with the aim of assisting students who are coming to Australia to undertake English training courses.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-9 col-md-9">
-                    <div class="single_feature text-center" style="margin-top: 0px; margin-bottom: 100px; padding-bottom: 10px; padding-top: 10px;">
-                        <p class="about_info" style="text-align: justify">
-                            We provide you with some fun quizzes about Australian culture,
-                            and more understanding of the local cultural traditions will enable future immigrants to integrate into the new country more quickly.
-                        </p>
-                        <a class="d-flex align-items-center" href="/Home/Quiz" style="font-weight: bold;">
-                            Click me to know more <i class="ti-angle-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="justify-content: center; height: 80px;">
-                <div class="section_title text-center mb-50" style="margin-top: 10px;">
-                    <h3>Don't stop, keep discovering more</h3>
-                </div>
-            </div>
-            <div class=" position-relative">
-                <div class="pattern_img d-none d-xl-block">
-                    <img src="~/img/pattern/pattern.png" alt="">
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="service_active owl-carousel">
-                            <div class="single_service">
-                                <div class="thumb">
-                                    <img src="~/img/home_pic/game.png" alt="" style="width: 320px; height: 270px;">
-                                </div>
-                                <div class="service_info">
-                                    <a href="/Home/EnglishGame">
-                                        <h3 style="color: #05e4e4;">English Game</h3>
-                                    </a>
-                                    <a class="d-flex align-items-center" href="/Home/EnglishGame" style="color: #05e4e4;">
-                                        Find More <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="single_service">
-                                <div class="thumb">
-                                    <img src="~/img/home_pic/printable.png" alt="" style="width: 320px; height: 270px;">
-                                </div>
-                                <div class="service_info">
-                                    <a href="/Home/Printables">
-                                        <h3 style="color: #05e4e4;">Day to Day conversation</h3>
-                                    </a>
-                                    <a class="d-flex align-items-center" href="/Home/Printables" style="color: #05e4e4;">
-                                        Find More <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="single_service">
-                                <div class="thumb">
-                                    <img src="~/img/home_pic/work.png" alt="" style="width: 320px; height: 270px;">
-                                </div>
-                                <div class="service_info">
-                                    <a href="/Home/Resource">
-                                        <h3 style="color: #05e4e4;">Care about your future</h3>
-                                    </a>
-                                    <a class="d-flex align-items-center" href="/Home/Resource" style="color: #05e4e4;">
-                                        Find More <i class="ti-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="col-xl-6  col-md-6">
+                        <div class="about_thumb">
+                            <img src="~/img/service/speaking.jpg" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<!-- service_area_start  -->
-@*<div class="service_area">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="section_title text-center mb-50">
-                    <h3>Our Game Type introduction</h3>
+     <div class="about_area add_padding">
+            <div class="container">
+                <div class="border_1px">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6  col-md-6">
+                            <div class="about_thumb">
+                                <img src="~/img/service/listening.jpg" />
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="about_info">
+                                <h3 style="color: white;">
+                                    Why ELICOS? <br>
+                                </h3>
+                                <p class="first_para" style="color: white;">
+                                    Various reasons for enrolling in ELICOS.
+                                </p>
+                                <p style="color: white;">
+                                    People take ELICOS for various reasons such as purely to improve their English literacy skills, as a pre-learning before enrolling in Universities, or to even look for jobs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="border_bottom_1px position-relative">
+       <div class="about_area add_padding">
+            <div class="container">
+                <div class="border_1px" style="margin-bottom:0px;">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-md-6">
+                            <div class="about_info">
+                                <h3 style="color: white;">
+                                    Interscool are providing... <br>
+                                </h3>
+                                <p class="first_para" style="color: white;">
+                                    We are providing information regrading ELICOS students and all international students in Australia.
+                                </p>
+                                <p style="color: white;">
+                                    We offer resources and interactive components to help students improve their English literacy skills. We work together to design, create and produce the best resources to help students who leave the comfort of their home countries behind and come to Australia to develop their English language skills.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6  col-md-6">
+                            <div class="about_thumb">
+                                <img src="~/img/about/never stop learning.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- about_area_end  -->
+<!-- features_area_start -->
+<div class="features_area align-items-center" style="padding-top: 30px; padding-bottom: 30px;">
+    <div class="container">
+        <div class="row" style="justify-content: center; height: 80px;">
+            <div class="section_title text-center mb-50" style="margin-top: 10px;">
+                <h3 style="background: rgba(117,194,186,0.7); width: 300px; margin-bottom: 0px;color:white">Our Services</h3>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-lg-3 col-md-3" style="margin-bottom: 0px;">
+                <div class="single_feature text-center" style="margin-top: 0px; padding-bottom: 10px; padding-top: 10px; padding-right: 0px; margin-bottom: 0px; padding-left: 0px;">
+                    <a href="/Home/UniGraph">
+                        <div class="icon" style="height: 70px; margin-bottom: 0px;">
+                            <i class="flaticon-student"></i>
+                        </div>
+                        <h3 style="margin-bottom: 0px;">Get Uni Guide</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-9">
+                <div class="single_feature text-center" style="margin-top: 0px; margin-bottom: 0px; padding-bottom: 10px; padding-top: 10px;">
+                    <p class="about_info" style="text-align: justify">
+                        We have some interesting trend charts for you to explore,
+                        which will allow you to choose the best university for you in Australia and find the best transport to your desired university in advance.
+                    </p>
+                    <a class="d-flex align-items-center" href="/Home/UniGraph" style="font-weight: bold;">
+                        Click me to know more <i class="ti-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-lg-3 col-md-3">
+                <div class="single_feature text-center" style="margin-top: 0px; padding-bottom: 10px; padding-top: 10px; padding-right: 0px; margin-bottom: 0px; padding-left: 0px;">
+                    <a href="/Home/LearnEnglish">
+                        <div class="icon" style="height: 70px; margin-bottom: 20px;">
+                            <i class="flaticon-placement"></i>
+                        </div>
+                        <h3 style="margin-bottom: 0px;">English Level Test</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-9">
+                <div class="single_feature text-center" style="margin-top: 0px; margin-bottom: 0px; padding-bottom: 10px; padding-top: 10px;">
+                    <p class="about_info" style="text-align: justify">
+                        Learn more about your country’s level of English in Australia and compare it with people in other countries.
+                        In addition, through some interesting English test questions to test their English proficiency.
+                    </p>
+                    <a class="d-flex align-items-center" href="/Home/LearnEnglish" style="font-weight: bold;">
+                        Click me to know more <i class="ti-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-lg-3 col-md-3">
+                <div class="single_feature text-center" style="margin-top: 0px; padding-bottom: 10px; padding-top: 10px; padding-right: 0px; margin-bottom: 0px; padding-left: 0px;">
+                    <a href="/Home/Quiz">
+                        <div class="icon" style="height: 70px; margin-bottom: 0px;">
+                            <i class="flaticon-skills"></i>
+                        </div>
+                        <h3 style="margin-bottom: 0px;">
+                            Australian Culture
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-9">
+                <div class="single_feature text-center" style="margin-top: 0px; margin-bottom: 100px; padding-bottom: 10px; padding-top: 10px;">
+                    <p class="about_info" style="text-align: justify">
+                        We provide you with some fun quizzes about Australian culture,
+                        and more understanding of the local cultural traditions will enable future immigrants to integrate into the new country more quickly.
+                    </p>
+                    <a class="d-flex align-items-center" href="/Home/Quiz" style="font-weight: bold;">
+                        Click me to know more <i class="ti-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="justify-content: center; height: 80px;">
+            <div class="section_title text-center mb-50" style="margin-top: 10px;">
+                <h3 style="background: rgba(117,194,186,0.7); width: 600px; margin-bottom: 0px;color:white">Don't stop, keep discovering more</h3>
+            </div>
+        </div>
+        <div class=" position-relative">
             <div class="pattern_img d-none d-xl-block">
                 <img src="~/img/pattern/pattern.png" alt="">
             </div>
@@ -212,43 +243,40 @@
                     <div class="service_active owl-carousel">
                         <div class="single_service">
                             <div class="thumb">
-                                <img src="~/img/service/listening.jpg" alt="">
+                                <img src="~/img/home_pic/game.png" alt="" style="width: 320px; height: 270px;">
                             </div>
                             <div class="service_info">
-                                <a href="#">
-                                    <h3>Listening Game</h3>
+                                <a href="/Home/EnglishGame">
+                                    <h3 style="color: #05e4e4;">English Game</h3>
                                 </a>
-                                <p>There are lots of interesting listening games</p>
-                                <a class="d-flex align-items-center" href="#">
-                                    More <i class="ti-angle-right"></i>
+                                <a class="d-flex align-items-center" href="/Home/EnglishGame" style="color: #05e4e4;">
+                                    Find More <i class="ti-angle-right"></i>
                                 </a>
                             </div>
                         </div>
                         <div class="single_service">
                             <div class="thumb">
-                                <img src="~/img/service/speaking.jpg" alt="">
+                                <img src="~/img/home_pic/printable.png" alt="" style="width: 320px; height: 270px;">
                             </div>
                             <div class="service_info">
-                                <a href="#">
-                                    <h3>Speaking Game</h3>
+                                <a href="/Home/Printables">
+                                    <h3 style="color: #05e4e4;">Day to Day conversation</h3>
                                 </a>
-                                <p>There are lots of interesting Speaking games</p>
-                                <a class="d-flex align-items-center" href="#">
-                                    More <i class="ti-angle-right"></i>
+                                <a class="d-flex align-items-center" href="/Home/Printables" style="color: #05e4e4;">
+                                    Find More <i class="ti-angle-right"></i>
                                 </a>
                             </div>
                         </div>
                         <div class="single_service">
                             <div class="thumb">
-                                <img src="~/img/service/word.jpg" alt="">
+                                <img src="~/img/home_pic/work.png" alt="" style="width: 320px; height: 270px;">
                             </div>
                             <div class="service_info">
-                                <a href="#">
-                                    <h3>Vocabulary and Grammer Game</h3>
+                                <a href="/Home/Resource">
+                                    <h3 style="color: #05e4e4;">Care about your future</h3>
                                 </a>
-                                <p>There are lots of interesting Word Games</p>
-                                <a class="d-flex align-items-center" href="#">
-                                    More <i class="ti-angle-right"></i>
+                                <a class="d-flex align-items-center" href="/Home/Resource" style="color: #05e4e4;">
+                                    Find More <i class="ti-angle-right"></i>
                                 </a>
                             </div>
                         </div>
@@ -258,4 +286,69 @@
         </div>
     </div>
 </div>
+<!-- service_area_start  -->
+@*<div class="service_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-50">
+                        <h3>Our Game Type introduction</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="border_bottom_1px position-relative">
+                <div class="pattern_img d-none d-xl-block">
+                    <img src="~/img/pattern/pattern.png" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="service_active owl-carousel">
+                            <div class="single_service">
+                                <div class="thumb">
+                                    <img src="~/img/service/listening.jpg" alt="">
+                                </div>
+                                <div class="service_info">
+                                    <a href="#">
+                                        <h3>Listening Game</h3>
+                                    </a>
+                                    <p>There are lots of interesting listening games</p>
+                                    <a class="d-flex align-items-center" href="#">
+                                        More <i class="ti-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="single_service">
+                                <div class="thumb">
+                                    <img src="~/img/service/speaking.jpg" alt="">
+                                </div>
+                                <div class="service_info">
+                                    <a href="#">
+                                        <h3>Speaking Game</h3>
+                                    </a>
+                                    <p>There are lots of interesting Speaking games</p>
+                                    <a class="d-flex align-items-center" href="#">
+                                        More <i class="ti-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="single_service">
+                                <div class="thumb">
+                                    <img src="~/img/service/word.jpg" alt="">
+                                </div>
+                                <div class="service_info">
+                                    <a href="#">
+                                        <h3>Vocabulary and Grammer Game</h3>
+                                    </a>
+                                    <p>There are lots of interesting Word Games</p>
+                                    <a class="d-flex align-items-center" href="#">
+                                        More <i class="ti-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 *@
