@@ -10,26 +10,37 @@
         font-size: medium;
     }
 </style>
-<div class="slider_area">
-    <div class="single_slider  d-flex align-items-center slider_bg_5 overlay" style="height: 1050px;">
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-xl-9 col-md-9 col-md-12">
-                    <div class="slider_text text-center">
-                        <h3 style="margin-top: 100px;">
-                            After ELICOS, what do you want to do?
-                        </h3>
-                    </div>
-                    <div class="row" style="justify-content:center">
-                        <a href="#work" class="boxed-btn3" style="margin-top: 5px; padding-left: 20px; padding-right: 20px; margin-right: 40px; padding-top: 5px; padding-bottom: 5px; text-transform: unset; border-radius: 20px; width: 214px;"onclick="showWork()">Work</a>
-                        <a href="#education" class="boxed-btn3" style="margin-top: 5px; padding-left: 20px; padding-right: 20px; margin-right: 40px; padding-top: 5px; padding-bottom: 5px; text-transform: unset; border-radius: 20px;" onclick="showUni()">Higher Education</a>
-                    </div>
+<div class="bradcam_area slider_bg_5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="bradcam_text text-center">
+                    <h3 style=" margin-top: 0px;margin-bottom: 50px;">Wrok Life</h3>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div id="work" style="display:none;padding-top: 80px;" class="about_area add_padding">
+@*<div class="slider_area">
+    <div class="single_slider  d-flex align-items-center slider_bg_5 overlay">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-9 col-md-9 col-md-12">
+                    <div class="slider_text text-center">
+                        <h3 style="margin-top: 100px;">
+                            Wrok Life
+                        </h3>
+                    </div>*@
+@*                    <div class="row" style="justify-content:center">
+                        <a href="#work" class="boxed-btn3" style="margin-top: 5px; padding-left: 20px; padding-right: 20px; margin-right: 40px; padding-top: 5px; padding-bottom: 5px; text-transform: unset; border-radius: 20px; width: 214px;"onclick="showWork()">Work</a>
+                        <a href="#education" class="boxed-btn3" style="margin-top: 5px; padding-left: 20px; padding-right: 20px; margin-right: 40px; padding-top: 5px; padding-bottom: 5px; text-transform: unset; border-radius: 20px;" onclick="showUni()">Higher Education</a>
+                    </div>*@
+@*                </div>
+            </div>
+        </div>
+    </div>
+</div>*@
+<div id="work" style="padding-top: 80px;" class="about_area add_padding">
     <div class="container">
         <div id="xxx" class="border_1px" style="border-width: 0px; margin-bottom: 0px; padding-bottom: 90px;">
                 <h4 style="padding-top: 10px; padding-right: 20px; font-size: x-large;">What kind of job are you looking for?</h4>
@@ -53,84 +64,133 @@
                         <input href="#noncf" type="button" class="genric-btn success circle arrow" value="Non-Customer facing jobs" onclick="NonCustome()"style=" margin-left: 5px; margin-top: 5px; " />
                     </div>
                 </div>
-                <div id="cf" style="display:none;" class="section-top-border">
+                <div id="cf" style="display:none;padding-bottom: 0px;" class="section-top-border">
                     <h3 class="mb-30" style="font-weight:bold">Customer facing jobs</h3>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="single-defination">
-                                <h4 class="mb-20" style="font-weight:bold">Retail</h4>
-                                <p>
-                                    You can keep an eye out for flyers or posters that advertise for available positions in stores around your area or in the city.
-                                    Roles such as Retail Executive or Customer Service Representative are available throughout stores across the country.
-                                    This would be a great way to showcase your English skills and improve on them as well.
-                                </p>
-                                <p style="font-weight:bold">Level of English Required:</p><p>Medium</p>
-                                <p style="font-weight:bold">Possibility of Improving English:</p><p>Very High</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-defination">
-                                <h4 class="mb-20" style="font-weight:bold">Hospitality</h4>
-                                <p>
-                                    There are a wide range of job opportunities available in the hospitality industry that include restaurants, hotels, bars, movie complexes and special events
-                                    such as the Australian Open and the Formula 1. Pursuing certification courses like RSA (Responsible Service of Alcohol) and Responsible Service of Food (RSF) are necessary for some of these jobs.
-                                </p>
-                                <p style="font-weight:bold">Level of English Required:</p><p>Medium</p>
-                                <p style="font-weight:bold">Possibility of Improving English:</p><p>High</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-defination">
-                                <h4 class="mb-20" style="font-weight:bold">Services</h4>
-                                <p>
-                                    Many organizations and businesses across Australia have customer facing roles available such as a receptionist, call centre executives and so on.
-                                    These kinds of roles may even help in understanding the working of the company and give an insight into the professional Australian workplace and culture.
-                                </p>
-                                <p style="font-weight:bold">Level of English Required:</p><p>High</p>
-                                <p style="font-weight:bold">Possibility of Improving English:</p><p>Very High</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="noncf" style="display:none;" class="section-top-border">
-                    <h3 class="mb-30" style="font-weight:bold">Non-Customer facing jobs</h3>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="~/img/about/Warehouse.jpg" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-9 mt-sm-20">
-                            <p>
-                                If you are interested in non-customer facing jobs at the moment, there are always a lot of options to take up job profiles that do not require much or any customer interactions.
-                                Although these jobs do not require much customer interactions, you are still expected to have interactions and conversations with your colleagues at work and being in Australia,
-                                there is an expectation to have basic English literacy skills.
-                            </p>
-                            <p>The following jobs fall under this category:</p>
-                            <p>1) Warehouse Store-person/ Forklift Driver</p>
-                            <p>2) Data Entry Jobs</p>
-                            <p>3) Technical Writer</p>
-                            <p>4) Uber/Uber Eats (even though this is a customer facing job, the customer interaction isn’t a defining aspect and is optional)</p>
-                            <p style="font-weight:bold">Level of English Required:</p><p>Low</p>
-                            <p style="font-weight:bold">Possibility of Improving English:</p><p>Medium</p>
-                        </div>
-                    </div>
-                </div>
-                <div id="b" style="display:none;" class="section-top-border">
-                    <h3 class="mb-30" style="font-weight:bold">Work options after completion of course</h3>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <blockquote class="generic-blockquote">
-                                Once you have completed your ELICOS course, there are many career pathways that one can access.
-                                If you are interested in working in a particular field that you may have experience in or have completed studies in,
-                                you can always search on job seeking websites for possible vacancies in those specific fields. The ability to be hired for these jobs depend on a lot of factors such as experience, the necessary skills and most importantly,
-                                a good resume and statement of purpose! There are also citizenship/permanent residency requirements for some of these jobs so do make sure that you check on them as well.
-                                Or else, if there is any particular course or field of study that you are interested in pursuing, completing a bachelors/masters/diploma course in any of the Universities in Australia can improve your prospects of post study employment and long-term residency in the country.
-                                You can check out the list of Universities in Australia by clicking here.
-                            </blockquote>
-                        </div>
-                    </div>
-                    <input type="button" class="genric-btn success circle arrow" onclick="window.location='/UniList/Index'" value="Australian University"/>
+                    @*                    <div class="row">
+            <div class="col-md-4">
+                <div class="single-defination">
+                    <h4 class="mb-20" style="font-weight:bold">Retail</h4>
+                    <p>
+                        You can keep an eye out for flyers or posters that advertise for available positions in stores around your area or in the city.
+                        Roles such as Retail Executive or Customer Service Representative are available throughout stores across the country.
+                        This would be a great way to showcase your English skills and improve on them as well.
+                    </p>
+                    <p style="font-weight:bold">Level of English Required:</p><p>Medium</p>
+                    <p style="font-weight:bold">Possibility of Improving English:</p><p>Very High</p>
                 </div>
             </div>
+            <div class="col-md-4">
+                <div class="single-defination">
+                    <h4 class="mb-20" style="font-weight:bold">Hospitality</h4>
+                    <p>
+                        There are a wide range of job opportunities available in the hospitality industry that include restaurants, hotels, bars, movie complexes and special events
+                        such as the Australian Open and the Formula 1. Pursuing certification courses like RSA (Responsible Service of Alcohol) and Responsible Service of Food (RSF) are necessary for some of these jobs.
+                    </p>
+                    <p style="font-weight:bold">Level of English Required:</p><p>Medium</p>
+                    <p style="font-weight:bold">Possibility of Improving English:</p><p>High</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="single-defination">
+                    <h4 class="mb-20" style="font-weight:bold">Services</h4>
+                    <p>
+                        Many organizations and businesses across Australia have customer facing roles available such as a receptionist, call centre executives and so on.
+                        These kinds of roles may even help in understanding the working of the company and give an insight into the professional Australian workplace and culture.
+                    </p>
+                    <p style="font-weight:bold">Level of English Required:</p><p>High</p>
+                    <p style="font-weight:bold">Possibility of Improving English:</p><p>Very High</p>
+                </div>
+            </div>
+        </div>*@
+                    @*////////*@
+                <div style="padding-bottom: 0px; border-top: 0px dotted #eee; padding-top: 0px;" class="section-top-border">
+                    <h3 class="mb-30" style="font-weight: bold; font-size: 21px;">Retail</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="~/img/about/retail.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-9 mt-sm-20">
+                            <p style="margin-bottom:10px;">
+                                You can keep an eye out for flyers or posters that advertise for available positions in stores around your area or in the city.
+                                Roles such as Retail Executive or Customer Service Representative are available throughout stores across the country.
+                                This would be a great way to showcase your English skills and improve on them as well.
+                            </p>
+                            <span style="font-weight: bold; font-family: sans-serif;">Level of English Required:</span>&nbsp;&nbsp;<span style="font-family: sans-serif;">Medium</span><br />
+                            <span style="font-weight: bold; font-family: sans-serif;">Possibility of Improving English:</span>&nbsp;&nbsp;<span style="font-family: sans-serif;">Very High</span>
+                        </div>
+                    </div>
+                </div>
+                        <div style="padding-bottom: 0px;" class="section-top-border">
+                            <h3 class="mb-30" style="font-weight: bold; font-size: 21px;">Hospitality</h3>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="~/img/about/hospitality.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-md-9 mt-sm-20">
+                                    <p style="margin-bottom:10px;">
+                                        There are a wide range of job opportunities available in the hospitality industry that include restaurants, hotels, bars, movie complexes and special events
+                                        such as the Australian Open and the Formula 1. Pursuing certification courses like RSA (Responsible Service of Alcohol) and Responsible Service of Food (RSF) are necessary for some of these jobs.
+                                    </p>
+                                    <span style="font-weight: bold; font-family: sans-serif;">Level of English Required:</span>&nbsp;&nbsp;<span style="font-family: sans-serif;">Medium</span><br />
+                                    <span style="font-weight: bold; font-family: sans-serif;">Possibility of Improving English:</span>&nbsp;&nbsp;<span style="font-family: sans-serif;">High</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="padding-bottom: 0px;" class="section-top-border">
+                            <h3 class="mb-30" style="font-weight: bold; font-size: 21px;">Services</h3>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="~/img/about/receptionist.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-md-9 mt-sm-20">
+                                    <p style="margin-bottom:10px;">
+                                        Many organizations and businesses across Australia have customer facing roles available such as a receptionist, call centre executives and so on.
+                                        These kinds of roles may even help in understanding the working of the company and give an insight into the professional Australian workplace and culture.
+                                    </p>
+                                    <span style="font-weight: bold; font-family: sans-serif;">Level of English Required:</span>&nbsp;&nbsp;<span style="font-family: sans-serif;">High</span><br />
+                                    <span style="font-weight: bold; font-family: sans-serif;">Possibility of Improving English:</span>&nbsp;&nbsp;<span style="font-family: sans-serif;">Very High</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="noncf" style="display:none;padding-bottom: 0px;" class="section-top-border">
+                        <h3 class="mb-30" style="font-weight:bold">Non-Customer facing jobs</h3>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="~/img/about/Warehouse.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-9 mt-sm-20">
+                                <p>
+                                    If you are interested in non-customer facing jobs at the moment, there are always a lot of options to take up job profiles that do not require much or any customer interactions.
+                                    Although these jobs do not require much customer interactions, you are still expected to have interactions and conversations with your colleagues at work and being in Australia,
+                                    there is an expectation to have basic English literacy skills.
+                                </p>
+                                <p>The following jobs fall under this category:</p>
+                                <p>1) Warehouse Store-person/ Forklift Driver</p>
+                                <p>2) Data Entry Jobs</p>
+                                <p>3) Technical Writer</p>
+                                <p>4) Uber/Uber Eats (even though this is a customer facing job, the customer interaction isn’t a defining aspect and is optional)</p>
+                                <span style="font-weight: bold; font-family: sans-serif;">Level of English Required:</span>&nbsp;&nbsp;<span style="font-family: sans-serif;">Low</span><br />
+                                <span style="font-weight: bold; font-family: sans-serif;">Possibility of Improving English:</span>&nbsp;&nbsp;<span style="font-family: sans-serif;">Medium</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="b" style="display:none;padding-bottom: 0px;" class="section-top-border">
+                        <h3 class="mb-30" style="font-weight:bold">Work options after completion of course</h3>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <blockquote class="generic-blockquote">
+                                    Once you have completed your ELICOS course, there are many career pathways that one can access.
+                                    If you are interested in working in a particular field that you may have experience in or have completed studies in,
+                                    you can always search on job seeking websites for possible vacancies in those specific fields. The ability to be hired for these jobs depend on a lot of factors such as experience, the necessary skills and most importantly,
+                                    a good resume and statement of purpose! There are also citizenship/permanent residency requirements for some of these jobs so do make sure that you check on them as well.
+                                    Or else, if there is any particular course or field of study that you are interested in pursuing, completing a bachelors/masters/diploma course in any of the Universities in Australia can improve your prospects of post study employment and long-term residency in the country.
+                                </blockquote>
+                            </div>
+                        </div>
+@*                        <input type="button" class="genric-btn success circle arrow" onclick="window.location='/UniList/Index'" value="Australian University" />*@
+                    </div>
+                </div>
         </div>
 </div>
 <div id="education" style="display: none; padding-top: 80px; padding-bottom: 310px; " class="add_padding">

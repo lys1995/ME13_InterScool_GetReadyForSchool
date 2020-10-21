@@ -274,8 +274,11 @@
     <Content Include="img\about\about.jpg" />
     <Content Include="img\about\cloudsback.jpg" />
     <Content Include="img\about\graph.png" />
+    <Content Include="img\about\hospitality.jpg" />
     <Content Include="img\about\learning.jpg" />
     <Content Include="img\about\never stop learning.jpg" />
+    <Content Include="img\about\receptionist.jpg" />
+    <Content Include="img\about\retail.jpg" />
     <Content Include="img\about\Team Logo1.png" />
     <Content Include="img\about\Warehouse.jpg" />
     <Content Include="img\arrow-pointing-left.png" />

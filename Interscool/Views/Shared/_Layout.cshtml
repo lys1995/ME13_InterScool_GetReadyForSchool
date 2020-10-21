@@ -15,12 +15,12 @@
             <div class="address_bar d-none d-lg-block" style="padding-bottom: 15px; padding-top: 5px;">
                 <div class="container">
                     <div class="row justify-content-between align-items-center" style="padding-bottom: 0px;">
-                            <a href="/Home/Index">
-                                <img src="~/img/logo.png" style="width:110px;height:90px;">
-                                <p style="color:white;height:15px;width:150px;font-size:12px;">
-                                    Never stop learning
-                                </p>
-                            </a>
+                        <a href="/Home/Index">
+                            <img src="~/img/logo.png" style="width:110px;height:90px;">
+                            <p style="color:white;height:15px;width:150px;font-size:12px;">
+                                Never stop learning
+                            </p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                                             <li>
                                                 <a>Facts & Figures <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu" style="width: 230px;">
-                                                    <li><a href="/Home/UniGraph">Enrollment Details</a></li>
+                                                    <li><a href="/Home/UniGraph">Enrolment Details</a></li>
                                                     <li><a href="/Home/LearnEnglish">English Proficiency Level</a></li>
                                                 </ul>
                                             </li>
@@ -55,7 +55,7 @@
                                                     <li><a href="/Home/Printables">Printable</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="/Home/Resource">Care Future</a></li>
+                                            <li><a href="/Home/Resource">Work life</a></li>
                                             <li>@Html.ActionLink("About us", "About", "Home")</li>
                                         </ul>
                                     </nav>
@@ -74,7 +74,69 @@
     <!-- header-end -->
     @RenderBody()
     <!-- footer_start  -->
-    <footer class="footer">
+    <!-- footer_start  -->
+<footer class="footer">
+    <div class="download_brochure">
+        <div class="container">
+            <div class="bordered_1px" style="padding-top: 10px; padding-bottom: 10px;">
+            </div>
+        </div>
+    </div>
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-lg-3">
+                    <div class="footer_widget">
+                        <h3 class="footer_title" style="margin-bottom: 20px;">
+                            SITE MAP
+                        </h3>
+                        <ul>
+                            <li><a href="/Home/UniGraph">Enrolment Detail</a></li>
+                            <li><a href="/Home/LearnEnglish">English Proficiency Level</a></li>
+                            <li><a href="/Home/Test">English Level Test</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6 col-lg-2">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                        </h3>
+                        <ul>
+                            <li><a href="/UniList/Index">Australian University</a></li>
+                            <li><a href="/UniList/Map">Navigation Map</a></li>
+                            <li><a href="/Home/EnglishGame">English Game</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6 col-lg-2 offset-xl-1 offset-lg-1">
+                    <div class="footer_widget">
+                        <h3 class="footer_title">
+                        </h3>
+                        <ul>
+                            <li><a href="/Home/Printables">Printable</a></li>
+                            <li><a href="/Home/Resource">Work life</a></li>
+                            <li><a href="/Home/About">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right_text" style="padding-bottom: 10px;">
+        <div class="container">
+            <div class="footer_border" style="padding-bottom: 10px;"></div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="footer_widget text-center">
+                        <p style="color: #afafaf;">&copy; @DateTime.Now.Year - Designed by team TechnolOZY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- footer_end  -->
+    @*<footer class="footer">
         <div class="download_brochure">
             <div class="container">
                 <div class="bordered_1px" style="padding-top: 10px; padding-bottom: 10px;">
@@ -84,90 +146,28 @@
         <div class="footer_top" style=" padding-top: 20px;">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-md-6 col-lg-6 ">
+                    <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
-@*                            <h3 class="footer_title">
-                                About
-                            </h3>*@
-                            <p>&copy; @DateTime.Now.Year - Designed by team TechnolOZY</p>
-                            @*<div class="socail_links">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-pinterest"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-youtube-play"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>*@
-
+                            <h3 class="footer_title">
+                                Popular Searches
+                            </h3>
+                            <ul>
+                                <li><a href="#">Apartment for rent </a></li>
+                                <li><a href="#">Office for rent</a></li>
+                                <li><a href="#"> Apartment for sale</a></li>
+                                <li><a href="#"> Luxuries</a></li>
+                            </ul>
                         </div>
                     </div>
-                    @*                <div class="col-xl-2 col-md-6 col-lg-2">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                    Popular Searches
-                                </h3>
-                                <ul>
-                                    <li><a href="#">Apartment for rent </a></li>
-                                    <li><a href="#">Office for rent</a></li>
-                                    <li><a href="#"> Apartment for sale</a></li>
-                                    <li><a href="#"> Luxuries</a></li>
-                                </ul>
-                            </div>
-                        </div>*@
-                    @*                <div class="col-xl-2 col-md-6 col-lg-2 offset-xl-1 offset-lg-1">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                    Useful Links
-                                </h3>
-                                <ul>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#"> Contact</a></li>
-                                    <li><a href="#"> Appointment</a></li>
-                                </ul>
-                            </div>
-                        </div>*@
-@*                    <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="col-xl-6 col-md-6 col-lg-6 col-xl-2 col-md-6 col-lg-2 offset-xl-1 offset-lg-1">
                         <div class="footer_widget">
-                                 <h3 class="footer_title">
-                                    Subscribe
-                                </h3>
-                                <form action="#" class="newsletter_form">
-                                    <input type="text" placeholder="Enter your mail">
-                                    <button type="submit">Subscribe</button>
-                                </form>
+                            <p>&copy; @DateTime.Now.Year - Designed by team TechnolOZY</p>
                         </div>
-                    </div>*@
+                    </div>
                 </div>
             </div>
         </div>
-@*        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-            </div>
-        </div>*@
-    </footer>
+    </footer>*@
     @Scripts.Render("~/js/js")
     @RenderSection("scripts", required: false)
 </body>
