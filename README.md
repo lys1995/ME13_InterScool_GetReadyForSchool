@@ -52,8 +52,8 @@ To-do list:
 | Proposal | Finished |
 | Iteration 1 | Finished |
 | Iteration 2 | Finished |
-| Iteration 3 | Started |
-| Final Integrate |             |
+| Iteration 3 | Finished |
+| Final Integrate | Started |
 
 ## Inspiration
 UI design is inspired by TheMe Wagon:https://themewagon.com/          
