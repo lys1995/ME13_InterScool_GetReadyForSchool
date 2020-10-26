@@ -273,13 +273,14 @@
     <Content Include="Content\Site.css" />
     <Content Include="img\about\about.jpg" />
     <Content Include="img\about\cloudsback.jpg" />
-    <Content Include="img\about\graph.png" />
     <Content Include="img\about\hospitality.jpg" />
     <Content Include="img\about\learning.jpg" />
     <Content Include="img\about\never stop learning.jpg" />
     <Content Include="img\about\receptionist.jpg" />
     <Content Include="img\about\retail.jpg" />
     <Content Include="img\about\Team Logo1.png" />
+    <Content Include="img\about\technical writer.jpg" />
+    <Content Include="img\about\Truck driver.jpg" />
     <Content Include="img\about\Warehouse.jpg" />
     <Content Include="img\arrow-pointing-left.png" />
     <Content Include="img\banner\kangaroo.jpg" />
@@ -310,10 +311,8 @@
     <Content Include="img\game\woodback.jpg" />
     <Content Include="img\green1.jpg" />
     <Content Include="img\home_background.jpg" />
-    <Content Include="img\home_pic\111.jpg" />
     <Content Include="img\home_pic\12.jpg" />
     <Content Include="img\home_pic\game.png" />
-    <Content Include="img\home_pic\home1.jpg" />
     <Content Include="img\home_pic\printable1.png" />
     <Content Include="img\home_pic\work1.png" />
     <Content Include="img\icons8-up-left-48.png" />
