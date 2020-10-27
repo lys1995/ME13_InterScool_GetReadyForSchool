@@ -63,13 +63,7 @@ namespace Interscool
                       "~/js/mail-script.js",
                       "~/js/main.js",
                       "~/js/index.js",
-                      "~/js/slang.js",
-                      "~/js/review.js",
-                      "~/js/sports.js",
-                      "~/js/Cuisine.js",
-                      "~/js/Animals.js",
-                      "~/js/Geography.js",
-                      "~/js/Festival.js"));
+                      "~/js/review.js"));
         }
     }
 }

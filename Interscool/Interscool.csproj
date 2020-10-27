@@ -311,10 +311,10 @@
     <Content Include="img\game\woodback.jpg" />
     <Content Include="img\green1.jpg" />
     <Content Include="img\home_background.jpg" />
-    <Content Include="img\home_pic\12.jpg" />
-    <Content Include="img\home_pic\game.png" />
-    <Content Include="img\home_pic\printable1.png" />
-    <Content Include="img\home_pic\work1.png" />
+    <Content Include="img\home_pic\12.png" />
+    <Content Include="img\home_pic\printable1.jpg" />
+    <Content Include="img\home_pic\work1.jpg" />
+    <Content Include="img\home_pic\game.jpg" />
     <Content Include="img\icons8-up-left-48.png" />
     <Content Include="img\icons8-up-right-52.png" />
     <Content Include="img\printable\Cinema.png" />

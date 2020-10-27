@@ -48,11 +48,10 @@
             </div>
         </div>
         <div class="text-center">
-            <p style="text-transform: none;">
+            <p style="text-transform: none; font-size: 18px; line-height: 2;">
                 Still struggling with college choices?<br>
-                Don't know which University to apply to?<br>
+@*                Don't know which University to apply to?<br>*@
                 We will introduce some popular public and private universities and education institutions to you.<br>
-                Just choose from the dropdown list, you'll get the recommended universities.
             </p>
         </div>
     </div>
@@ -63,58 +62,66 @@
     <div class="container" style="background: rgba(55, 108, 139,0.5);">
         <div class="about_area add_padding" style=" padding-top: 80px; ">
             <div class="container">
-                <div class="border_1px" style="border-width:0px">
-                    <div class="row align-items-center justify-content-center" style="padding-bottom: 50px;">
-                        <h4 style="padding-top: 10px; padding-right: 20px; color:wheat;font-size: x-large;">Select a State:</h4>
-                        <select id="dropdown">
-                            <option value="">All</option>
-                            <option value="Northern Territory">Northern Territory</option>
-                            <option value="New South Wales">New South Wales</option>
-                            <option value="Victoria">Victoria</option>
-                            <option value="Queensland">Queensland</option>
-                            <option value="Western Australia">Western Australia</option>
-                            <option value="South Australia">South Australia</option>
-                            <option value="Australian Capital Territory">Australian Capital Territory</option>
-                            <option value="Tasmania">Tasmania</option>
-                        </select>
-                        <h4 style="padding-top: 10px; padding-right: 20px; margin-left: 80px;color:wheat;font-size: x-large;">Select a Sector:</h4>
-                        <select id="dropdown1">
-                            <option value="">All</option>
-                            <option value="Private">Private</option>
-                            <option value="Public">Public</option>
-                        </select>
-                    </div>
-                    <div style="width:90%; margin:0 auto;background:rgba(255, 255, 255,0.7)">
-                        <table id="myTable" style="background-color:wheat;width:100%">
-                            <thead style="background-color: #ecc754; ">
-                                <tr>
-                                    <th>Name</th>
-                                    <th>State</th>
-                                    <th>Type</th>
-                                    <th>Address</th>
-                                    <th>Ranking</th>
-                                    <th>Website</th>
-                                </tr>
-                            </thead>
-                        </table>
-                    </div>
-                    @*                    <div id="m" class="container" style="padding-top:20px;">
-                            <div class="text-center" style="margin-top: 20px;">
-                                <h3 style="padding-top: 20px; padding-right: 20px;color:wheat;font-weight: bold;font-size: x-large;">Find the distance between you and your favourite University: </h3>
-                                <h4 style="padding-top: 0px; padding-right: 20px;color:wheat;font-weight: bold;font-size: x-large;">Click above address of Uni List might help below copy function</h4>
-                                <input type="text" id="myText">
-                                <div class="tooltip1">
-                                    <button onclick="Clear()" onmouseout="outFunc()" class="btn-primary">
-                                        <span class="tooltiptext" id="myTooltip" style=" margin-left: 0px; margin-top: 0px; bottom: 0px; top: 40px; height: 30px; width: 150px;">Copy to clipboard</span>
-                                        Copy location
-                                    </button>
-                                </div>
-                            </div>
-                            <div id="map" style="height:500px"></div>
-                        </div>*@
+                <div class="row" style="justify-content: center;">
+                    <h4 style="color:wheat;font-size: x-large;">
+                        Just choose from the dropdown list, you'll get the recommended universities.
+                    </h4>
                 </div>
-            </div>
+                    <div class="border_1px" style="border-width:0px">
+                        <div class="row align-items-center justify-content-center" style="padding-bottom: 50px;">
+                            <h4 style="padding-top: 10px; padding-right: 20px; color:wheat;font-size: x-large;">Select a State:</h4>
+                            <select id="dropdown">
+                                <option value="">All</option>
+                                <option value="Northern Territory">Northern Territory</option>
+                                <option value="New South Wales">New South Wales</option>
+                                <option value="Victoria">Victoria</option>
+                                <option value="Queensland">Queensland</option>
+                                <option value="Western Australia">Western Australia</option>
+                                <option value="South Australia">South Australia</option>
+                                <option value="Australian Capital Territory">Australian Capital Territory</option>
+                                <option value="Tasmania">Tasmania</option>
+                            </select>
+                            <h4 style="padding-top: 10px; padding-right: 20px; margin-left: 80px;color:wheat;font-size: x-large;">Select a Sector:</h4>
+                            <select id="dropdown1">
+                                <option value="">All</option>
+                                <option value="Private">Private</option>
+                                <option value="Public">Public</option>
+                            </select>
+                        </div>
+                        <div style="width:90%; margin:0 auto;background:rgba(255, 255, 255,0.7)">
+                            <table id="myTable" style="background-color:wheat;width:100%">
+                                <thead style="background-color: #ecc754; ">
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>State</th>
+                                        <th>Type</th>
+                                        <th>Address</th>
+                                        <th>Ranking</th>
+                                        <th>Website</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        @*                    <div id="m" class="container" style="padding-top:20px;">
+                <div class="text-center" style="margin-top: 20px;">
+                    <h3 style="padding-top: 20px; padding-right: 20px;color:wheat;font-weight: bold;font-size: x-large;">Find the distance between you and your favourite University: </h3>
+                    <h4 style="padding-top: 0px; padding-right: 20px;color:wheat;font-weight: bold;font-size: x-large;">Click above address of Uni List might help below copy function</h4>
+                    <input type="text" id="myText">
+                    <div class="tooltip1">
+                        <button onclick="Clear()" onmouseout="outFunc()" class="btn-primary">
+                            <span class="tooltiptext" id="myTooltip" style=" margin-left: 0px; margin-top: 0px; bottom: 0px; top: 40px; height: 30px; width: 150px;">Copy to clipboard</span>
+                            Copy location
+                        </button>
+                    </div>
+                </div>
+                <div id="map" style="height:500px"></div>
+            </div>*@
+                    </div>
+</div>
         </div>
+    </div>
+    <div class="container text-xl-center" style="padding-top: 10px;">
+        <a href="/UniList/Map" class="btn header-btn text-xl-center">Navigation Map</a>
     </div>
 </div>
 @* <div class="container">

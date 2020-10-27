@@ -2156,7 +2156,7 @@ h3 {
     background-repeat: no-repeat;
     position: relative;
     z-index: 0;
-    background-image: url('../img/home_pic/12.jpg');
+    background-image: url('../img/home_pic/12.png');
 }
 
 @media (max-width: 767px) {
