@@ -32,19 +32,9 @@ InterScool has awesome features:
 * Fun Quizzes to learn more about Australia Culture
 * Self-examined test to know your own English proficiency level
 * Interesting and Engaging games to improve English skills
-* Relevent information and suggestions about English Learning and Living in Australia
+* Downloadable materials assit to practicing English skills and knowladges of Australian Culture 
+* Relevent working and jobs information for target audience
 
-To-do list:
-* Improvements
-  * Uni List page 
-    * The whole page moves under "Facts & Figure" tab
-    * Remove "Go back" button under Uni Map
-    * Make Uni addresses clickable and automatically showing on Map
-  * Consider user journey
-* Starting Iteration 3
-  * Consider Unique Proposition (Selling points)
-  * Design interactive English Games
-  * Countinue working on the flows
 
 ## Status
 | Schedule | Status |
@@ -53,11 +43,12 @@ To-do list:
 | Iteration 1 | Finished |
 | Iteration 2 | Finished |
 | Iteration 3 | Finished |
-| Final Integrate | Started |
+| Final Integrate | Finished |
+| Handover to Monash | in Progress |
 
 ## Inspiration
 UI design is inspired by TheMe Wagon:https://themewagon.com/          
-Quiz questions are inspired by howstuffworks:https://play.howstuffworks.com
-
+Quiz questions are inspired by howstuffworks:https://play.howstuffworks.com   
+Games inspired by Games to Learn English(Owen Dwyer): https://www.gamestolearnenglish.com/
 ## Contact
 Created by Team TechnolOZY-ME13 
