@@ -44,7 +44,7 @@ InterScool has awesome features:
 | Iteration 2 | Finished |
 | Iteration 3 | Finished |
 | Final Integrate | Finished |
-| Handover to Monash | in Progress |
+| Handover to Monash | Finished |
 
 ## Inspiration
 UI design is inspired by TheMe Wagon:https://themewagon.com/          
